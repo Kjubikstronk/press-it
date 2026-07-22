@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T09:48:57.297Z",
+  "generated": "2026-07-22T10:04:45.268Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -10,7 +10,7 @@
   "stats": {
     "yearsSinceDebut": 18,
     "yearsSinceSoloDebut": 11,
-    "releaseCount": 30,
+    "releaseCount": 29,
     "albumCount": 5
   },
   "latest": {
@@ -421,19 +421,6 @@
       "recordType": "ep",
       "deezerUrl": "https://www.deezer.com/album/13664536",
       "kind": "EP",
-      "year": "2016"
-    },
-    {
-      "id": "deezer-12494610",
-      "title": "Press Your Number (Japanese Version)",
-      "date": "2016-02-26",
-      "trackCount": null,
-      "art": "https://cdn-images.dzcdn.net/images/cover/0206b58b7c270376447c8c5a6e45789d/1000x1000-000000-80-0-0.jpg",
-      "artSmall": "https://cdn-images.dzcdn.net/images/cover/0206b58b7c270376447c8c5a6e45789d/500x500-000000-80-0-0.jpg",
-      "url": "https://www.deezer.com/album/12494610",
-      "recordType": "single",
-      "via": "deezer",
-      "kind": "Single",
       "year": "2016"
     },
     {

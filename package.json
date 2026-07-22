@@ -1,0 +1,15 @@
+{
+  "name": "press-it",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PRESS IT — an auto-updating Taemin fanpage.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js",
+    "dev": "node build.js && node serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

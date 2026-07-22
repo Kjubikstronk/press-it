@@ -247,8 +247,15 @@ async function bio() {
 /**
  * Apple has better artwork and catches releases Deezer misses; Deezer catches
  * a few Apple misses. Prefer Apple on collision, fill gaps from Deezer.
+ *
+ * `known` is whatever the last run stored. Both catalogues vary by region —
+ * "Press Your Number (Japanese Version)" shows up from Europe but not from a
+ * US runner — so anything seen once is kept. Without that the release count
+ * flips back and forth depending on where the job happened to run, and the
+ * scheduler commits every time it does. A release is a historical fact; an
+ * archive shouldn't drop one because a shop stopped listing it.
  */
-function mergeReleases(apple, deezer) {
+function mergeReleases(apple, deezer, known = []) {
   const byKey = new Map();
   const key = (r) => `${fingerprint(r.title)}|${(r.date || '').slice(0, 4)}`;
 
@@ -282,6 +289,17 @@ function mergeReleases(apple, deezer) {
       byKey.set(k, r);
     }
   }
+
+  // Re-add anything a previous run found that today's fetch didn't return.
+  let remembered = 0;
+  for (const r of known) {
+    const k = key(r);
+    if (!byKey.has(k)) {
+      byKey.set(k, r);
+      remembered++;
+    }
+  }
+  if (remembered) log.ok(`${remembered} release(s) carried over from last run`);
 
   return [...byKey.values()]
     .filter((r) => r.date && r.art)
@@ -511,7 +529,7 @@ async function main() {
   ]);
 
   log.step('Merging');
-  let releases = mergeReleases(apple, deezer);
+  let releases = mergeReleases(apple, deezer, prev.releases ?? []);
   if (!releases.length && prev.releases?.length) {
     log.warn('both discography sources failed — reusing previous');
     releases = prev.releases;

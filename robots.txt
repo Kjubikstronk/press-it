@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kjubikstronk.github.io/press-it/sitemap.xml

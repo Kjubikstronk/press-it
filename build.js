@@ -418,35 +418,45 @@ async function stampJsonLd(site, siteUrl) {
  * once the site actually has an address. Skipped silently while siteUrl is
  * blank so nothing ships with a placeholder domain baked in.
  */
-async function stampSeo(site, siteUrl) {
+async function stampSeo(site, siteUrl, lastmod) {
   if (!siteUrl) return;
   const base = siteUrl.replace(/\/+$/, '');
-  const today = new Date().toISOString().slice(0, 10);
 
-  await fs.writeFile(
-    path.join(ROOT, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>
+  // Only write when the bytes would actually differ, so re-running the build
+  // doesn't churn files git would then want to commit.
+  const put = async (name, body) => {
+    const file = path.join(ROOT, name);
+    try {
+      if ((await fs.readFile(file, 'utf8')) === body) return false;
+    } catch { /* not there yet */ }
+    await fs.writeFile(file, body, 'utf8');
+    return true;
+  };
+
+  // lastmod is when the content actually changed, not when the job happened
+  // to run — using today's date would rewrite the sitemap every single day.
+  const wrote = [];
+
+  if (await put('sitemap.xml',
+`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${base}/</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${lastmod}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 </urlset>
-`,
-    'utf8'
-  );
+`)) wrote.push('sitemap.xml');
 
-  await fs.writeFile(
-    path.join(ROOT, 'robots.txt'),
-    `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`,
-    'utf8'
-  );
+  if (await put('robots.txt',
+    `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`
+  )) wrote.push('robots.txt');
 
   // Add canonical + og:url to the head if they aren't there yet.
   const file = path.join(ROOT, 'index.html');
   let html = await fs.readFile(file, 'utf8');
+  const before = html;
   const canonical = `<link rel="canonical" href="${base}/">`;
   const ogUrl = `<meta property="og:url" content="${base}/">`;
 
@@ -458,8 +468,12 @@ async function stampSeo(site, siteUrl) {
     ? html.replace(/<meta property="og:url"[^>]*>/, ogUrl)
     : html.replace('<meta name="twitter:card"', `${ogUrl}\n<meta name="twitter:card"`);
 
-  await fs.writeFile(file, html, 'utf8');
-  log.ok(`sitemap.xml + robots.txt for ${base}`);
+  if (html !== before) {
+    await fs.writeFile(file, html, 'utf8');
+    wrote.push('canonical + og:url');
+  }
+
+  if (wrote.length) log.ok(`${wrote.join(', ')} → ${base}`);
 }
 
 /**
@@ -548,20 +562,25 @@ async function main() {
 
   log.step('Done');
 
-  if (!changed) {
-    log.ok('no changes since last run — nothing written');
-    console.log('');
-    return;
+  if (changed) {
+    await fs.mkdir(path.dirname(OUT), { recursive: true });
+    await fs.writeFile(OUT, JSON.stringify(site, null, 2), 'utf8');
+    log.ok(`data/site.json — ${(JSON.stringify(site).length / 1024).toFixed(1)} kB`);
+    if (latest) log.ok(`latest release: ${latest.title} (${latest.date})`);
+  } else {
+    log.ok('sources unchanged — data/site.json left alone');
   }
 
-  await fs.mkdir(path.dirname(OUT), { recursive: true });
-  await fs.writeFile(OUT, JSON.stringify(site, null, 2), 'utf8');
+  // The stamped files derive from the fetched data *and* from curated.json,
+  // so they get reconciled every run rather than only when a feed moved.
+  // Editing siteUrl alone used to leave the sitemap and canonical tag
+  // unwritten, because this used to sit behind the early return above.
+  // Each of these is a no-op when the output already matches.
+  const stamp = changed ? site.generated : (prev.generated ?? site.generated);
   await stampHtml(site);
   await stampJsonLd(site, curated.siteUrl);
-  await stampSeo(site, curated.siteUrl);
+  await stampSeo(site, curated.siteUrl, stamp.slice(0, 10));
 
-  log.ok(`data/site.json — ${(JSON.stringify(site).length / 1024).toFixed(1)} kB`);
-  if (latest) log.ok(`latest release: ${latest.title} (${latest.date})`);
   console.log('');
 }
 

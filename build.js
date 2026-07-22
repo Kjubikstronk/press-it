@@ -195,7 +195,10 @@ async function videos() {
       thumb:
         attr(e, 'media:thumbnail', 'url') ||
         `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`,
-      views: Number(attr(e, 'media:statistics', 'views')) || null,
+      // Deliberately no view count. The feed carries one, but it ticks up
+      // every few minutes, so storing it would make the "did anything
+      // change?" check true on every single run and the scheduled job would
+      // commit around the clock. Nothing renders it either.
     };
   });
 }

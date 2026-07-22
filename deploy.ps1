@@ -103,7 +103,10 @@ if (Gh api "repos/$owner/$RepoName/pages") {
   Fail 'do it by hand: Settings > Pages > Deploy from a branch > main / root'
 }
 
-$siteUrl = "https://$owner.github.io/$RepoName"
+# Pages serves from a lowercased host regardless of how the username is
+# cased, so the canonical tag and sitemap have to match that or they point
+# somewhere subtly different from the real address.
+$siteUrl = "https://$($owner.ToLower()).github.io/$RepoName"
 
 # ── 5. point the build at the real URL ───────────────────────────────────
 Step 5 'Writing the live URL into the build'

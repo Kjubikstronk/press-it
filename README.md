@@ -75,21 +75,45 @@ match. Apple wins collisions (better artwork); Deezer fills the gaps.
 
 ## Going live on GitHub Pages
 
-1. Create a new **public** repo on GitHub.
-2. Push this folder to it:
+The repo is already initialised and committed. Two commands:
 
 ```bash
-git init && git add -A && git commit -m "PRESS IT" && git branch -M main
+gh auth login
 ```
+
+Pick **GitHub.com → HTTPS → Yes (authenticate git) → Login with a web
+browser**. This is the only step that needs you personally — it's your
+account.
 
 ```bash
-git remote add origin https://github.com/YOUR-NAME/YOUR-REPO.git && git push -u origin main
+powershell -ExecutionPolicy Bypass -File deploy.ps1
 ```
 
-3. In the repo: **Settings → Pages → Source: Deploy from a branch → `main` / `root`**.
-4. In **Settings → Actions → General**, scroll to *Workflow permissions* and
-   select **Read and write permissions**. The updater needs this to push
-   refreshed data back.
+That creates the repo, pushes, enables Pages, grants the updater permission
+to commit back, writes the live URL into `content/curated.json`, regenerates
+the sitemap and canonical tags, and pushes again. It's safe to re-run — every
+step checks whether it's already done.
+
+The site lands at `https://YOUR-NAME.github.io/press-it/`. Pass
+`-RepoName something-else` if you want a different name.
+
+### If a step fails
+
+The script tells you which one and what to click. The two that occasionally
+need doing by hand:
+
+- **Pages** — Settings → Pages → Deploy from a branch → `main` / `root`
+- **Write permission** — Settings → Actions → General → Workflow permissions
+  → Read and write
+
+### Afterwards
+
+```bash
+gh workflow run "Update site data"
+```
+
+Runs the updater immediately instead of waiting for the next 6-hour tick.
+Watch it under the repo's **Actions** tab.
 
 That's it. `.github/workflows/update.yml` then runs every 6 hours, rebuilds the
 data, and commits only when something actually changed — which republishes the

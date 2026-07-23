@@ -115,6 +115,45 @@ gh workflow run "Update site data"
 Runs the updater immediately instead of waiting for the next 6-hour tick.
 Watch it under the repo's **Actions** tab.
 
+---
+
+## Putting it on a custom domain
+
+**1. Add the DNS records** at your registrar. For a bare domain like
+`taemin.wiki`, four `A` records on `@`, all pointing at GitHub:
+
+```
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
+
+Then one `CNAME` record on `www` pointing at `kjubikstronk.github.io`.
+
+**2. Wait for propagation.** Usually minutes, occasionally an hour. Check with:
+
+```bash
+nslookup taemin.wiki
+```
+
+**3. Tell the site about it:**
+
+```bash
+powershell -ExecutionPolicy Bypass -File deploy.ps1 -Domain taemin.wiki
+```
+
+That writes the `CNAME` file, registers the domain with Pages, turns on HTTPS
+enforcement, and rewrites `siteUrl` so the sitemap, canonical tag and social
+cards all point at the new address instead of the github.io one.
+
+> The `CNAME` file has to live in the repo, not just in the Pages settings.
+> Every build republishes from the branch, so a domain set only through the
+> web UI gets dropped the next time the updater commits.
+
+HTTPS takes a few minutes more after the domain resolves — GitHub provisions
+a certificate automatically once DNS checks out.
+
 That's it. `.github/workflows/update.yml` then runs every 6 hours, rebuilds the
 data, and commits only when something actually changed — which republishes the
 site automatically.

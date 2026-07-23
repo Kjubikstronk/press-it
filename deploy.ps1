@@ -14,6 +14,7 @@
 
 param(
   [string]$RepoName = 'press-it',
+  [string]$Domain = '',   # e.g. -Domain taemin.wiki  (set DNS first, see README)
   [switch]$Private
 )
 
@@ -75,6 +76,26 @@ if (Gh repo view "$owner/$RepoName") {
   if ((git remote) -notcontains 'origin') {
     git remote add origin "https://github.com/$owner/$RepoName.git"
   }
+
+  # The updater commits refreshed data every 6 hours, so on any re-run the
+  # remote is almost certainly ahead. Rebase onto it rather than failing.
+  # data/site.json is generated, so on a conflict take the remote copy and
+  # let the rebuild below regenerate it.
+  git fetch -q origin
+  # --autostash so uncommitted edits in the working tree don't block it.
+  git rebase --autostash origin/main
+  if ($LASTEXITCODE -ne 0) {
+    git checkout --ours data/site.json 2>$null
+    git add data/site.json 2>$null
+    git -c core.editor=true rebase --continue
+    if ($LASTEXITCODE -ne 0) {
+      git rebase --abort
+      Fail 'could not rebase onto the remote. Resolve by hand: git pull --rebase'
+      exit 1
+    }
+    Note 'reconciled a generated-file conflict'
+  }
+
   git push -u origin main
   if ($LASTEXITCODE -ne 0) { Fail 'push failed'; exit 1 }
 } else {
@@ -103,10 +124,41 @@ if (Gh api "repos/$owner/$RepoName/pages") {
   Fail 'do it by hand: Settings > Pages > Deploy from a branch > main / root'
 }
 
+# ── 4b. custom domain ────────────────────────────────────────────────────
 # Pages serves from a lowercased host regardless of how the username is
 # cased, so the canonical tag and sitemap have to match that or they point
 # somewhere subtly different from the real address.
 $siteUrl = "https://$($owner.ToLower()).github.io/$RepoName"
+
+if ($Domain) {
+  Step '4b' "Pointing Pages at $Domain"
+
+  # The CNAME file has to be in the repo as well as set via the API — Pages
+  # reads the file on each build and would otherwise drop the domain the next
+  # time the updater commits.
+  $cnamePath = Join-Path $PSScriptRoot 'CNAME'
+  $needsCname = -not (Test-Path $cnamePath)
+  if (-not $needsCname) {
+    $needsCname = ((Get-Content $cnamePath -Raw).Trim() -ne $Domain)
+  }
+  if ($needsCname) {
+    [System.IO.File]::WriteAllText($cnamePath, "$Domain`n")
+    git add CNAME
+    git commit -q -m "Serve from $Domain"
+    git push -q
+    Ok 'CNAME committed'
+  } else {
+    Note 'CNAME already correct'
+  }
+
+  if (Gh api -X PUT "repos/$owner/$RepoName/pages" -f "cname=$Domain" -F "https_enforced=true") {
+    Ok 'domain registered with Pages'
+  } else {
+    Fail 'Pages rejected it. Check DNS has propagated, then set it by hand under Settings / Pages / Custom domain'
+  }
+
+  $siteUrl = "https://$Domain"
+}
 
 # ── 5. point the build at the real URL ───────────────────────────────────
 Step 5 'Writing the live URL into the build'

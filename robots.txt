@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kjubikstronk.github.io/press-it/sitemap.xml
+Sitemap: https://taemin.online/sitemap.xml

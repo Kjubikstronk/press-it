@@ -151,11 +151,28 @@ if ($Domain) {
     Note 'CNAME already correct'
   }
 
-  if (Gh api -X PUT "repos/$owner/$RepoName/pages" -f "cname=$Domain" -F "https_enforced=true") {
+  # Set the domain on its own. Passing https_enforced at the same time fails,
+  # because GitHub can't enforce HTTPS before it has issued the certificate —
+  # and issuing only starts once the domain is attached. It gets switched on
+  # in a second call below, after the cert exists.
+  if (Gh api -X PUT "repos/$owner/$RepoName/pages" -f "cname=$Domain") {
     Ok 'domain registered with Pages'
   } else {
-    Fail 'Pages rejected it. Check DNS has propagated, then set it by hand under Settings / Pages / Custom domain'
+    Fail 'Pages rejected the domain. Check DNS has propagated, then set it by hand under Settings / Pages / Custom domain'
   }
+
+  # Certificate provisioning takes a few minutes; retry rather than give up.
+  Note 'waiting for the HTTPS certificate'
+  $httpsOn = $false
+  foreach ($attempt in 1..10) {
+    Start-Sleep -Seconds 30
+    if (Gh api -X PUT "repos/$owner/$RepoName/pages" -F "https_enforced=true") {
+      $httpsOn = $true
+      break
+    }
+  }
+  if ($httpsOn) { Ok 'HTTPS enforced' }
+  else { Note 'certificate not ready yet. Tick "Enforce HTTPS" under Settings / Pages once it is' }
 
   $siteUrl = "https://$Domain"
 }

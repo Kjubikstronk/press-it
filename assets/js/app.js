@@ -26,7 +26,10 @@ const dotted = (iso) => (iso ? iso.replace(/-/g, '.') : '');
 
 const relative = (iso) => {
   if (!iso) return '';
-  const days = Math.round((Date.now() - new Date(iso + 'T00:00:00')) / 864e5);
+  // floor, not round. These are elapsed *calendar* days, and rounding pushed
+  // anything past midday into the next bucket — something from 15:40 today
+  // came out as 0.76 days, rounded to 1, and displayed as "yesterday".
+  const days = Math.floor((Date.now() - new Date(iso + 'T00:00:00')) / 864e5);
   if (days < 1) return 'today';
   if (days < 2) return 'yesterday';
   if (days < 30) return `${days} days ago`;

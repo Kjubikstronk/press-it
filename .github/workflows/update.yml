@@ -1,10 +1,15 @@
 name: Update site data
 
-# Runs every 6 hours. Korean releases usually land around 09:00 UTC (6pm KST),
-# so a fresh drop shows up within a few hours without hammering the sources.
+# Every 6 hours. Korean releases usually land around 09:00 UTC (6pm KST), so a
+# fresh drop shows up within a few hours without hammering the sources.
+#
+# Deliberately at :17 rather than :00. GitHub's scheduler is best-effort and
+# queues hardest on the hour, where everyone piles up — the first runs on the
+# hour drifted by 45 minutes to nearly 3 hours. An odd minute gets picked up
+# closer to on time.
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:        # lets you trigger it by hand from the Actions tab
   push:
     branches: [main]

@@ -8,25 +8,47 @@ thing people click.
 
 ---
 
-## Before you post anywhere
+## Status
 
-Do these first, or you'll burn your one good launch moment on a dead link.
+Live at **<https://taemin.online>**, HTTPS, updating itself every 6 hours.
 
-- [ ] Site is live and loads on **mobile** — most social traffic is phone traffic.
-- [ ] `siteUrl` filled into `content/curated.json`, then rebuild. That generates
-      `sitemap.xml` / `robots.txt` and the canonical tags.
-- [ ] Paste the URL into the
-      [Twitter Card Validator](https://cards-dev.twitter.com/validator) and
-      [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
-      so the preview image is cached and correct before anyone shares it.
-- [ ] Submit to [Google Search Console](https://search.google.com/search-console)
-      — add the property, submit `sitemap.xml`. Indexing takes days to weeks,
-      so do it early.
-- [ ] Confirm the GitHub Action has run at least once on its own schedule.
+Already handled, no action needed:
 
-The social preview pulls the **latest album art** automatically, so a link
-posted the week of a comeback shows that comeback's cover. That's worth timing
-around.
+- ✅ `sitemap.xml`, `robots.txt`, canonical and `og:url` — all pointing at the
+      real domain, regenerated on every build
+- ✅ schema.org structured data — MusicGroup, 14 albums, `sameAs` links to his
+      Wikipedia / YouTube / Apple Music / Spotify
+- ✅ Title tag written keyword-first for search
+- ✅ Mobile: 12 screens, no horizontal scroll
+- ✅ Social preview card pulls the **latest album art automatically**, so a link
+      posted the week of a comeback shows that comeback's cover
+
+## Do these three things first
+
+These need your login, so they're the part nobody can do for you. The first one
+matters more than everything else in this file combined.
+
+**1. Google Search Console** — <https://search.google.com/search-console>
+
+- *Add property* → **URL prefix** → `https://taemin.online`
+- Verify by **HTML tag**: it gives you a `<meta name="google-site-verification" …>`.
+  Paste that line into `index.html` just under the `<title>`, then
+  `git add -A && git commit -m "verify" && git push`. Wait a minute, hit Verify.
+- Then *Sitemaps* → enter `sitemap.xml` → Submit
+- Then *URL Inspection* → paste `https://taemin.online/` → **Request indexing**
+
+Until you do this, Google may take weeks to notice the site exists. After it,
+usually days.
+
+**2. Bing Webmaster Tools** — <https://www.bing.com/webmasters>. Takes two
+minutes and can import directly from Search Console. Bing also feeds
+DuckDuckGo and ChatGPT search, which is a growing slice of traffic.
+
+**3. Prime the social cards** — paste the URL into the
+[Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) and
+[X Card Validator](https://cards-dev.twitter.com/validator) once. They cache
+aggressively, and you want the preview correct *before* your first real post,
+not after.
 
 ---
 
@@ -179,6 +201,24 @@ Visual-first platforms, so the site's design *is* the content.
 - Add the URL as a text overlay in the video itself, since captions get lost.
 
 ---
+
+## Your actual calendar
+
+Generic advice is useless without dates. You have two real ones.
+
+**He plays Nibiru K-Pop Days in Romania on 1 August, and Sound in Colors in
+Chorzów on 16 August.** European fans are searching for those festivals right
+now — travel plans, lineups, set times. That's your opening, and it expires.
+
+| When | Do this |
+|---|---|
+| **This week** | Search Console + Bing. Nothing else matters until the site is indexed. |
+| **Late July** | Post in the festival communities — the Sound in Colors and Nibiru hashtags, Polish and Romanian K-pop groups, r/kpop's festival threads. You have a page listing his dates and full discography; that is genuinely useful to someone deciding whether to go. |
+| **1 & 16 August** | Post *on the day*. Live-day hashtags spike hard and a link that answers "what's he going to play" gets clicked. |
+| **Next comeback** | The big one. The preview card auto-updates to the new cover art, so your link looks current the hour it drops. Post within the first 24 hours. |
+
+The comeback window is where the auto-updating actually pays off. Everyone
+else is posting a static fan page; yours already lists the new release.
 
 ## Longer game
 

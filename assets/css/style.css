@@ -10,7 +10,11 @@
   --ink-3:    #1C1C1C;
   --bone:     #F4F1EA;
   --bone-dim: #A8A49B;
-  --static:   #6E6E6E;
+  /* Was #6E6E6E, which measured 3.88:1 on the ink background. Everything
+     using it — dates, outlets, section labels, the footer disclaimer — is
+     under 13px, so WCAG AA wants 4.5:1, not the 3:1 allowed for large text.
+     This clears it with margin and is still visibly the quiet tone. */
+  --static:   #878787;
   --signal:   #C8102E;
 
   --line: rgba(244, 241, 234, 0.14);

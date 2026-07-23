@@ -232,6 +232,56 @@ async function news() {
     .slice(0, 24);
 }
 
+/**
+ * Live-show announcements, scraped out of the news wire.
+ *
+ * Every actual tour API is now closed: Bandsintown 403s without a registered
+ * app_id, Songkick and Ticketmaster want keys, and both sites block scrapers.
+ * MusicBrainz only carries historical award shows.
+ *
+ * But announcements get *reported*, and the news feed is already keyless — the
+ * Romania and Poland festival dates both surfaced as articles first. So this
+ * runs a second, show-shaped query and keeps the hits. It won't give exact
+ * venue rows, but it means a new announcement lands on the site by itself,
+ * which the curated list alone can't do.
+ */
+async function tourNews() {
+  const q = encodeURIComponent(
+    'Taemin (concert OR tour OR festival OR tickets OR lineup)'
+  );
+  const xml = await grab(
+    `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`,
+    { as: 'text' }
+  );
+
+  // Only keep headlines that actually sound like a show announcement —
+  // the query alone drags in album reviews and chart pieces.
+  const relevant =
+    /\b(concert|tour|festival|tickets?|lineup|line-up|perform|stage|live in|announce)/i;
+
+  const seen = new Set();
+  return tags(xml, 'item')
+    .map((it) => {
+      const raw = clean(tag1(it, 'title'));
+      const cut = raw.lastIndexOf(' - ');
+      return {
+        title: cut > 20 ? raw.slice(0, cut) : raw,
+        outlet: cut > 20 ? raw.slice(cut + 3) : clean(tag1(it, 'source')),
+        date: iso(clean(tag1(it, 'pubDate'))),
+        url: clean(tag1(it, 'link')),
+      };
+    })
+    .filter((n) => {
+      if (!n.title || !n.date || !relevant.test(n.title)) return false;
+      const k = n.title.toLowerCase();
+      if (seen.has(k)) return false;
+      seen.add(k);
+      return true;
+    })
+    .sort((a, b) => (a.date < b.date ? 1 : -1))
+    .slice(0, 6);
+}
+
 async function bio() {
   const r = await grab(
     `https://en.wikipedia.org/api/rest_v1/page/summary/${SOURCES.wikipediaPage}`
@@ -519,12 +569,13 @@ async function main() {
   const curated = await readJson(path.join(ROOT, 'content', 'curated.json'));
 
   log.step('Fetching sources');
-  const [apple, deezer, songs, vids, press, wiki] = await Promise.all([
+  const [apple, deezer, songs, vids, press, shows, wiki] = await Promise.all([
     source('Apple Music  discography', itunesReleases, []),
     source('Deezer       discography', deezerReleases, []),
     source('Apple Music  top songs', topSongs, prev.songs ?? []),
     source('YouTube      uploads', videos, prev.videos ?? []),
     source('Google News  headlines', news, prev.news ?? []),
+    source('Google News  show announcements', tourNews, prev.tourNews ?? []),
     source('Wikipedia    bio', bio, prev.bio ?? null),
   ]);
 
@@ -567,6 +618,8 @@ async function main() {
     videos: vids,
     news: press,
     bio: wiki ?? prev.bio ?? null,
+    tour: curated.tour ?? null,
+    tourNews: shows,
     timeline: curated.timeline,
     facts: curated.facts,
     pressIt: { ...curated.pressIt, release: pressItRelease },

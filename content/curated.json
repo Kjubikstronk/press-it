@@ -5,6 +5,41 @@
   "siteUrl": "https://taemin.online",
 
 
+  "_tourNote": "There is no free tour-dates API that works without a key, so this list is hand-kept. Add shows as they're announced — anything with a past date hides itself, so old entries are safe to leave. When the list is empty the section shows the alert links instead, which is the honest answer to 'where can I see him' when nothing is scheduled.",
+  "tour": {
+    "_example": {
+      "date": "2026-11-14",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "KSPO Dome",
+      "note": "Two nights",
+      "url": "https://link-to-tickets"
+    },
+    "alerts": [
+      { "label": "Songkick", "url": "https://www.songkick.com/artists/10090677-taemin" },
+      { "label": "Bandsintown", "url": "https://www.bandsintown.com/a/taemin" },
+      { "label": "Ticketmaster", "url": "https://www.ticketmaster.com/taemin-tickets/artist/3345754" }
+    ],
+    "dates": [
+      {
+        "date": "2026-08-01",
+        "city": "Costinești",
+        "country": "Romania",
+        "venue": "Nibiru Arena",
+        "note": "Nibiru K-Pop Days, day 1 — his first show in Romania",
+        "url": "https://www.kpopconcertseurope.com/post/kpop-days-nibiru-romania"
+      },
+      {
+        "date": "2026-08-16",
+        "city": "Chorzów",
+        "country": "Poland",
+        "venue": "TAURON Park Śląski",
+        "note": "Sound in Colors K-POP EXPOSÉ, day 2",
+        "url": "https://soundincolors.com/"
+      }
+    ]
+  },
+
   "timeline": [
     {
       "date": "2008-05-25",

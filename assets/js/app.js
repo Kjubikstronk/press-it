@@ -93,6 +93,7 @@ async function boot() {
 
   renderHero();
   renderLatest();
+  renderTour();
   renderDiscography();
   renderPressIt();
   renderVideos();
@@ -182,6 +183,98 @@ function renderLatest() {
         ${r.url ? `<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Listen<span aria-hidden="true">↗</span></a>` : ''}
       </div>
     </article>`;
+}
+
+/* ─── live ───────────────────────────────────────────────────────────── */
+
+/**
+ * Tour dates are hand-kept in curated.json — every tour API (Bandsintown,
+ * Songkick, Ticketmaster) now requires a key, and a key is the one thing this
+ * project deliberately doesn't have.
+ *
+ * With nothing scheduled the section still earns its place by pointing at the
+ * alert pages, which is the real answer to "where can I see him" when the
+ * answer is "nowhere yet".
+ */
+function renderTour() {
+  const tour = DATA.tour || {};
+  const host = $('[data-tour]');
+  if (!host) return;
+
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = (tour.dates || [])
+    .filter((d) => d.date && d.date >= today)
+    .sort((a, b) => (a.date > b.date ? 1 : -1));
+
+  const alerts = (tour.alerts || [])
+    .map(
+      (a) =>
+        `<a class="chip chip--link" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.label)} ↗</a>`
+    )
+    .join('');
+
+  // Announcements pulled from the news wire. These are the automated half —
+  // the confirmed list above is hand-checked, this catches everything new.
+  const wire = (DATA.tourNews || []).slice(0, 5);
+  const wireBlock = wire.length
+    ? `<div class="tour__wire">
+         <h3 class="tour__wire-head"><span class="mono">Just announced</span></h3>
+         <ul class="tour__wire-list">
+           ${wire
+             .map(
+               (n) => `
+             <li>
+               <a href="${esc(n.url)}" target="_blank" rel="noopener">
+                 <span class="date">${esc(fmtDate(n.date, { month: 'short', day: '2-digit' }))}</span>
+                 <span class="head">${esc(n.title)}</span>
+                 <span class="outlet">${esc(n.outlet || '')}</span>
+               </a>
+             </li>`
+             )
+             .join('')}
+         </ul>
+       </div>`
+    : '';
+
+  if (!upcoming.length) {
+    host.innerHTML = `
+      <div class="tour__none">
+        <p class="tour__none-lead">No dates announced right now.</p>
+        <p class="tour__none-sub">
+          He tours in bursts and shows tend to sell out fast, so the useful move
+          is to set an alert rather than keep checking. These three will email
+          you the day something goes on sale.
+        </p>
+        <div class="tour__alerts">${alerts}</div>
+      </div>
+      ${wireBlock}`;
+    return;
+  }
+
+  host.innerHTML = `
+    <ol class="tour">
+      ${upcoming
+        .map(
+          (d) => `
+        <li>
+          <span class="tour__date">
+            <span class="tour__day">${esc(fmtDate(d.date, { day: '2-digit' }))}</span>
+            <span class="tour__mon">${esc(fmtDate(d.date, { month: 'short' }))}</span>
+            <span class="tour__yr">${esc((d.date || '').slice(0, 4))}</span>
+          </span>
+          <span class="tour__where">
+            <span class="tour__city">${esc(d.city || '')}${d.country ? `, ${esc(d.country)}` : ''}</span>
+            <span class="tour__venue">${esc(d.venue || '')}${d.note ? ` · ${esc(d.note)}` : ''}</span>
+          </span>
+          ${d.url ? `<a class="btn btn--sm" href="${esc(d.url)}" target="_blank" rel="noopener">Tickets</a>` : '<span class="mono">TBA</span>'}
+        </li>`
+        )
+        .join('')}
+    </ol>
+    ${wireBlock}
+    <div class="tour__alerts tour__alerts--after">
+      <span class="mono">Get told about new dates</span>${alerts}
+    </div>`;
 }
 
 /* ─── discography ────────────────────────────────────────────────────── */
@@ -374,8 +467,7 @@ function renderVideos() {
       <a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener">
         <div class="vid__thumb">
           <img src="${esc(v.thumb)}" alt="" width="480" height="270"
-               loading="lazy" decoding="async"
-               onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg'">
+               loading="lazy" decoding="async" data-fallback="${esc(v.id)}">
           <span class="vid__play" aria-hidden="true">
             <span><svg viewBox="0 0 24 24" width="18" height="18" fill="#F4F1EA"><path d="M8 5v14l11-7z"/></svg></span>
           </span>
@@ -385,6 +477,21 @@ function renderVideos() {
       </a>`
     )
     .join('');
+
+  // Thumbnail fallback is wired here rather than as an inline `onerror`.
+  // An inline handler nests JS inside an HTML attribute, so the browser
+  // entity-decodes before the JS parses: an id containing a quote would come
+  // back out of `&#39;` as a real quote and break out of the string. Escaping
+  // cannot fix a double context — the fix is not to create one.
+  host.addEventListener('error', (e) => {
+    const img = e.target;
+    if (img.tagName !== 'IMG' || !img.dataset.fallback) return;
+    const id = img.dataset.fallback;
+    delete img.dataset.fallback; // one retry only, never a loop
+    if (/^[\w-]{6,20}$/.test(id)) {
+      img.src = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+    }
+  }, true); // capture: `error` on <img> does not bubble
 
   collapse(host, 4, 'videos');
 }

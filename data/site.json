@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T15:02:10.615Z",
+  "generated": "2026-07-23T15:40:25.242Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -864,6 +864,86 @@
     "extract": "Lee Tae-min, known mononymously as Taemin, is a South Korean singer, dancer, and actor. He debuted as a member of the South Korean boy band Shinee in May 2008 and the supergroup SuperM in 2019, both under SM Entertainment, and has subsequently been labeled by media outlets as the \"Idol's Idol\" due to the large number of idols citing him as an inspiration. As an actor, Taemin's first role was as Junsu in the 2009 MBC comedy Hilarious Housewives.",
     "url": "https://en.wikipedia.org/wiki/Taemin"
   },
+  "tour": {
+    "_example": {
+      "date": "2026-11-14",
+      "city": "Seoul",
+      "country": "South Korea",
+      "venue": "KSPO Dome",
+      "note": "Two nights",
+      "url": "https://link-to-tickets"
+    },
+    "alerts": [
+      {
+        "label": "Songkick",
+        "url": "https://www.songkick.com/artists/10090677-taemin"
+      },
+      {
+        "label": "Bandsintown",
+        "url": "https://www.bandsintown.com/a/taemin"
+      },
+      {
+        "label": "Ticketmaster",
+        "url": "https://www.ticketmaster.com/taemin-tickets/artist/3345754"
+      }
+    ],
+    "dates": [
+      {
+        "date": "2026-08-01",
+        "city": "Costinești",
+        "country": "Romania",
+        "venue": "Nibiru Arena",
+        "note": "Nibiru K-Pop Days, day 1 — his first show in Romania",
+        "url": "https://www.kpopconcertseurope.com/post/kpop-days-nibiru-romania"
+      },
+      {
+        "date": "2026-08-16",
+        "city": "Chorzów",
+        "country": "Poland",
+        "venue": "TAURON Park Śląski",
+        "note": "Sound in Colors K-POP EXPOSÉ, day 2",
+        "url": "https://soundincolors.com/"
+      }
+    ]
+  },
+  "tourNews": [
+    {
+      "title": "Taemin to perform at K-pop concert in Poland",
+      "outlet": "The Korea Herald",
+      "date": "2026-07-08",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GZmlDZW9TazIzSjdjSWptRHI0Vndzc3dDQUNWLW9NcnRBMkNyb2RUMTB6T3ZqLVVZRTd2a0RSMGx6QThyeEx3emRCUDZIcHVqOHVDcU5SUQ?oc=5"
+    },
+    {
+      "title": "Waterbomb Seoul 2026 Drops Full Performer List: Taemin, Karina, RIIZE And More Confirmed",
+      "outlet": "News18",
+      "date": "2026-07-04",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWVZNV3VKWk9DV0hneUlkTHRaWmZxMGVZcWpIUlV3YnhYNHFPVGM0Ui1tSHFsc3hxRF8zdGJwSkNyd05kMHpESEVGOHkxTTdyLTFuU29BdEpoaFlMXzFpLXJscXVQblZWVzRMSFRIN3Z2WllibG5aRlduT3U0Sk9PNmV6V2k0OVNsWm5XQUd1SzVLY1FHZDJIOXpyQkEtUlVEZ0ZkQ3NyMDB0UUpYZktuYm5JcmVVTGhFM3pxdldoT2xoQWNTcDQtd2pMQXFPTFFZbEU4ZTZ3Y3HSAd4BQVVfeXFMUEpqWThaQTcwUE5WMDN0bjhvTm1mNkxYUEh5OXJpYnVFVlJvTlVnclN5dDgzNWhvNFN0ZUtpSml6Zzd3V2JCeXhmVGQxd2dEc3pLZXRQR3Y0cWZLbEdRS1QzY2RuQmp6WnluT291OEtTMk9OQnZVb19ITTZyVTF1RWtKVVJxQWJwT2pVdkJkd1dGZ0gxYy1FRWozVFlhQ3hENWVpNEpZczM0NGJOVGxrTnhmQ1lhSWtkWEJsWmxPbndXZmZCUmRzOVpTdUhtNFd5OGRBb0tJU3ZhVWlKaFd3?oc=5"
+    },
+    {
+      "title": "Full line-up announced for Ateez at BST Hyde Park 2026",
+      "outlet": "NME",
+      "date": "2026-06-18",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYk5CRHphZUxSYnotX3ludjB6NlQybnhrRW1kZDBvZ0FwVERqR0VsWlUyaVBYS1h2UWtQYTlUS29pWnlIZ2pCRmtYVjhBN2xqNGtQeGgtUjd3TDJXQU0xdVdwanExY19kZDFMN2xVWXNURGZfa1JKRjJGMmQyZzQzWmJBaFZvTGpnNVU5Smktb0dDLVVVUnVrNw?oc=5"
+    },
+    {
+      "title": "Full Lineup of K-Culture... \"K-EXPO FRANCE 2026\" Opens in Paris on the 16th",
+      "outlet": "아시아경제",
+      "date": "2026-06-15",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sZlRDNUdhYzVaT0U3QjVKc3c5R0VBQVpVdmkyX2dKNl84eG5ZTk9RUnpjR1dyZkd4NVQyRmV5aDhoZFJuSDJ2ckJpY1VLdU8wOUdUbUl1TXI1S3VkU3FyWTV6MXc?oc=5"
+    },
+    {
+      "title": "FLO, Taemin And More Added To Line-Up For ATEEZ's BST Hyde Park Show This Summer",
+      "outlet": "Stereoboard.com",
+      "date": "2026-06-05",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14TFIzTG1jRWtwam9sRzJQX2NSbkY0VTE3RVF1WV96dm5BZXRQNFN2RHJEbnctSlR4bHBfVEtWU1QzanU1RWZMNURicmtWaFBwZHdhZnFsM1RNY3ZsRGc?oc=5"
+    },
+    {
+      "title": "FLO, Taemin And More Join ATEEZ’s BST Hyde Park 2026 Line-Up",
+      "outlet": "United By Pop",
+      "date": "2026-06-05",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDhyaUM3aWFmMlZiRXJZVzBkS0ZzRGdxRHJpeGxvTW1sWTZaZEZJVlBpN0VnZHRsNUF6QUxFNzJxVEVzTVQwWVRCaFMwSzBBWU82LVBEdXZNZEsxdE13Z2UtWmVvRThEeVphOVExeGxBeVlRTm9iSVBUc1hXNlp3cW9pSVYxTGVmNTVqUmV5eTktYzBCZjBXX1VMMTR2bEU?oc=5"
+    }
+  ],
   "timeline": [
     {
       "date": "2008-05-25",

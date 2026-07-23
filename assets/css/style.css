@@ -526,6 +526,98 @@ button {
 .btn:hover { color: var(--ink); }
 .btn:hover::before { transform: translateY(0); }
 
+/* ─── live ───────────────────────────────────────────────────────────── */
+
+.tour { list-style: none; padding: 0; }
+
+.tour li {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr auto;
+  gap: clamp(1rem, 3vw, 2.5rem);
+  align-items: center;
+  padding: clamp(1rem, 2vw, 1.5rem) 0;
+  border-bottom: 1px solid var(--line-soft);
+  transition: padding-left 450ms var(--ease), border-color 450ms;
+}
+.tour li:hover { padding-left: 1.25rem; border-color: var(--line); }
+
+.tour__date {
+  display: grid;
+  font-family: var(--mono);
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.tour__day { font-family: var(--display); font-size: 1.9rem; }
+.tour__mon { font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--signal); }
+.tour__yr  { font-size: 0.6rem;  letter-spacing: 0.14em; color: var(--static); }
+
+.tour__where { display: grid; gap: 0.25rem; min-width: 0; }
+.tour__city {
+  font-family: var(--display);
+  font-size: clamp(1.1rem, 2.4vw, 1.75rem);
+  line-height: 1.1;
+}
+.tour__venue { font-size: 0.85rem; color: var(--bone-dim); overflow-wrap: anywhere; }
+
+.btn--sm { padding: 0.6rem 1.1rem; font-size: 0.6rem; }
+
+@media (max-width: 640px) {
+  .tour li { grid-template-columns: 4rem 1fr; row-gap: 0.75rem; }
+  .tour li > :last-child { grid-column: 2; justify-self: start; }
+}
+
+/* Empty state — the section still has a job when nothing is scheduled. */
+.tour__none { max-width: 60ch; }
+
+.tour__none-lead {
+  font-family: var(--display);
+  font-size: clamp(1.4rem, 3.5vw, 2.5rem);
+  line-height: 1.1;
+  margin-bottom: 0.85rem;
+}
+
+.tour__none-sub { color: var(--bone-dim); margin-bottom: 1.75rem; }
+
+.tour__alerts { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.tour__alerts--after {
+  margin-top: clamp(1.75rem, 4vw, 2.5rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-soft);
+}
+.tour__alerts .mono { margin-right: 0.5rem; }
+
+.chip--link { transition: color 250ms, border-color 250ms; }
+.chip--link:hover { color: var(--bone); border-color: var(--bone-dim); }
+
+/* Auto-detected announcements */
+.tour__wire { margin-top: clamp(2rem, 5vw, 3.25rem); }
+
+.tour__wire-head {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+  font-weight: 400;
+}
+
+.tour__wire-list { list-style: none; padding: 0; }
+.tour__wire-list li { border-bottom: 1px solid var(--line-soft); }
+
+.tour__wire-list a {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr auto;
+  gap: clamp(0.75rem, 2.5vw, 2rem);
+  align-items: baseline;
+  padding: 0.9rem 0;
+  transition: padding-left 450ms var(--ease);
+}
+.tour__wire-list a:hover { padding-left: 1rem; }
+.tour__wire-list .head { font-size: 0.95rem; text-wrap: pretty; overflow-wrap: anywhere; }
+.tour__wire-list a:hover .head { color: var(--signal); }
+
+@media (max-width: 640px) {
+  .tour__wire-list a { grid-template-columns: 1fr; gap: 0.3rem; }
+  .tour__wire-list .outlet { text-align: left; }
+}
+
 /* ─── discography ────────────────────────────────────────────────────── */
 
 .filters {

@@ -40,7 +40,7 @@
     ]
   },
 
-  "_worldTourNote": "The LiMiNaL run is kept separate from tour.dates on purpose. tour.dates needs a real date on every entry and hides anything in the past, and as of 2026-07-29 SM has announced cities only — every stop on taemintour.com reads 'Coming Soon' with no date or venue. Putting invented dates in tour.dates to make them show up would be worse than showing nothing. When a city gets a real date, move it into tour.dates in the normal shape and drop the 'confirmed' flag here, or set announced:true on the leg city so the section stops calling it pending. Source: https://taemintour.com/",
+  "_worldTourNote": "The LiMiNaL run is kept separate from tour.dates on purpose. tour.dates needs a real date on every entry and hides anything in the past, and as of 2026-07-31 only cities have been announced — every stop on taemintour.com reads 'Coming Soon' with no date or venue. Putting invented dates in tour.dates to make them show up would be worse than showing nothing. When a city gets a real date, move it into tour.dates in the normal shape, or set a status on the leg city so the section stops calling it pending. Do not attribute the announcement to a label without checking who represents him: he left SM in March 2024, left Big Planet Made in February 2026, and signed with Galaxy Corporation in March 2026. Source: https://taemintour.com/",
 
   "worldTour": {
     "label": "Taemin World Tour",
@@ -48,7 +48,7 @@
     "run": "2026 – 27",
     "url": "https://taemintour.com/",
     "announced": "2026-07-24",
-    "meaning": "The name comes from the Latin limen, a threshold. SM framed it as a boundary that opens onto something rather than closing something off.",
+    "meaning": "The name comes from the Latin limen, a threshold.",
     "status": "Twelve cities are confirmed. No dates or venues yet.",
     "more": "and more to come",
     "legs": [

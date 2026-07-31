@@ -6,6 +6,18 @@
       "runtimeExecutable": "node",
       "runtimeArgs": ["serve.js"],
       "port": 4173
+    },
+    {
+      "name": "swift-archive",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\mck09\\Desktop\\Projects & Code\\swift-archive\\serve.js"],
+      "port": 4174
+    },
+    {
+      "name": "downforce",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:\\Users\\mck09\\Desktop\\Projects & Code\\downforce\\serve.js", "4175"],
+      "port": 4175
     }
   ]
 }

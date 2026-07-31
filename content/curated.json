@@ -48,7 +48,7 @@
     "run": "2026 – 27",
     "url": "https://taemintour.com/",
     "announced": "2026-07-24",
-    "meaning": "The name comes from the Latin limen, a threshold.",
+    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
     "status": "Twelve cities are confirmed. No dates or venues yet.",
     "more": "and more to come",
     "legs": [

@@ -97,6 +97,7 @@ async function boot() {
   renderHero();
   renderLatest();
   renderTour();
+  renderWorldTour();
   renderDiscography();
   renderPressIt();
   renderVideos();
@@ -278,6 +279,102 @@ function renderTour() {
     <div class="tour__alerts tour__alerts--after">
       <span class="mono">Get told about new dates</span>${alerts}
     </div>`;
+}
+
+/* ─── world tour ─────────────────────────────────────────────────────── */
+
+/**
+ * The LiMiNaL run.
+ *
+ * Kept apart from renderTour() because the two answer different questions.
+ * renderTour() lists shows you can buy a ticket for; this lists a routing
+ * that has been announced but not scheduled. Every stop is genuinely "coming
+ * soon" right now, so the pending state is the design rather than an empty
+ * state to apologise for.
+ *
+ * The whole section is written from curated.worldTour and removes itself when
+ * that key is missing, so retiring the tour is a one-key delete.
+ */
+function renderWorldTour() {
+  const host = $('[data-world-tour]');
+  if (!host) return;
+
+  const wt = DATA.worldTour;
+  const legs = (wt?.legs || []).filter((l) => (l.cities || []).length);
+  if (!wt || !legs.length) return; // stays hidden
+
+  const cities = legs.flatMap((l) => l.cities);
+  const countries = new Set(cities.map((c) => c.country).filter(Boolean));
+
+  // One running counter across all legs, so the list reads 01–12 rather than
+  // restarting per continent.
+  let n = 0;
+
+  const legBlocks = legs
+    .map(
+      (leg) => `
+      <section class="liminal__leg" data-reveal>
+        <h3 class="liminal__leg-name">
+          <span class="mono">${esc(leg.name)}</span>
+          <span class="liminal__leg-count mono">${leg.cities.length}</span>
+        </h3>
+        <ul class="liminal__cities">
+          ${leg.cities
+            .map((c, i) => {
+              n += 1;
+              const status = c.status || 'Coming soon';
+              const pending = !c.status;
+              // --i is the index WITHIN the leg, because each leg reveals on
+              // its own as you scroll. A running counter would have the last
+              // row of the last leg waiting half a second after its heading.
+              return `
+            <li class="liminal__city${pending ? ' is-pending' : ''}" style="--i:${i}">
+              <span class="liminal__idx mono">${String(n).padStart(2, '0')}</span>
+              <span class="liminal__where">
+                <span class="liminal__city-name">${esc(c.city || '')}</span>
+                <span class="liminal__country mono">${esc(c.country || '')}</span>
+              </span>
+              <span class="liminal__status mono">${esc(status)}</span>
+            </li>`;
+            })
+            .join('')}
+        </ul>
+      </section>`
+    )
+    .join('');
+
+  host.innerHTML = `
+    <div class="liminal__glow" aria-hidden="true"></div>
+    <div class="liminal__inner">
+
+      <header class="liminal__head" data-reveal>
+        <p class="liminal__label mono">${esc(wt.label || '')}${wt.run ? ` · ${esc(wt.run)}` : ''}</p>
+        <h2 class="liminal__name"><span class="liminal__name-text">${esc(wt.name || '')}</span></h2>
+        ${wt.meaning ? `<p class="liminal__meaning">${esc(wt.meaning)}</p>` : ''}
+      </header>
+
+      <div class="liminal__stats" data-reveal>
+        <span class="liminal__stat"><b>${cities.length}</b><span class="mono">cities</span></span>
+        <span class="liminal__stat"><b>${countries.size}</b><span class="mono">countries</span></span>
+        <span class="liminal__stat liminal__stat--open"><b>—</b><span class="mono">dates announced</span></span>
+      </div>
+
+      ${wt.status ? `<p class="liminal__status-line" data-reveal>${esc(wt.status)}</p>` : ''}
+
+      <div class="liminal__legs">${legBlocks}</div>
+
+      <footer class="liminal__foot" data-reveal>
+        ${wt.more ? `<span class="liminal__more mono">${esc(wt.more)}</span>` : ''}
+        ${
+          wt.url
+            ? `<a class="chip chip--link" href="${esc(wt.url)}" target="_blank" rel="noopener">Official tour site ↗</a>`
+            : ''
+        }
+      </footer>
+
+    </div>`;
+
+  host.hidden = false;
 }
 
 /* ─── discography ────────────────────────────────────────────────────── */

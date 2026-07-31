@@ -194,6 +194,7 @@
   </a>
   <nav class="nav__links" aria-label="Sections">
     <a href="#latest">Latest</a>
+    <a href="#tour">Tour</a>
     <a href="#live">Live</a>
     <a href="#discography">Discography</a>
     <a href="#pressit">Press It</a>
@@ -201,7 +202,7 @@
     <a href="#news">News</a>
     <a href="#timeline">Timeline</a>
   </nav>
-  <div class="nav__live" title="Checked against Apple Music, Deezer, YouTube and the news wire every 6 hours. This shows when something last actually changed.">
+  <div class="nav__live" title="Checked against Apple Music, Deezer, YouTube and the news wire every 6 hours.">
     <span class="dot" aria-hidden="true"></span>
     <span class="nav__live-txt" data-generated>live</span>
   </div>
@@ -251,6 +252,13 @@
   </div>
   <div class="latest__body" data-latest></div>
 </section>
+
+<!-- ─── world tour ──────────────────────────────────────────────────── -->
+<!-- Rendered wholesale by renderWorldTour(); the section removes itself if
+     curated.worldTour is absent, so ending the run means deleting one key. -->
+<!-- Namespaced .liminal, not .tour — the Live section already owns .tour and
+     .tour__city, and reusing them here would cross-style both. -->
+<section class="liminal" id="tour" data-world-tour hidden></section>
 
 <!-- ─── live ────────────────────────────────────────────────────────── -->
 <section class="section" id="live" data-reveal>

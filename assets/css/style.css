@@ -64,7 +64,7 @@ body {
 }
 
 /* Keep content clear of notches and home indicators. */
-.nav, .hero, .section, .pressit__stage, .facts, .footer {
+.nav, .hero, .section, .liminal, .pressit__stage, .facts, .footer {
   padding-left: max(var(--gut), env(safe-area-inset-left));
   padding-right: max(var(--gut), env(safe-area-inset-right));
 }
@@ -733,6 +733,280 @@ button {
   letter-spacing: 0.12em;
   color: var(--static);
   font-variant-numeric: tabular-nums;
+}
+
+/* ─── LiMiNaL world tour ─────────────────────────────────────────────── */
+
+/* A full-bleed band rather than a normal .section, because this is the one
+   part of the page that is about something upcoming. Slightly darker than the
+   page so it reads as a held breath between Latest and Live. */
+.liminal {
+  position: relative;
+  background: #060606;
+  border-block: 1px solid var(--line-soft);
+  padding-block: clamp(3.5rem, 9vw, 7rem);
+  overflow: hidden;
+}
+
+/* The threshold. A cool wash from the top edge and a red one pooling at the
+   bottom, with a hairline seam down the middle — limen means doorway, and a
+   seam of light is the cheapest honest way to draw one. */
+.liminal__glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(115% 55% at 50% 0%,   rgba(244, 241, 234, 0.075), transparent 62%),
+    radial-gradient(60%  45% at 50% 104%, rgba(200, 16, 46, 0.13),    transparent 70%);
+}
+.liminal__glow::after {
+  content: '';
+  position: absolute;
+  left: 50%; top: 0; bottom: 0;
+  width: 1px;
+  transform: translateX(-0.5px);
+  background: linear-gradient(180deg,
+    transparent,
+    rgba(244, 241, 234, 0.16) 22%,
+    rgba(244, 241, 234, 0.16) 78%,
+    transparent);
+}
+
+.liminal__inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+}
+
+/* ── heading ── */
+
+.liminal__head { text-align: center; }
+
+.liminal__label {
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--static);
+}
+
+.liminal__name {
+  font-family: var(--display);
+  font-weight: 400;
+  line-height: 0.86;
+  font-size: clamp(3.6rem, 15vw, 11rem);
+  letter-spacing: 0.01em;
+  margin-block: 0.18em 0;
+}
+
+/* The sheen. Both ends of the gradient are --bone-dim so the tiling seam is
+   invisible; a list that ended on the highlight would drag a hard edge across
+   the letters once per loop. */
+.liminal__name-text {
+  background: linear-gradient(100deg,
+    var(--bone-dim) 0%,
+    var(--bone-dim) 36%,
+    #FFFDF8 50%,
+    var(--bone-dim) 64%,
+    var(--bone-dim) 100%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: liminal-sheen 6s linear infinite;
+}
+@keyframes liminal-sheen { to { background-position: -300% 0; } }
+
+.liminal__meaning {
+  max-width: 46ch;
+  margin: 1.5rem auto 0;
+  color: var(--bone-dim);
+  font-size: clamp(0.9rem, 1.6vw, 1.02rem);
+  line-height: 1.65;
+}
+
+/* ── stats ── */
+
+.liminal__stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(1.75rem, 6vw, 4.5rem);
+  margin-block: clamp(2.5rem, 6vw, 3.75rem);
+  padding-block: 1.4rem;
+  border-block: 1px solid var(--line-soft);
+}
+
+.liminal__stat { display: grid; justify-items: center; gap: 0.3rem; }
+.liminal__stat b {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(1.9rem, 5vw, 2.9rem);
+  line-height: 1;
+  color: var(--bone);
+}
+.liminal__stat span {
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--static);
+}
+/* The one number that isn't a number yet. */
+.liminal__stat--open b { color: var(--static); }
+
+.liminal__status-line {
+  text-align: center;
+  color: var(--bone-dim);
+  margin-bottom: clamp(2.25rem, 6vw, 3.5rem);
+  font-size: 0.95rem;
+}
+
+/* ── legs and cities ── */
+
+.liminal__legs {
+  display: grid;
+  gap: clamp(2.25rem, 5vw, 3.25rem);
+}
+
+.liminal__leg-name {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+}
+.liminal__leg-name::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line-soft);
+}
+.liminal__leg-count { color: var(--static); font-size: 0.66rem; }
+
+.liminal__cities { list-style: none; margin: 0; padding: 0; }
+
+.liminal__city {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: clamp(0.75rem, 2.5vw, 1.5rem);
+  padding: clamp(0.8rem, 2vw, 1.05rem) 0.25rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* Rows arrive one after another once their leg scrolls in. --i is per leg. */
+.liminal__leg.is-in .liminal__city {
+  animation: liminal-row 620ms var(--ease) backwards;
+  animation-delay: calc(var(--i) * 55ms);
+}
+@keyframes liminal-row {
+  from { opacity: 0; transform: translateY(10px); }
+}
+
+.liminal__idx {
+  font-size: 0.66rem;
+  color: var(--static);
+  letter-spacing: 0.1em;
+}
+
+.liminal__where {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.75rem;
+  min-width: 0;
+}
+
+.liminal__city-name {
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 3.6vw, 2.1rem);
+  line-height: 1.05;
+  color: var(--bone);
+  transition: transform 320ms var(--ease);
+}
+
+.liminal__country {
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--static);
+}
+
+.liminal__status {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--static);
+  white-space: nowrap;
+}
+
+/* Nothing is on sale yet, so the pending state is the normal state here and
+   is styled to look deliberate — a slow breath rather than a dead label. */
+.liminal__city.is-pending .liminal__status {
+  animation: liminal-breathe 3.4s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 240ms);
+}
+@keyframes liminal-breathe {
+  0%, 100% { opacity: 0.45; }
+  50%      { opacity: 1; }
+}
+
+/* Red tick on hover, keyed off the row's own edge. */
+.liminal__city::before {
+  content: '';
+  position: absolute;
+  left: -0.55rem;
+  top: 50%;
+  width: 2px;
+  height: 0;
+  background: var(--signal);
+  transform: translateY(-50%);
+  transition: height 300ms var(--ease);
+}
+.liminal__city:hover::before { height: 58%; }
+.liminal__city:hover .liminal__city-name { transform: translateX(6px); }
+.liminal__city:hover .liminal__status { color: var(--bone-dim); }
+
+/* ── foot ── */
+
+.liminal__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: clamp(2.25rem, 5vw, 3.25rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-soft);
+}
+.liminal__more {
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--static);
+}
+
+@media (max-width: 560px) {
+  .liminal__city {
+    grid-template-columns: 2rem minmax(0, 1fr);
+    row-gap: 0.35rem;
+  }
+  /* Status drops under the city rather than squeezing the name. */
+  .liminal__status { grid-column: 2; }
+}
+
+/* The sheen and the breathing labels are decoration; the seam is not, so it
+   stays. Handled here as well as globally because these two would otherwise
+   sit at 0.01ms and flicker rather than stop. */
+@media (prefers-reduced-motion: reduce) {
+  .liminal__name-text { animation: none; color: var(--bone); background: none; -webkit-text-fill-color: currentColor; }
+  .liminal__city.is-pending .liminal__status { animation: none; opacity: 0.75; }
+  .liminal__leg.is-in .liminal__city { animation: none; }
 }
 
 /* ─── PRESS IT ───────────────────────────────────────────────────────── */

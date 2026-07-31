@@ -620,6 +620,7 @@ async function main() {
     bio: wiki ?? prev.bio ?? null,
     tour: curated.tour ?? null,
     tourNews: shows,
+    worldTour: curated.worldTour ?? null,
     timeline: curated.timeline,
     facts: curated.facts,
     pressIt: { ...curated.pressIt, release: pressItRelease },

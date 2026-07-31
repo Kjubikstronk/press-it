@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T12:14:18.035Z",
+  "generated": "2026-07-31T12:17:34.773Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -729,7 +729,7 @@
     },
     {
       "title": "5 Taemin Solo Performances That Redefined What A Stage Can Be",
-      "outlet": "thehoneypop.com",
+      "outlet": "The Honey POP",
       "date": "2026-07-17",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTBrSnZYUTVocVN4b2JsRlhkZ0JzSmVPaE5iUGNYWGNDUVdibHVXSEdaaG5faTZKQkpzSHdsYVV5WUdqT3NjVWc2MlFQWWJCWnVhczVYYzFlTFlWUEVXdGEwRTU5Ny1YcXpqeUNwZFd6TmdBQVhqOHhXV2ZlMDItRjZUWmE5N3VHbUV6N3g5N0lmNnFUazJMTzg4SVlPQQ?oc=5"
     },
@@ -759,7 +759,7 @@
     },
     {
       "title": "Taemin says he's still learning after years of success | AP interview",
-      "outlet": "shorelinemedia.net",
+      "outlet": "Shoreline Media Group",
       "date": "2026-06-10",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOS0JuSml2aTNuejkzMWd2TEpMUF9QZGNabnhYOW1oWXV3eDJSd2sxeHdNZ194ZFV4NVpNUzN6eHF6cjMteVdpdUk2YW5xN0dFc0NRazdLTlNrdEZIYzVkd3VCRjJ6OWc4RDhGYkppRVY1MmhFZzF1WDBkQ1NmMHVNN0dPR1dGSHNoTGhLSXFNQWU0bGVNclRyRDUtM0tBSE1RclV0VnBSVXJOOGRlc2VaTzlhLWpBbFFrMGxfRE1vY3IyX24yOFd5SW9peXUtYmZydnZndHd1NFczMHlVcFdsMmNoUnBqMWRzOC1sSXNMNkE3UHBkRHAtOXRfblZqUi1iNER3?oc=5"
     },
@@ -950,7 +950,7 @@
     "run": "2026 – 27",
     "url": "https://taemintour.com/",
     "announced": "2026-07-24",
-    "meaning": "The name comes from the Latin limen, a threshold.",
+    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
     "status": "Twelve cities are confirmed. No dates or venues yet.",
     "more": "and more to come",
     "legs": [

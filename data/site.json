@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T09:17:55.310Z",
+  "generated": "2026-07-31T12:07:56.216Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -728,12 +728,6 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDhyaUM3aWFmMlZiRXJZVzBkS0ZzRGdxRHJpeGxvTW1sWTZaZEZJVlBpN0VnZHRsNUF6QUxFNzJxVEVzTVQwWVRCaFMwSzBBWU82LVBEdXZNZEsxdE13Z2UtWmVvRThEeVphOVExeGxBeVlRTm9iSVBUc1hXNlp3cW9pSVYxTGVmNTVqUmV5eTktYzBCZjBXX1VMMTR2bEU?oc=5"
     },
     {
-      "title": "The #legend guide to summer 2026’s biggest K-pop comebacks, from Ateez to Jennie",
-      "outlet": "Hashtag Legend Hong Kong",
-      "date": "2026-07-24",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbm53a2dYbHQ3TGt5cDIzZjJzdkx5LTNFOWMwM0ktNjFLN0F0RWpESFVKeFJSeTJubzd1TXp5dy0zU1VITk80SW11cW5hYktocXM1UUpLU05xUnFWRzdqUkQ2ZmFPYmNFbG4zUU9idGRNdGx4dWFiVjRpcnZ4YlRUMTY1TlpTYXdwOTRuemFFZkhQZGVFS3Fjd09XLWxLOWRHbEY1YjZPMktXUzQ?oc=5"
-    },
-    {
       "title": "5 Taemin Solo Performances That Redefined What A Stage Can Be",
       "outlet": "The Honey POP",
       "date": "2026-07-17",
@@ -810,6 +804,12 @@
       "outlet": "Singapore",
       "date": "2026-05-14",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONXFWdU1FY19jMVk5VnZQWm9WalFwMTBPQjVsZTlTZ013OVUycFlmVUg0S21kM05ETU41SnFYWU9UVjRSbVhvMDZwQmozeElWNkxHWHY5Q3IzbTBVMVFqZ3VqWVZLNmY1cEM5VDZyMXRwWFVNRzFFR01BcmU0RFVrNVJ3ck1yMlJYWVpHWVVIYnU4TEE1dTdhRzVaYmljVVpaWlNSaHBGMGlTNWQ10gGyAUFVX3lxTE02MVJ3azNnTmdsWWdLVmNlRjg3WGZyNEhEQ2NUekJhRV9zTnlHM0FBRGtJYWphWGRJU0RhVFdGUHlFUVVCLXpkNHF3clBEOEo1cE5iVGtPUGROdFZ6eUUxdERFVGk0SGpVSnlJZUVmdnVjYzRlZ1FURGRzM0Z6a3c2UlJzcTBwcEUyT2FBSVhXZ2lCVWZ1NWtxQkl6U213OEJ3ZkI4Slg1VGVhSTB1bXlic2c?oc=5"
+    },
+    {
+      "title": "SHINee's Key Returns With Bold New Look for 'Atmos' Comeback",
+      "outlet": "조선일보",
+      "date": "2026-05-11",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcjZDdWNpb0JFQ0xrRGxiaFg2RFZibUI3ZEw3bS15Wk41WGF5dmxIeEgzMWp4WXlPZUNsSEF2Q2E3dTNpVVpOWVFiU0xqX1ZYYUNseE83ZkliWVJXNWROM2dLTnp5Z2x0dHRZdEhaOGFkRDU5S0IxR3hic0dLOC1CTndvNXZfZ3hmNVI0Q2t3?oc=5"
     },
     {
       "title": "Taemin: Reflecting on the first K-pop male solo artist to perform at Coachella",
@@ -944,6 +944,81 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcFdVQmVPZVV6UlUtZUNBZjFBWGJSRkU5RUlVYVNrbVUzcEdfRWxzWmlJcThzSklxZ1EwV2hzR0ZjTWVCVGp5bVktajNaVjcxbFdWLW9ha3lDQkxRSlhyOTkzRTVkMWJnbmF3WHhVWmRQNEJNcHJfM0tnem5YdUdOd0QwWkRUUk9INFB1enhTSzJldml5eFpuT05scl9Da3ZETTZFS2UzcnBMZw?oc=5"
     }
   ],
+  "worldTour": {
+    "label": "Taemin World Tour",
+    "name": "LiMiNaL",
+    "run": "2026 – 27",
+    "url": "https://taemintour.com/",
+    "announced": "2026-07-24",
+    "meaning": "The name comes from the Latin limen, a threshold. SM framed it as a boundary that opens onto something rather than closing something off.",
+    "status": "Twelve cities are confirmed. No dates or venues yet.",
+    "more": "and more to come",
+    "legs": [
+      {
+        "name": "Asia",
+        "cities": [
+          {
+            "city": "Seoul",
+            "country": "Korea"
+          }
+        ]
+      },
+      {
+        "name": "North America",
+        "cities": [
+          {
+            "city": "San Jose",
+            "country": "U.S.A."
+          },
+          {
+            "city": "Los Angeles",
+            "country": "U.S.A."
+          },
+          {
+            "city": "Las Vegas",
+            "country": "U.S.A."
+          },
+          {
+            "city": "Grand Prairie",
+            "country": "U.S.A."
+          },
+          {
+            "city": "Chicago",
+            "country": "U.S.A."
+          },
+          {
+            "city": "Newark",
+            "country": "U.S.A."
+          }
+        ]
+      },
+      {
+        "name": "Latin America",
+        "cities": [
+          {
+            "city": "Monterrey",
+            "country": "Mexico"
+          },
+          {
+            "city": "Mexico City",
+            "country": "Mexico"
+          },
+          {
+            "city": "Santiago",
+            "country": "Chile"
+          },
+          {
+            "city": "Lima",
+            "country": "Peru"
+          },
+          {
+            "city": "São Paulo",
+            "country": "Brazil"
+          }
+        ]
+      }
+    ]
+  },
   "timeline": [
     {
       "date": "2008-05-25",

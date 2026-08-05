@@ -476,6 +476,9 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
   background: var(--ink-3);
   padding: var(--band-y) 0;
   overflow: hidden;
+  /* Own stacking context, so the spine can sit at z-index -1: above this
+     section's background but behind the wordmark, rather than drawn over it. */
+  isolation: isolate;
 }
 .liminal__wash {
   position: absolute;
@@ -485,12 +488,22 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
     radial-gradient(120% 55% at 50% 0%,   rgba(244,241,234,.08), transparent 62%),
     radial-gradient(70%  55% at 50% 108%, rgba(200,16,46,.2),    transparent 68%);
 }
-/* limen is a doorway; the spine is the threshold drawn literally. */
+/* limen is a doorway; the spine is the threshold drawn literally.
+   Scoped to the centred header block on purpose. Spanning the section put a
+   1px line down the middle of the left-aligned city list for 900px, which
+   read as a stray rule rather than a threshold. `top` bleeds it up through
+   the section's own padding so it still starts at the top edge, and both
+   gradient ends are transparent so it has no hard start or stop. */
 .liminal__spine {
   position: absolute;
-  left: 50%; top: 0; bottom: 0;
+  left: 50%;
+  top: calc(-1 * var(--band-y));
+  bottom: 0;
   width: 1px;
-  background: linear-gradient(180deg, transparent, rgba(244,241,234,.2) 25%, rgba(244,241,234,.2) 75%, transparent);
+  transform: translateX(-.5px);
+  background: linear-gradient(180deg, transparent, rgba(244,241,234,.18) 34%, rgba(244,241,234,.18) 66%, transparent);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .liminal__head {

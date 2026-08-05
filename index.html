@@ -245,9 +245,12 @@
 <!-- Namespaced .liminal, not .tour — the Live section owns .tour. -->
 <section class="liminal" id="tour" data-world-tour hidden>
   <div class="liminal__wash" aria-hidden="true"></div>
-  <div class="liminal__spine" aria-hidden="true"></div>
 
   <div class="liminal__head">
+    <!-- Lives inside the head so its height is bound to the centred block.
+         As a sibling of the head it spanned the whole section and cut down
+         through the left-aligned city list. -->
+    <div class="liminal__spine" aria-hidden="true"></div>
     <p class="liminal__label" data-wt-label></p>
     <h2 class="liminal__name"><span class="liminal__sheen">LiMiNaL</span></h2>
     <p class="liminal__status" data-wt-status></p>

@@ -8,3 +8,9 @@ Thumbs.db
 
 # Local agent/editor prefs — the launch config is worth keeping, this isn't.
 .claude/settings.local.json
+
+# Design reference bundle. Prototypes in a component runtime that this repo
+# doesn't use, plus a copy of site.json. Everything in it has been built into
+# the real files; committing it would publish ~200kB of dead prototype to the
+# live site. Delete the folder once you're done comparing against it.
+design_handoff_press_it_redesign/

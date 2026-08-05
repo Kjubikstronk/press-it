@@ -182,19 +182,15 @@
 
 <body>
 
-<div class="grain" aria-hidden="true"></div>
-<div class="vignette" aria-hidden="true"></div>
+<a href="#drop" class="skip">Skip to content</a>
 
-<a href="#main" class="skip">Skip to content</a>
-
-<!-- ─── nav ─────────────────────────────────────────────────────────── -->
-<header class="nav" id="nav">
-  <a href="#top" class="nav__mark">
-    <span class="nav__mark-a">PRESS</span><span class="nav__mark-b">IT</span>
-  </a>
-  <nav class="nav__links" aria-label="Sections">
-    <a href="#latest">Latest</a>
-    <a href="#tour">Tour</a>
+<!-- ─── sticky header ───────────────────────────────────────────────── -->
+<header class="hdr">
+  <a href="#top" class="hdr__mark">TAEMIN<span>.</span>ONLINE</a>
+  <nav class="hdr__nav" aria-label="Sections">
+    <a href="#drop">Drop</a>
+    <a href="#wire">Wire</a>
+    <a href="#tour" class="is-signal">LiMiNaL</a>
     <a href="#live">Live</a>
     <a href="#discography">Discography</a>
     <a href="#pressit">Press It</a>
@@ -202,67 +198,79 @@
     <a href="#news">News</a>
     <a href="#timeline">Timeline</a>
   </nav>
-  <div class="nav__live" title="Checked against Apple Music, Deezer, YouTube and the news wire every 6 hours.">
-    <span class="dot" aria-hidden="true"></span>
-    <span class="nav__live-txt" data-generated>live</span>
-  </div>
+  <span class="hdr__status">
+    <span class="dot" aria-hidden="true"></span><span data-generated-short>—</span>
+  </span>
 </header>
 
 <main id="main">
 
-<!-- ─── hero ────────────────────────────────────────────────────────── -->
+<!-- ─── hero: the drop ──────────────────────────────────────────────── -->
+<!-- The <img> deliberately ships with no src. The browser starts fetching
+     from parsed markup before any script runs, so a placeholder src fires a
+     404 on every load; app.js sets it once the data is in. -->
 <section class="hero" id="top">
-  <div class="hero__art" aria-hidden="true">
-    <img data-hero-art alt="" decoding="async">
-  </div>
-  <div class="hero__reveal" aria-hidden="true">
-    <img data-hero-art-2 alt="" decoding="async">
-  </div>
+  <div class="hero__art"><img alt="" data-hero-art></div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
 
-  <div class="hero__inner">
-    <p class="hero__kicker">
-      <span data-hangul>태민</span>
-      <span class="rule"></span>
-      <span>Lee Tae-min</span>
+  <div class="hero__inner" id="drop">
+    <div class="hero__badges">
+      <span class="hero__badge" data-drop-badge>—</span>
+      <span class="hero__meta" data-latest-meta></span>
+    </div>
+    <h1 class="hero__title" data-latest-title>PRESS IT</h1>
+    <p class="hero__stand">Every release, video and headline, checked four times a day. This page knew before you did.</p>
+    <div class="hero__cta" data-hero-cta></div>
+    <div class="hero__stats" data-hero-stats></div>
+    <p class="hero__eyebrow">
+      <span class="hero__eyebrow-mark">TAEMIN</span>
+      <span class="kr">태민</span>
+      <span class="hero__eyebrow-rule" aria-hidden="true"></span>
+      <span>an archive that updates itself</span>
     </p>
+  </div>
+</section>
 
-    <h1 class="wordmark">
-      <span class="wordmark__line">TAEMIN</span>
-      <span class="wordmark__line wordmark__line--ghost" aria-hidden="true">TAEMIN</span>
-    </h1>
+<!-- ─── the wire ────────────────────────────────────────────────────── -->
+<section class="wire" id="wire">
+  <div class="wire__bar">
+    <span class="wire__label"><span class="dot" aria-hidden="true"></span>The wire</span>
+    <span class="wire__stamp" data-wire-stamp></span>
+  </div>
+  <div class="wire__grid" data-reveal data-wire-grid></div>
+</section>
 
-    <p class="hero__sub">
-      The whole discography, updated the day he drops something new.
-    </p>
+<!-- ─── LiMiNaL world tour ──────────────────────────────────────────── -->
+<!-- Namespaced .liminal, not .tour — the Live section owns .tour. -->
+<section class="liminal" id="tour" data-world-tour hidden>
+  <div class="liminal__wash" aria-hidden="true"></div>
+  <div class="liminal__spine" aria-hidden="true"></div>
 
-    <dl class="hero__stats" data-stats></dl>
+  <div class="liminal__head">
+    <p class="liminal__label" data-wt-label></p>
+    <h2 class="liminal__name"><span class="liminal__sheen">LiMiNaL</span></h2>
+    <p class="liminal__status" data-wt-status></p>
+  </div>
 
-    <a class="hero__cue" href="#latest">
-      <span>Latest drop</span>
-      <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v16m0 0l-6-6m6 6l6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+  <div class="liminal__ticker" aria-hidden="true">
+    <div class="liminal__ticker-track" data-wt-ticker></div>
+  </div>
+
+  <div class="liminal__meta" data-reveal>
+    <div class="liminal__stats" data-wt-stats></div>
+    <a class="liminal__cta" href="https://taemintour.com/" target="_blank" rel="noopener">
+      Alert me when tickets drop
+      <span class="liminal__bar" aria-hidden="true"></span>
     </a>
   </div>
-</section>
 
-<!-- ─── latest ──────────────────────────────────────────────────────── -->
-<section class="latest section" id="latest" data-reveal>
-  <div class="section__head">
-    <h2 class="section__title">Latest</h2>
-    <span class="section__meta">Newest thing he's put out</span>
-  </div>
-  <div class="latest__body" data-latest></div>
+  <div class="liminal__legs" data-wt-legs></div>
 </section>
-
-<!-- ─── world tour ──────────────────────────────────────────────────── -->
-<!-- Rendered wholesale by renderWorldTour(); the section removes itself if
-     curated.worldTour is absent, so ending the run means deleting one key. -->
-<!-- Namespaced .liminal, not .tour — the Live section already owns .tour and
-     .tour__city, and reusing them here would cross-style both. -->
-<section class="liminal" id="tour" data-world-tour hidden></section>
 
 <!-- ─── live ────────────────────────────────────────────────────────── -->
-<section class="section" id="live" data-reveal>
-  <div class="section__head">
+<section class="section" id="live">
+  <div class="section__head" data-reveal>
     <h2 class="section__title">Live</h2>
     <span class="section__meta">Where to see him</span>
   </div>
@@ -270,98 +278,96 @@
 </section>
 
 <!-- ─── discography ─────────────────────────────────────────────────── -->
-<section class="section" id="discography" data-reveal>
-  <div class="section__head">
+<section class="section" id="discography">
+  <div class="section__head" data-reveal>
     <h2 class="section__title">Discography</h2>
-    <span class="section__meta"><span data-disco-count>—</span> releases</span>
+    <span class="section__meta"><span data-disco-count>—</span> releases · 2008 — 2026</span>
   </div>
-
-  <div class="filters" role="group" aria-label="Filter releases" data-filters></div>
-  <div class="disco" data-disco></div>
+  <div class="chips chips--scroll" data-disco-filters role="group" aria-label="Filter by type"></div>
+  <div class="grid grid--disco" data-disco></div>
+  <div class="more" data-disco-more></div>
 </section>
 
-<!-- ─── PRESS IT ────────────────────────────────────────────────────── -->
+<!-- ─── press it ────────────────────────────────────────────────────── -->
 <section class="pressit" id="pressit">
+  <div class="pressit__bleed" aria-hidden="true"></div>
 
-  <div class="pressit__marquee" aria-hidden="true">
-    <div class="marquee__track" data-marquee></div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" data-pressit-words></div>
   </div>
 
   <div class="pressit__stage">
     <div class="pressit__split">
-
-      <figure class="pressit__cover" data-reveal>
-        <div class="pressit__cover-frame">
-          <img data-pressit-art alt="Press It album cover" decoding="async">
-          <div class="pressit__cover-echo" aria-hidden="true">
-            <img data-pressit-art-2 alt="" decoding="async">
+      <figure class="pressit__fig">
+        <div class="pressit__cover">
+          <img alt="Press It album cover" data-pressit-art>
+          <div class="pressit__mirror">
+            <img alt="" data-pressit-art>
+            <div class="pressit__tint" aria-hidden="true"></div>
           </div>
+          <div class="pressit__seam" aria-hidden="true"></div>
         </div>
-        <figcaption>
-          <span class="mono">The 1st Album</span>
-          <span class="mono" data-pressit-date>2016.02.23</span>
+        <figcaption class="pressit__cap">
+          <span>The 1st Album</span><span>2016.02.23 · ten years on</span>
         </figcaption>
       </figure>
 
-      <div class="pressit__text" data-reveal>
-        <p class="eyebrow">Concept — <span class="accent" data-pressit-concept>Duality</span></p>
-        <h2 class="pressit__title">
+      <div class="pressit__body">
+        <p class="pressit__eyebrow">Concept — <span>Duality</span></p>
+        <h2 class="pressit__display">
           <span>PRESS</span>
-          <span class="outline">IT</span>
+          <span class="pressit__outline">IT</span>
         </h2>
         <p class="pressit__statement" data-pressit-statement></p>
-
-        <div class="palette" data-palette aria-label="Colour palette"></div>
+        <div class="pressit__palette" data-pressit-palette></div>
       </div>
     </div>
 
-    <div class="pressit__tracks" data-reveal>
-      <h3 class="tracks__head"><span class="mono">Tracklist</span></h3>
-      <ol class="tracks" data-tracks></ol>
-    </div>
-
-    <div class="moodboard" data-moodboard-wrap hidden>
-      <h3 class="tracks__head"><span class="mono">Moodboard</span></h3>
-      <div class="moodboard__grid" data-moodboard></div>
+    <div class="pressit__tracks">
+      <h3 class="pressit__tracks-head">Tracklist</h3>
+      <ol class="tracks" data-pressit-tracks></ol>
     </div>
   </div>
 </section>
 
 <!-- ─── watch ───────────────────────────────────────────────────────── -->
-<section class="section" id="watch" data-reveal>
-  <div class="section__head">
+<section class="section" id="watch">
+  <div class="section__head" data-reveal>
     <h2 class="section__title">Watch</h2>
     <span class="section__meta">Straight off his channel</span>
   </div>
-  <div class="videos" data-videos></div>
+  <div class="grid grid--videos" data-videos></div>
+  <div class="more" data-videos-more></div>
 </section>
 
 <!-- ─── news ────────────────────────────────────────────────────────── -->
-<section class="section" id="news" data-reveal>
-  <div class="section__head">
+<section class="section" id="news">
+  <div class="section__head" data-reveal>
     <h2 class="section__title">News</h2>
     <span class="section__meta">Checked every few hours</span>
   </div>
   <ul class="news" data-news></ul>
+  <div class="more" data-news-more></div>
 </section>
 
 <!-- ─── timeline ────────────────────────────────────────────────────── -->
-<section class="section" id="timeline" data-reveal>
-  <div class="section__head">
+<section class="section" id="timeline">
+  <div class="section__head" data-reveal>
     <h2 class="section__title">Timeline</h2>
     <span class="section__meta">2008 — now</span>
   </div>
   <ol class="timeline" data-timeline></ol>
+  <div class="more" data-timeline-more></div>
 </section>
 
 <!-- ─── facts ───────────────────────────────────────────────────────── -->
-<section class="facts" id="facts" data-reveal>
-  <p class="eyebrow">Did you know</p>
-  <blockquote class="facts__quote" data-fact aria-live="polite"></blockquote>
+<section class="facts">
+  <p class="facts__eyebrow">Did you know</p>
+  <blockquote class="facts__quote" data-reveal data-fact></blockquote>
   <div class="facts__nav">
-    <button type="button" data-fact-prev aria-label="Previous fact">←</button>
-    <span class="mono" data-fact-count></span>
-    <button type="button" data-fact-next aria-label="Next fact">→</button>
+    <button type="button" class="facts__btn" data-fact-prev aria-label="Previous fact">←</button>
+    <span class="facts__count" data-fact-count></span>
+    <button type="button" class="facts__btn" data-fact-next aria-label="Next fact">→</button>
   </div>
 </section>
 
@@ -381,9 +387,9 @@
     </div>
     <nav class="footer__links" data-links aria-label="Official links"></nav>
   </div>
-  <div class="footer__row footer__row--end">
-    <span class="mono" data-generated-full></span>
-    <span class="mono">Rebuilt daily · no trackers · no cookies</span>
+  <div class="footer__bar">
+    <span data-generated-full></span>
+    <span>Rebuilt daily · no trackers · no cookies</span>
   </div>
 </footer>
 

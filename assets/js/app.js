@@ -1,18 +1,35 @@
 /* ═══════════════════════════════════════════════════════════════════════
-   PRESS IT — runtime
-   Renders everything from data/site.json, which the daily build rewrites.
-   No framework: the page is the same age as the data it draws.
+   PRESS IT — taemin.online
+
+   One fetch of data/site.json, then everything on the page is derived from
+   it. No dependencies, no build step, no second request, no API key.
+
+   Two things here are load-bearing and easy to "tidy" into bugs:
+
+   1. Data-driven <img> elements ship with NO src attribute and get one
+      assigned here. The browser starts fetching from parsed markup before
+      any script runs, so a placeholder src fires a 404 on every load —
+      wrapping the tag in a conditional does not help, because the parse
+      happens first.
+   2. The scroll-reveal hidden state (opacity:0) is applied from JS, never
+      from CSS. If this file fails to load, the page must still be readable
+      rather than a column of invisible sections.
    ═══════════════════════════════════════════════════════════════════════ */
 
 const $  = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
 const esc = (s = '') =>
-  String(s).replace(/[&<>"']/g, (c) =>
-    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])
-  );
+  String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 
-/** "Press It - The 1st Album" → "Press It". The suffixes are catalogue noise. */
+/* ─── derived-value helpers ──────────────────────────────────────────── */
+
+/** Apple Music appends the format to titles; nobody says "PERMISSION - Single". */
 const tidy = (t = '') =>
   t
     .replace(/\s*[-–—]\s*(Single|EP)$/i, '')
@@ -26,63 +43,36 @@ const dotted = (iso) => (iso ? iso.replace(/-/g, '.') : '');
 
 const relative = (iso) => {
   if (!iso) return '';
-  // floor, not round. These are elapsed *calendar* days, and rounding pushed
-  // anything past midday into the next bucket — something from 15:40 today
-  // came out as 0.76 days, rounded to 1, and displayed as "yesterday".
   const days = Math.floor((Date.now() - new Date(iso + 'T00:00:00')) / 864e5);
   if (days < 1) return 'today';
   if (days < 2) return 'yesterday';
-  if (days < 30) return `${days} days ago`;
-  if (days < 365) return `${Math.round(days / 30)} months ago`;
-  const y = (days / 365.25).toFixed(1).replace(/\.0$/, '');
-  return `${y} years ago`;
+  if (days < 30) return days + ' days ago';
+  if (days < 365) return Math.round(days / 30) + ' months ago';
+  return (days / 365.25).toFixed(1).replace(/\.0$/, '') + ' years ago';
 };
 
-/**
- * Cap a long list and add a "Show all" toggle.
- *
- * The full page ran to 30 screens on a phone — discography alone was 15 of
- * them. Rather than cut content, everything past `keep` starts collapsed and
- * expands in place. Collapsed items are `hidden`, so they stay out of the
- * accessibility tree and out of tab order until revealed.
- */
-function collapse(container, keep, label) {
-  const items = [...container.children];
-  if (items.length <= keep) return;
+const stripArtist = (t = '') => t.replace(/^TAEMIN\s*\(태민\)\s*-\s*/, '');
 
-  const hide = (on) =>
-    items.forEach((el, i) => { if (i >= keep) el.hidden = on; });
+/** Assign a src only once we actually have a URL. See note 1 at the top. */
+const setImg = (el, url) => {
+  if (el && url) el.setAttribute('src', url);
+};
 
-  hide(true);
-
-  const bar = document.createElement('div');
-  bar.className = 'more';
-  bar.innerHTML = `
-    <button type="button" aria-expanded="false">
-      <span>Show all ${items.length} ${esc(label)}</span>
-      <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-    </button>
-    <span class="more__line"></span>`;
-
-  const btn = bar.querySelector('button');
-  btn.addEventListener('click', () => {
-    const open = btn.getAttribute('aria-expanded') === 'true';
-    hide(open);
-    btn.setAttribute('aria-expanded', String(!open));
-    btn.querySelector('span').textContent = open
-      ? `Show all ${items.length} ${label}`
-      : 'Show less';
-    // Collapsing from far down the list would otherwise strand the viewport
-    // below the section entirely.
-    if (open) bar.previousElementSibling?.scrollIntoView({ block: 'nearest' });
-  });
-
-  container.after(bar);
-}
-
-/* ─── boot ───────────────────────────────────────────────────────────── */
+/* ─── state ──────────────────────────────────────────────────────────── */
 
 let DATA = null;
+const S = {
+  kind: 'All',
+  discoOpen: false,
+  videosOpen: false,
+  newsOpen: false,
+  timelineOpen: false,
+  fact: 0,
+};
+
+const CAPS = { disco: 12, videos: 4, news: 6, timeline: 6 };
+
+/* ─── boot ───────────────────────────────────────────────────────────── */
 
 async function boot() {
   try {
@@ -94,10 +84,11 @@ async function boot() {
     return fail();
   }
 
+  renderStamps();
   renderHero();
-  renderLatest();
-  renderTour();
+  renderWire();
   renderWorldTour();
+  renderTour();
   renderDiscography();
   renderPressIt();
   renderVideos();
@@ -107,104 +98,261 @@ async function boot() {
   renderFooter();
 
   initReveal();
-  initNav();
-  initSpotlight();
-  loadMoodboard();
+  initActiveNav();
 }
 
 function fail() {
-  $$('[data-latest], [data-disco], [data-videos], [data-news], [data-timeline]')
-    .forEach((el) => {
-      el.innerHTML =
-        '<p class="empty">Data unavailable — run <code>node build.js</code>, then reload.</p>';
-    });
+  const host = $('[data-wire-grid]');
+  if (host) {
+    host.innerHTML =
+      '<p class="wire__cell" style="color:var(--ash)">Couldn\'t load the data file. ' +
+      'The page is static, so a refresh usually fixes it.</p>';
+  }
+}
+
+/* ─── header + footer stamps ─────────────────────────────────────────── */
+
+function renderStamps() {
+  const gen = new Date(DATA.generated);
+  const short = $('[data-generated-short]');
+  if (short) short.textContent = 'updated ' + relative(gen.toISOString().slice(0, 10));
+
+  const full = $('[data-generated-full]');
+  if (full) {
+    full.textContent =
+      'Last rebuild — ' + gen.toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
+  }
+
+  const stamp = $('[data-wire-stamp]');
+  if (stamp) {
+    stamp.textContent =
+      'last checked ' +
+      gen.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) +
+      ' · every 6 hours';
+  }
 }
 
 /* ─── hero ───────────────────────────────────────────────────────────── */
 
 function renderHero() {
-  const { latest, stats, generated } = DATA;
+  const latest = DATA.latest || {};
+  const vids = DATA.videos || [];
 
-  if (latest?.art) {
-    for (const sel of ['[data-hero-art]', '[data-hero-art-2]']) {
-      const img = $(sel);
-      img.src = latest.art;
-      img.addEventListener('load', () => img.classList.add('is-in'), { once: true });
-      if (img.complete) img.classList.add('is-in');
-    }
+  setImg($('[data-hero-art]'), latest.art);
+
+  const daysOld = latest.date ? (Date.now() - new Date(latest.date + 'T00:00:00')) / 864e5 : Infinity;
+  const badge = $('[data-drop-badge]');
+  if (badge) badge.textContent = daysOld < 120 ? 'Out now' : 'Latest release';
+
+  const meta = $('[data-latest-meta]');
+  if (meta) {
+    meta.textContent = [latest.kind || 'Release', fmtDate(latest.date), relative(latest.date)]
+      .filter(Boolean)
+      .join(' · ');
   }
 
-  const cells = [
-    ['Years active', stats.yearsSinceDebut, '+'],
-    ['Solo', stats.yearsSinceSoloDebut, '+'],
-    ['Releases', stats.releaseCount, ''],
-    ['Since last drop', relative(latest?.date).replace(/ ago$/, ''), ''],
+  const title = $('[data-latest-title]');
+  if (title) title.textContent = tidy(latest.title);
+
+  const cities = (DATA.worldTour?.legs || []).flatMap((l) => l.cities || []);
+  const cta = $('[data-hero-cta]');
+  if (cta) {
+    cta.innerHTML = [
+      latest.url
+        ? `<a class="btn btn--fill" href="${esc(latest.url)}" target="_blank" rel="noopener">Listen ↗</a>`
+        : '',
+      vids[0]?.url
+        ? `<a class="btn btn--ghost" href="${esc(vids[0].url)}" target="_blank" rel="noopener">Watch</a>`
+        : '',
+      cities.length
+        ? `<a class="btn btn--signal" href="#tour">Tour · ${cities.length} cities</a>`
+        : '',
+    ].join('');
+  }
+
+  const st = DATA.stats || {};
+  const stats = [
+    { value: st.yearsSinceDebut, sup: '+', label: 'Years active' },
+    { value: st.yearsSinceSoloDebut, sup: '+', label: 'Solo' },
+    { value: st.releaseCount, sup: '', label: 'Releases' },
+    { value: relative(latest.date).replace(/ ago$/, ''), sup: '', label: 'Since last drop' },
   ];
-
-  $('[data-stats]').innerHTML = cells
-    .map(
-      ([label, value, sup]) =>
-        `<div><dd>${esc(value)}${sup ? `<span>${sup}</span>` : ''}</dd><dt>${esc(label)}</dt></div>`
-    )
-    .join('');
-
-  const stamp = generated ? new Date(generated) : null;
-  if (stamp) {
-    $('[data-generated]').textContent = `updated ${relative(
-      stamp.toISOString().slice(0, 10)
-    )}`;
-    $('[data-generated-full]').textContent = `Last rebuild — ${stamp.toLocaleString(
-      'en-US',
-      { dateStyle: 'medium', timeStyle: 'short' }
-    )}`;
+  const statHost = $('[data-hero-stats]');
+  if (statHost) {
+    statHost.innerHTML = stats
+      .filter((s) => s.value !== undefined && s.value !== null && s.value !== '')
+      .map(
+        (s) => `
+      <div class="stat">
+        <span class="stat__value">${esc(s.value)}${s.sup ? `<sup>${esc(s.sup)}</sup>` : ''}</span>
+        <span class="stat__label">${esc(s.label)}</span>
+      </div>`
+      )
+      .join('');
   }
 }
 
-/* ─── latest ─────────────────────────────────────────────────────────── */
+/* ─── the wire ───────────────────────────────────────────────────────── */
 
-function renderLatest() {
-  const r = DATA.latest;
-  const host = $('[data-latest]');
-  if (!r) return void (host.innerHTML = '<p class="empty">No release found.</p>');
+function renderWire() {
+  const host = $('[data-wire-grid]');
+  if (!host) return;
 
-  const fresh = (Date.now() - new Date(r.date + 'T00:00:00')) / 864e5 < 120;
+  const latest = DATA.latest || {};
+  const vids = DATA.videos || [];
+  const news = DATA.news || [];
+  const top = vids[0];
+
+  const chips = [
+    latest.kind,
+    latest.trackCount ? latest.trackCount + (latest.trackCount > 1 ? ' tracks' : ' track') : null,
+    latest.genre,
+  ]
+    .filter(Boolean)
+    .join(' · ');
 
   host.innerHTML = `
-    <article class="latest__card">
-      <div class="latest__art">
-        ${fresh ? '<span class="badge">New</span>' : ''}
-        <img src="${esc(r.art)}" alt="${esc(tidy(r.title))} cover art"
-             width="1400" height="1400" fetchpriority="high" decoding="async">
+    <a class="wire__cell" href="${esc(latest.url || '#')}" target="_blank" rel="noopener">
+      <div class="wire__head">
+        <span class="wire__kind">Release</span>
+        <span class="wire__time">${esc(dotted(latest.date))}</span>
       </div>
-      <div>
-        <p class="mono">${esc(fmtDate(r.date))} · ${esc(relative(r.date))}</p>
-        <h3 class="latest__title">${esc(tidy(r.title))}</h3>
-        <div class="latest__facts">
-          <span class="chip">${esc(r.kind || 'Release')}</span>
-          ${r.trackCount ? `<span class="chip">${r.trackCount} track${r.trackCount > 1 ? 's' : ''}</span>` : ''}
-          ${r.genre ? `<span class="chip">${esc(r.genre)}</span>` : ''}
-        </div>
-        ${r.url ? `<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Listen<span aria-hidden="true">↗</span></a>` : ''}
+      <img class="wire__cover" alt="" data-wire-art>
+      <p class="wire__title">${esc(tidy(latest.title))}</p>
+      <p class="wire__sub">${esc(chips)}</p>
+    </a>
+
+    ${
+      top
+        ? `<a class="wire__cell" href="${esc(top.url)}" target="_blank" rel="noopener">
+      <div class="wire__head">
+        <span class="wire__kind">Video</span>
+        <span class="wire__time">${esc(relative(top.date))}</span>
       </div>
-    </article>`;
+      <div class="wire__thumb-wrap">
+        <img alt="" data-wire-thumb>
+        <span class="wire__play" aria-hidden="true"><span>▶</span></span>
+      </div>
+      <p class="wire__title">${esc(stripArtist(top.title))}</p>
+      <p class="wire__sub">Straight off his channel.</p>
+    </a>`
+        : ''
+    }
+
+    <div class="wire__cell">
+      <div class="wire__head">
+        <span class="wire__kind">Press</span>
+        <span class="wire__time">${esc(news[0] ? relative(news[0].date) : '')}</span>
+      </div>
+      ${news
+        .slice(0, 4)
+        .map(
+          (n) => `
+        <a class="wire__press" href="${esc(n.url)}" target="_blank" rel="noopener">
+          <span class="wire__press-title">${esc(n.title)}</span>
+          <span class="wire__press-meta">${esc(
+            [n.outlet, fmtDate(n.date, { month: 'short', day: '2-digit' })].filter(Boolean).join(' · ')
+          )}</span>
+        </a>`
+        )
+        .join('')}
+    </div>`;
+
+  setImg($('[data-wire-art]', host), latest.artSmall || latest.art);
+  setImg($('[data-wire-thumb]', host), top?.thumb);
+}
+
+/* ─── LiMiNaL world tour ─────────────────────────────────────────────── */
+
+function renderWorldTour() {
+  const host = $('[data-world-tour]');
+  if (!host) return;
+
+  const wt = DATA.worldTour;
+  const legs = (wt?.legs || []).filter((l) => (l.cities || []).length);
+  if (!wt || !legs.length) return; // stays hidden; ending the run is a one-key delete
+
+  const cities = legs.flatMap((l) => l.cities);
+  const countries = new Set(cities.map((c) => c.country).filter(Boolean));
+
+  const label = $('[data-wt-label]', host);
+  if (label) label.textContent = [wt.label, wt.run].filter(Boolean).join(' · ');
+
+  const status = $('[data-wt-status]', host);
+  if (status) {
+    status.textContent = [wt.status, 'The moment one lands, this page will have it.']
+      .filter(Boolean)
+      .join(' ');
+  }
+
+  // Duplicated so translateX(-50%) lands exactly one copy along and the loop
+  // has no visible restart.
+  const names = cities.map((c) => (c.city || '').toUpperCase());
+  const ticker = $('[data-wt-ticker]', host);
+  if (ticker) {
+    ticker.innerHTML = [...names, ...names].map((n) => `<span>${esc(n)}</span>`).join('');
+  }
+
+  const statHost = $('[data-wt-stats]', host);
+  if (statHost) {
+    statHost.innerHTML = `
+      <div class="liminal__stat">
+        <div class="liminal__stat-value">${cities.length}</div>
+        <div class="liminal__stat-label">cities</div>
+      </div>
+      <div class="liminal__stat">
+        <div class="liminal__stat-value">${countries.size}</div>
+        <div class="liminal__stat-label">countries</div>
+      </div>
+      <div class="liminal__stat liminal__stat--open">
+        <div class="liminal__stat-value">—</div>
+        <div class="liminal__stat-label">dates announced</div>
+      </div>`;
+  }
+
+  // One running counter across legs, so the list reads 01–12 rather than
+  // restarting per continent.
+  let n = 0;
+  const legHost = $('[data-wt-legs]', host);
+  if (legHost) {
+    legHost.innerHTML = legs
+      .map(
+        (leg) => `
+      <div class="liminal__leg">
+        <h3 class="liminal__leg-name">
+          <span>${esc(leg.name)}</span>
+          <span class="liminal__leg-count">${leg.cities.length}</span>
+          <span class="liminal__leg-rule" aria-hidden="true"></span>
+        </h3>
+        <ul class="liminal__cities">
+          ${leg.cities
+            .map((c) => {
+              n += 1;
+              return `
+            <li class="liminal__city">
+              <span class="liminal__idx">${String(n).padStart(2, '0')}</span>
+              <span class="liminal__city-name">${esc(c.city || '')}</span>
+              <span class="liminal__country">${esc(c.country || '')}</span>
+              <span class="liminal__city-status">${esc(c.status || 'Coming soon')}</span>
+            </li>`;
+            })
+            .join('')}
+        </ul>
+      </div>`
+      )
+      .join('');
+  }
+
+  host.hidden = false;
 }
 
 /* ─── live ───────────────────────────────────────────────────────────── */
 
-/**
- * Tour dates are hand-kept in curated.json — every tour API (Bandsintown,
- * Songkick, Ticketmaster) now requires a key, and a key is the one thing this
- * project deliberately doesn't have.
- *
- * With nothing scheduled the section still earns its place by pointing at the
- * alert pages, which is the real answer to "where can I see him" when the
- * answer is "nowhere yet".
- */
 function renderTour() {
-  const tour = DATA.tour || {};
   const host = $('[data-tour]');
   if (!host) return;
 
+  const tour = DATA.tour || {};
   const today = new Date().toISOString().slice(0, 10);
   const upcoming = (tour.dates || [])
     .filter((d) => d.date && d.date >= today)
@@ -217,28 +365,10 @@ function renderTour() {
     )
     .join('');
 
-  // Announcements pulled from the news wire. These are the automated half —
-  // the confirmed list above is hand-checked, this catches everything new.
-  const wire = (DATA.tourNews || []).slice(0, 5);
-  const wireBlock = wire.length
-    ? `<div class="tour__wire">
-         <h3 class="tour__wire-head"><span class="mono">Just announced</span></h3>
-         <ul class="tour__wire-list">
-           ${wire
-             .map(
-               (n) => `
-             <li>
-               <a href="${esc(n.url)}" target="_blank" rel="noopener">
-                 <span class="date">${esc(fmtDate(n.date, { month: 'short', day: '2-digit' }))}</span>
-                 <span class="head">${esc(n.title)}</span>
-                 <span class="outlet">${esc(n.outlet || '')}</span>
-               </a>
-             </li>`
-             )
-             .join('')}
-         </ul>
-       </div>`
-    : '';
+  const alertRow = `
+    <div class="tour__alerts">
+      <span class="tour__alerts-label">Get told about new dates</span>${alerts}
+    </div>`;
 
   if (!upcoming.length) {
     host.innerHTML = `
@@ -246,12 +376,10 @@ function renderTour() {
         <p class="tour__none-lead">No dates announced right now.</p>
         <p class="tour__none-sub">
           He tours in bursts and shows tend to sell out fast, so the useful move
-          is to set an alert rather than keep checking. These three will email
-          you the day something goes on sale.
+          is to set an alert rather than keep checking.
         </p>
-        <div class="tour__alerts">${alerts}</div>
       </div>
-      ${wireBlock}`;
+      ${alertRow}`;
     return;
   }
 
@@ -270,376 +398,238 @@ function renderTour() {
             <span class="tour__city">${esc(d.city || '')}${d.country ? `, ${esc(d.country)}` : ''}</span>
             <span class="tour__venue">${esc(d.venue || '')}${d.note ? ` · ${esc(d.note)}` : ''}</span>
           </span>
-          ${d.url ? `<a class="btn btn--sm" href="${esc(d.url)}" target="_blank" rel="noopener">Tickets</a>` : '<span class="mono">TBA</span>'}
+          ${
+            d.url
+              ? `<a class="tour__btn" href="${esc(d.url)}" target="_blank" rel="noopener">Tickets</a>`
+              : '<span class="tour__btn" style="border-color:var(--hair);color:var(--grey)">TBA</span>'
+          }
         </li>`
         )
         .join('')}
     </ol>
-    ${wireBlock}
-    <div class="tour__alerts tour__alerts--after">
-      <span class="mono">Get told about new dates</span>${alerts}
-    </div>`;
-}
-
-/* ─── world tour ─────────────────────────────────────────────────────── */
-
-/**
- * The LiMiNaL run.
- *
- * Kept apart from renderTour() because the two answer different questions.
- * renderTour() lists shows you can buy a ticket for; this lists a routing
- * that has been announced but not scheduled. Every stop is genuinely "coming
- * soon" right now, so the pending state is the design rather than an empty
- * state to apologise for.
- *
- * The whole section is written from curated.worldTour and removes itself when
- * that key is missing, so retiring the tour is a one-key delete.
- */
-function renderWorldTour() {
-  const host = $('[data-world-tour]');
-  if (!host) return;
-
-  const wt = DATA.worldTour;
-  const legs = (wt?.legs || []).filter((l) => (l.cities || []).length);
-  if (!wt || !legs.length) return; // stays hidden
-
-  const cities = legs.flatMap((l) => l.cities);
-  const countries = new Set(cities.map((c) => c.country).filter(Boolean));
-
-  // One running counter across all legs, so the list reads 01–12 rather than
-  // restarting per continent.
-  let n = 0;
-
-  const legBlocks = legs
-    .map(
-      (leg) => `
-      <section class="liminal__leg" data-reveal>
-        <h3 class="liminal__leg-name">
-          <span class="mono">${esc(leg.name)}</span>
-          <span class="liminal__leg-count mono">${leg.cities.length}</span>
-        </h3>
-        <ul class="liminal__cities">
-          ${leg.cities
-            .map((c, i) => {
-              n += 1;
-              const status = c.status || 'Coming soon';
-              const pending = !c.status;
-              // --i is the index WITHIN the leg, because each leg reveals on
-              // its own as you scroll. A running counter would have the last
-              // row of the last leg waiting half a second after its heading.
-              return `
-            <li class="liminal__city${pending ? ' is-pending' : ''}" style="--i:${i}">
-              <span class="liminal__idx mono">${String(n).padStart(2, '0')}</span>
-              <span class="liminal__where">
-                <span class="liminal__city-name">${esc(c.city || '')}</span>
-                <span class="liminal__country mono">${esc(c.country || '')}</span>
-              </span>
-              <span class="liminal__status mono">${esc(status)}</span>
-            </li>`;
-            })
-            .join('')}
-        </ul>
-      </section>`
-    )
-    .join('');
-
-  host.innerHTML = `
-    <div class="liminal__glow" aria-hidden="true"></div>
-    <div class="liminal__inner">
-
-      <header class="liminal__head" data-reveal>
-        <p class="liminal__label mono">${esc(wt.label || '')}${wt.run ? ` · ${esc(wt.run)}` : ''}</p>
-        <h2 class="liminal__name"><span class="liminal__name-text">${esc(wt.name || '')}</span></h2>
-        ${wt.meaning ? `<p class="liminal__meaning">${esc(wt.meaning)}</p>` : ''}
-      </header>
-
-      <div class="liminal__stats" data-reveal>
-        <span class="liminal__stat"><b>${cities.length}</b><span class="mono">cities</span></span>
-        <span class="liminal__stat"><b>${countries.size}</b><span class="mono">countries</span></span>
-        <span class="liminal__stat liminal__stat--open"><b>—</b><span class="mono">dates announced</span></span>
-      </div>
-
-      ${wt.status ? `<p class="liminal__status-line" data-reveal>${esc(wt.status)}</p>` : ''}
-
-      <div class="liminal__legs">${legBlocks}</div>
-
-      <footer class="liminal__foot" data-reveal>
-        ${wt.more ? `<span class="liminal__more mono">${esc(wt.more)}</span>` : ''}
-        ${
-          wt.url
-            ? `<a class="chip chip--link" href="${esc(wt.url)}" target="_blank" rel="noopener">Official tour site ↗</a>`
-            : ''
-        }
-      </footer>
-
-    </div>`;
-
-  host.hidden = false;
+    ${alertRow}`;
 }
 
 /* ─── discography ────────────────────────────────────────────────────── */
 
+/** One Deezer cover in the live data 404s, so covers degrade rather than break. */
+function armArtFallback(root) {
+  $$('img[data-fallback]', root).forEach((img) => {
+    img.addEventListener(
+      'error',
+      () => {
+        const alt = img.getAttribute('data-fallback');
+        if (alt && img.getAttribute('src') !== alt) {
+          img.setAttribute('src', alt);
+          return;
+        }
+        img.style.visibility = 'hidden';
+      },
+      { once: false }
+    );
+  });
+}
+
 function renderDiscography() {
   const releases = DATA.releases || [];
-  $('[data-disco-count]').textContent = releases.length;
+  const count = $('[data-disco-count]');
+  if (count) count.textContent = releases.length;
 
-  $('[data-disco]').innerHTML = releases
-    .map(
-      (r) => `
-      <a class="rel" href="${esc(r.url || '#')}" target="_blank" rel="noopener"
-         data-kind="${esc(r.kind)}">
-        <div class="rel__art">
-          <img src="${esc(r.artSmall || r.art)}" alt="${esc(tidy(r.title))} cover art"
-               width="600" height="600" loading="lazy" decoding="async">
-          <span class="rel__kind">${esc(r.kind)}</span>
-        </div>
-        <h3 class="rel__title">${esc(tidy(r.title))}</h3>
-        <p class="rel__year">${esc(dotted(r.date))}</p>
-      </a>`
-    )
-    .join('');
-
-  // Filters, derived from whatever kinds actually exist in the data.
-  const kinds = ['All', ...new Set(releases.map((r) => r.kind))];
-  const bar = $('[data-filters]');
-  bar.innerHTML = kinds
-    .map(
-      (k, i) =>
-        `<button type="button" data-kind="${esc(k)}" aria-pressed="${i === 0}">${esc(k)}</button>`
-    )
-    .join('');
-
-  // Filtering and collapsing both want to control visibility, so one function
-  // owns it and derives every card's state from (activeKind, expanded).
-  // Letting them each toggle `hidden` independently would have them undo
-  // each other — filter to "Album" and the collapsed tail reappears.
-  const CAP = 10;
-  const host = $('[data-disco]');
-  let activeKind = 'All';
-  let expanded = false;
-
-  const more = document.createElement('div');
-  more.className = 'more';
-  more.innerHTML = `
-    <button type="button" aria-expanded="false">
-      <span></span>
-      <svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-    </button>
-    <span class="more__line"></span>`;
-  host.after(more);
-
-  const btn = more.querySelector('button');
-  const btnLabel = btn.querySelector('span');
-
-  const apply = () => {
-    const cards = [...host.children];
-    const matching = cards.filter(
-      (c) => activeKind === 'All' || c.dataset.kind === activeKind
-    );
-
-    cards.forEach((c) => { c.hidden = true; });
-    (expanded ? matching : matching.slice(0, CAP)).forEach((c) => {
-      c.hidden = false;
-    });
-
-    more.hidden = matching.length <= CAP;
-    btn.setAttribute('aria-expanded', String(expanded));
-    btnLabel.textContent = expanded
-      ? 'Show less'
-      : `Show all ${matching.length} releases`;
-  };
-
-  btn.addEventListener('click', () => {
-    expanded = !expanded;
-    apply();
-    if (!expanded) host.scrollIntoView({ block: 'nearest' });
-  });
-
-  bar.addEventListener('click', (e) => {
-    const b = e.target.closest('button');
-    if (!b) return;
-    activeKind = b.dataset.kind;
-    expanded = false;
-    $$('button', bar).forEach((x) =>
-      x.setAttribute('aria-pressed', String(x === b))
-    );
-    apply();
-  });
-
-  apply();
-}
-
-/* ─── PRESS IT ───────────────────────────────────────────────────────── */
-
-function renderPressIt() {
-  const p = DATA.pressIt;
-  if (!p) return;
-
-  if (p.release?.art) {
-    $('[data-pressit-art]').src = p.release.art;
-    $('[data-pressit-art-2]').src = p.release.art;
-  }
-
-  $('[data-pressit-date]').textContent = dotted(p.release?.date || p.released);
-  $('[data-pressit-concept]').textContent = p.concept || '';
-  $('[data-pressit-statement]').textContent = p.statement || '';
-
-  // Marquee needs the list twice so the -50% loop is seamless.
-  const words = p.words || [];
-  $('[data-marquee]').innerHTML = [...words, ...words]
-    .map((w) => `<span>${esc(w)}</span>`)
-    .join('');
-
-  $('[data-tracks]').innerHTML = (p.tracks || [])
-    .map(
-      (t) => `
-      <li class="${t.lead ? 'lead' : ''}">
-        <span class="n">${String(t.n).padStart(2, '0')}</span>
-        <span class="t">${esc(t.title)}${t.kr ? `<small>${esc(t.kr)}</small>` : ''}</span>
-        <span>${t.lead ? '<span class="tag">Title</span>' : t.note ? `<span class="mono">${esc(t.note)}</span>` : ''}</span>
-      </li>`
-    )
-    .join('');
-
-  $('[data-palette]').innerHTML = (p.palette || [])
-    .map(
-      (c) =>
-        `<div><i style="background:${esc(c.hex)}"></i>${esc(c.name)}<br>${esc(c.hex)}</div>`
-    )
-    .join('');
-}
-
-/**
- * Moodboard: probe assets/moodboard/01.jpg … 20.jpg and render only the ones
- * that actually resolve. Drop files in the folder and they show up — no
- * manifest to maintain, nothing to rebuild.
- */
-function loadMoodboard() {
-  const exts = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
-  const grid = $('[data-moodboard]');
-  const wrap = $('[data-moodboard-wrap]');
-
-  const probe = (n) =>
-    new Promise((resolve) => {
-      let i = 0;
-      const tryNext = () => {
-        if (i >= exts.length) return resolve(null);
-        const src = `assets/moodboard/${String(n).padStart(2, '0')}.${exts[i++]}`;
-        const img = new Image();
-        img.onload = () => resolve(src);
-        img.onerror = tryNext;
-        img.src = src;
-      };
-      tryNext();
-    });
-
-  // Walk the numbers in order and stop at the first gap. Probing all 20 slots
-  // up front cost 100 requests on every load of an empty folder; this costs 5.
-  (async () => {
-    const hits = [];
-    for (let n = 1; n <= 20; n++) {
-      const src = await probe(n);
-      if (!src) break;
-      hits.push(src);
-    }
-    if (!hits.length) return; // stays hidden — the CSS-native section stands alone
-    grid.innerHTML = hits
+  const kinds = ['All', ...new Set(releases.map((r) => r.kind).filter(Boolean))];
+  const chipHost = $('[data-disco-filters]');
+  if (chipHost) {
+    chipHost.innerHTML = kinds
       .map(
-        (src) =>
-          `<figure><img src="${esc(src)}" alt="Press It era moodboard image" loading="lazy" decoding="async"></figure>`
+        (k) =>
+          `<button type="button" class="chip${k === S.kind ? ' is-on' : ''}" data-kind="${esc(k)}">${esc(k)}</button>`
       )
       .join('');
-    wrap.hidden = false;
-  })();
+    $$('button', chipHost).forEach((btn) => {
+      btn.addEventListener('click', () => {
+        S.kind = btn.dataset.kind;
+        S.discoOpen = false; // a new filter starts collapsed
+        renderDiscography();
+      });
+    });
+  }
+
+  const matching = releases.filter((r) => S.kind === 'All' || r.kind === S.kind);
+  const visible = S.discoOpen ? matching : matching.slice(0, CAPS.disco);
+
+  const host = $('[data-disco]');
+  if (host) {
+    host.innerHTML = visible
+      .map((r) => {
+        const small = r.artSmall || r.art;
+        const alt = small === r.art ? '' : r.art;
+        return `
+        <a class="card" href="${esc(r.url)}" target="_blank" rel="noopener">
+          <div class="card__frame">
+            <img src="${esc(small)}" alt="" loading="lazy"${alt ? ` data-fallback="${esc(alt)}"` : ''}>
+            <span class="card__kind">${esc(r.kind || '')}</span>
+          </div>
+          <h3 class="card__title">${esc(tidy(r.title))}</h3>
+          <p class="card__date">${esc(dotted(r.date))}</p>
+        </a>`;
+      })
+      .join('');
+    armArtFallback(host);
+  }
+
+  renderMore('[data-disco-more]', matching.length > CAPS.disco, S.discoOpen,
+    `Show all ${matching.length} releases`, () => {
+      S.discoOpen = !S.discoOpen;
+      renderDiscography();
+    });
 }
 
-/* ─── videos ─────────────────────────────────────────────────────────── */
+/** The four expand/collapse controls are identical apart from their label. */
+function renderMore(sel, needed, open, openLabel, onClick) {
+  const host = $(sel);
+  if (!host) return;
+  if (!needed) {
+    host.innerHTML = '';
+    return;
+  }
+  host.innerHTML = `
+    <button type="button" class="more__btn">${esc(open ? 'Show less' : openLabel)} ⌄</button>
+    <span class="more__rule" aria-hidden="true"></span>`;
+  $('button', host).addEventListener('click', onClick);
+}
+
+/* ─── press it ───────────────────────────────────────────────────────── */
+
+function renderPressIt() {
+  const p = DATA.pressIt || {};
+
+  const art = p.release?.art;
+  $$('[data-pressit-art]').forEach((img) => setImg(img, art));
+
+  const words = p.words || [];
+  const marquee = $('[data-pressit-words]');
+  if (marquee) {
+    marquee.innerHTML = [...words, ...words].map((w) => `<span>${esc(w)}</span>`).join('');
+  }
+
+  const statement = $('[data-pressit-statement]');
+  if (statement) statement.textContent = p.statement || '';
+
+  const palette = $('[data-pressit-palette]');
+  if (palette) {
+    palette.innerHTML = (p.palette || [])
+      .map(
+        (c) => `
+      <div class="swatch">
+        <i style="background:${esc(c.hex)}"></i>${esc(c.name)}<br>${esc(c.hex)}
+      </div>`
+      )
+      .join('');
+  }
+
+  const tracks = $('[data-pressit-tracks]');
+  if (tracks) {
+    tracks.innerHTML = (p.tracks || [])
+      .map(
+        (t) => `
+      <li>
+        <span class="tracks__n">${esc(String(t.n).padStart(2, '0'))}</span>
+        <span class="tracks__title">${esc(t.title)}${
+          t.kr ? `<small class="tracks__kr">${esc(t.kr)}</small>` : ''
+        }</span>
+        <span class="tracks__note">${esc(t.lead ? 'Title' : t.note || '')}</span>
+      </li>`
+      )
+      .join('');
+  }
+}
+
+/* ─── watch ──────────────────────────────────────────────────────────── */
 
 function renderVideos() {
   const vids = DATA.videos || [];
+  const visible = S.videosOpen ? vids : vids.slice(0, CAPS.videos);
+
   const host = $('[data-videos]');
-  if (!vids.length) return void (host.innerHTML = '<p class="empty">No videos found.</p>');
-
-  host.innerHTML = vids
-    .slice(0, 9)
-    .map(
-      (v) => `
-      <a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener">
-        <div class="vid__thumb">
-          <img src="${esc(v.thumb)}" alt="" width="480" height="270"
-               loading="lazy" decoding="async" data-fallback="${esc(v.id)}">
-          <span class="vid__play" aria-hidden="true">
-            <span><svg viewBox="0 0 24 24" width="18" height="18" fill="#F4F1EA"><path d="M8 5v14l11-7z"/></svg></span>
-          </span>
+  if (host) {
+    host.innerHTML = visible
+      .map(
+        (v) => `
+      <a class="card" href="${esc(v.url)}" target="_blank" rel="noopener">
+        <div class="vid__frame">
+          <img src="${esc(v.thumb)}" alt="" loading="lazy">
+          <span class="vid__play" aria-hidden="true">▶</span>
         </div>
-        <h3 class="vid__title">${esc(v.title)}</h3>
-        <p class="rel__year">${esc(dotted(v.date))}</p>
+        <h3 class="vid__title">${esc(stripArtist(v.title))}</h3>
+        <p class="card__date">${esc(dotted(v.date))}</p>
       </a>`
-    )
-    .join('');
+      )
+      .join('');
+  }
 
-  // Thumbnail fallback is wired here rather than as an inline `onerror`.
-  // An inline handler nests JS inside an HTML attribute, so the browser
-  // entity-decodes before the JS parses: an id containing a quote would come
-  // back out of `&#39;` as a real quote and break out of the string. Escaping
-  // cannot fix a double context — the fix is not to create one.
-  host.addEventListener('error', (e) => {
-    const img = e.target;
-    if (img.tagName !== 'IMG' || !img.dataset.fallback) return;
-    const id = img.dataset.fallback;
-    delete img.dataset.fallback; // one retry only, never a loop
-    if (/^[\w-]{6,20}$/.test(id)) {
-      img.src = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
-    }
-  }, true); // capture: `error` on <img> does not bubble
-
-  collapse(host, 4, 'videos');
+  renderMore('[data-videos-more]', vids.length > CAPS.videos, S.videosOpen,
+    `Show all ${vids.length} videos`, () => {
+      S.videosOpen = !S.videosOpen;
+      renderVideos();
+    });
 }
 
 /* ─── news ───────────────────────────────────────────────────────────── */
 
 function renderNews() {
   const news = DATA.news || [];
-  const host = $('[data-news]');
-  if (!news.length) return void (host.innerHTML = '<li class="empty">No headlines right now.</li>');
+  const visible = S.newsOpen ? news.slice(0, 12) : news.slice(0, CAPS.news);
 
-  host.innerHTML = news
-    .slice(0, 12)
-    .map(
-      (n) => `
+  const host = $('[data-news]');
+  if (host) {
+    host.innerHTML = visible
+      .map(
+        (n) => `
       <li>
         <a href="${esc(n.url)}" target="_blank" rel="noopener">
-          <span class="date">${esc(fmtDate(n.date, { month: 'short', day: '2-digit', year: '2-digit' }))}</span>
-          <span class="head">${esc(n.title)}</span>
-          <span class="outlet">${esc(n.outlet || '')}</span>
+          <span class="news__date">${esc(fmtDate(n.date, { month: 'short', day: '2-digit', year: '2-digit' }))}</span>
+          <span class="news__head">${esc(n.title)}</span>
+          <span class="news__outlet">${esc(n.outlet || '')}</span>
         </a>
       </li>`
-    )
-    .join('');
+      )
+      .join('');
+  }
 
-  collapse(host, 6, 'headlines');
+  renderMore('[data-news-more]', news.length > CAPS.news, S.newsOpen,
+    'Show all 12 headlines', () => {
+      S.newsOpen = !S.newsOpen;
+      renderNews();
+    });
 }
 
 /* ─── timeline ───────────────────────────────────────────────────────── */
 
 function renderTimeline() {
   const items = [...(DATA.timeline || [])].reverse(); // newest first
+  const visible = S.timelineOpen ? items : items.slice(0, CAPS.timeline);
+
   const host = $('[data-timeline]');
-  host.innerHTML = items
-    .map(
-      (t) => `
-      <li class="${t.highlight ? 'hl' : ''}">
-        <span class="yr">${esc(t.year)}</span>
-        <div class="body">
-          <h3>${esc(t.title)}</h3>
-          <p>${esc(t.body)}</p>
-          ${t.tag ? `<span class="tag">${esc(t.tag)}</span>` : ''}
+  if (host) {
+    host.innerHTML = visible
+      .map(
+        (t) => `
+      <li>
+        <span class="timeline__year">${esc(t.year || (t.date || '').slice(0, 4))}</span>
+        <div class="timeline__body">
+          <h3 class="timeline__title">${esc(t.title)}</h3>
+          <p class="timeline__text">${esc(t.body)}</p>
+          ${t.tag ? `<span class="timeline__tag">${esc(t.tag)}</span>` : ''}
         </div>
       </li>`
-    )
-    .join('');
+      )
+      .join('');
+  }
 
-  collapse(host, 6, 'milestones');
+  renderMore('[data-timeline-more]', items.length > CAPS.timeline, S.timelineOpen,
+    `Show all ${items.length} milestones`, () => {
+      S.timelineOpen = !S.timelineOpen;
+      renderTimeline();
+    });
 }
 
 /* ─── facts ──────────────────────────────────────────────────────────── */
@@ -650,37 +640,37 @@ function renderFacts() {
 
   const quote = $('[data-fact]');
   const count = $('[data-fact-count]');
-  let i = Math.floor(Math.random() * facts.length);
-  let timer;
 
   const paint = () => {
-    quote.classList.add('is-out');
-    setTimeout(() => {
-      quote.textContent = facts[i];
-      count.textContent = `${String(i + 1).padStart(2, '0')} / ${String(facts.length).padStart(2, '0')}`;
-      quote.classList.remove('is-out');
-    }, 400);
+    // Modulo at read time, so the counter can run negative without clamping.
+    const i = ((S.fact % facts.length) + facts.length) % facts.length;
+    if (quote) quote.textContent = facts[i];
+    if (count) {
+      count.textContent =
+        String(i + 1).padStart(2, '0') + ' / ' + String(facts.length).padStart(2, '0');
+    }
   };
 
-  const go = (step) => {
-    i = (i + step + facts.length) % facts.length;
+  const step = (by) => {
+    S.fact += by;
     paint();
-    clearInterval(timer);
-    timer = setInterval(() => go(1), 9000);
   };
 
-  $('[data-fact-next]').addEventListener('click', () => go(1));
-  $('[data-fact-prev]').addEventListener('click', () => go(-1));
+  $('[data-fact-prev]')?.addEventListener('click', () => step(-1));
+  $('[data-fact-next]')?.addEventListener('click', () => step(1));
+  paint();
 
-  quote.textContent = facts[i];
-  count.textContent = `${String(i + 1).padStart(2, '0')} / ${String(facts.length).padStart(2, '0')}`;
-  timer = setInterval(() => go(1), 9000);
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    setInterval(() => step(1), 9000);
+  }
 }
 
 /* ─── footer ─────────────────────────────────────────────────────────── */
 
 function renderFooter() {
-  $('[data-links]').innerHTML = (DATA.links || [])
+  const host = $('[data-links]');
+  if (!host) return;
+  host.innerHTML = (DATA.links || [])
     .map(
       (l) =>
         `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`
@@ -688,111 +678,67 @@ function renderFooter() {
     .join('');
 }
 
-/* ─── behaviour ──────────────────────────────────────────────────────── */
+/* ─── scroll reveal ──────────────────────────────────────────────────── */
 
+/**
+ * Fades blocks up as they enter the viewport.
+ *
+ * The opacity:0 is set here rather than in the stylesheet on purpose — if
+ * this file 404s or throws, the page should read as plain static HTML, not
+ * as a stack of permanently invisible sections.
+ */
 function initReveal() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const targets = $$('[data-reveal]');
-  if (!('IntersectionObserver' in window)) {
-    return targets.forEach((t) => t.classList.add('is-in'));
-  }
+  if (!('IntersectionObserver' in window)) return;
+
   const io = new IntersectionObserver(
     (entries) => {
       for (const e of entries) {
-        if (e.isIntersecting) {
-          e.target.classList.add('is-in');
-          io.unobserve(e.target);
-        }
+        if (!e.isIntersecting) continue;
+        e.target.style.animation = 'reveal .9s cubic-bezier(.22,1,.36,1) both';
+        io.unobserve(e.target);
       }
     },
     { rootMargin: '0px 0px -12% 0px', threshold: 0.08 }
   );
-  targets.forEach((t) => io.observe(t));
+
+  targets.forEach((t) => {
+    t.style.opacity = '0';
+    io.observe(t);
+  });
 }
 
-/** Hide the nav on the way down, bring it back on the way up. */
-function initNav() {
-  const nav = $('#nav');
-  let last = window.scrollY;
+/* ─── active nav ─────────────────────────────────────────────────────── */
 
-  addEventListener(
-    'scroll',
-    () => {
-      const y = window.scrollY;
-      nav.classList.toggle('nav--hidden', y > last && y > 400);
-      last = y;
-    },
-    { passive: true }
-  );
+/** Dims every nav link except the section crossing the middle of the screen. */
+function initActiveNav() {
+  if (!('IntersectionObserver' in window)) return;
+  const links = $$('.hdr__nav a');
+  if (!links.length) return;
 
-  // Highlight whichever section is on screen.
-  const links = $$('.nav__links a');
-  const sections = links
-    .map((a) => $(a.getAttribute('href')))
-    .filter(Boolean);
-
-  if (!sections.length || !('IntersectionObserver' in window)) return;
-
-  const spy = new IntersectionObserver(
-    (entries) => {
-      for (const e of entries) {
-        if (!e.isIntersecting) continue;
-        links.forEach((a) =>
-          a.classList.toggle('is-active', a.getAttribute('href') === `#${e.target.id}`)
-        );
-      }
-    },
-    { rootMargin: '-45% 0px -50% 0px' }
-  );
-  sections.forEach((s) => spy.observe(s));
-}
-
-/**
- * Cursor spotlight over the hero: the greyscale layer is him, the red mirrored
- * layer underneath is the other him. Moving the cursor picks which one you see.
- */
-function initSpotlight() {
-  const hero = $('.hero');
-  if (!hero || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if (!matchMedia('(hover: hover)').matches) return;
-
-  let raf = null;
-  let target = { x: 50, y: 50, r: 0 };
-  let current = { x: 50, y: 50, r: 0 };
-
-  const tick = () => {
-    current.x += (target.x - current.x) * 0.12;
-    current.y += (target.y - current.y) * 0.12;
-    current.r += (target.r - current.r) * 0.09;
-    hero.style.setProperty('--spot-x', `${current.x}%`);
-    hero.style.setProperty('--spot-y', `${current.y}%`);
-    hero.style.setProperty('--spot-r', `${current.r}px`);
-    raf =
-      Math.abs(target.r - current.r) > 0.5 ||
-      Math.abs(target.x - current.x) > 0.1 ||
-      Math.abs(target.y - current.y) > 0.1
-        ? requestAnimationFrame(tick)
-        : null;
+  const paint = (id) => {
+    links.forEach((a) => {
+      const on = a.getAttribute('href') === '#' + id;
+      a.style.opacity = on ? '1' : '.5';
+      a.style.textDecoration = on ? 'underline' : 'none';
+    });
   };
 
-  const kick = () => { if (!raf) raf = requestAnimationFrame(tick); };
+  const io = new IntersectionObserver(
+    (entries) => {
+      const vis = entries
+        .filter((e) => e.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (vis) paint(vis.target.id);
+    },
+    { rootMargin: '-45% 0px -45% 0px' }
+  );
 
-  // Cache the box rather than measuring on every pointermove — reading layout
-  // inside a high-frequency handler forces a reflow per event.
-  let box = hero.getBoundingClientRect();
-  const remeasure = () => { box = hero.getBoundingClientRect(); };
-  addEventListener('resize', remeasure, { passive: true });
-  addEventListener('scroll', remeasure, { passive: true });
-
-  hero.addEventListener('pointermove', (e) => {
-    target = {
-      x: ((e.clientX - box.left) / box.width) * 100,
-      y: ((e.clientY - box.top) / box.height) * 100,
-      r: Math.min(box.width, box.height) * 0.34,
-    };
-    kick();
-  }, { passive: true });
-
-  hero.addEventListener('pointerleave', () => { target.r = 0; kick(); });
+  links.forEach((a) => {
+    const el = document.querySelector(a.getAttribute('href'));
+    if (el) io.observe(el);
+  });
 }
 
 boot();

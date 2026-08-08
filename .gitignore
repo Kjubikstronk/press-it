@@ -14,3 +14,7 @@ Thumbs.db
 # the real files; committing it would publish ~200kB of dead prototype to the
 # live site. Delete the folder once you're done comparing against it.
 design_handoff_press_it_redesign/
+
+# NCT 127 design bundle — belongs to the sibling nct-127 project, not this one.
+# Left here it would be committed and published to taemin.online.
+design_handoff_nct127/

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T13:46:15.572Z",
+  "generated": "2026-08-10T19:18:32.476Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -609,6 +609,20 @@
   ],
   "videos": [
     {
+      "id": "5bs59vQwH-A",
+      "title": "TAEMIN (태민) - 'This Is The End' Official Video Highlight",
+      "date": "2026-08-10",
+      "url": "https://www.youtube.com/watch?v=5bs59vQwH-A",
+      "thumb": "https://i2.ytimg.com/vi/5bs59vQwH-A/hqdefault.jpg"
+    },
+    {
+      "id": "3Pbrd5piZNM",
+      "title": "TAEMIN (태민) - 'This Is The End' Official Video",
+      "date": "2026-08-10",
+      "url": "https://www.youtube.com/watch?v=3Pbrd5piZNM",
+      "thumb": "https://i4.ytimg.com/vi/3Pbrd5piZNM/hqdefault.jpg"
+    },
+    {
       "id": "jhgW_MqtbgQ",
       "title": "TAEMIN (태민) - POV: WATERBOMB💙",
       "date": "2026-07-25",
@@ -698,20 +712,6 @@
       "date": "2026-01-09",
       "url": "https://www.youtube.com/watch?v=Zaajo_IaTCA",
       "thumb": "https://i3.ytimg.com/vi/Zaajo_IaTCA/hqdefault.jpg"
-    },
-    {
-      "id": "Zk15_xrDFLs",
-      "title": "𝑀𝑒𝑟𝑟𝑦 𝐶ℎ𝑟𝑖𝑠𝑡𝑚𝑎𝑠 𝑇𝐴𝐸𝑀𝑎𝑡𝑒🎄",
-      "date": "2025-12-25",
-      "url": "https://www.youtube.com/watch?v=Zk15_xrDFLs",
-      "thumb": "https://i3.ytimg.com/vi/Zk15_xrDFLs/hqdefault.jpg"
-    },
-    {
-      "id": "jigcIaQnPVo",
-      "title": "태민 (TAEMIN) - 'mernel' Shoot Behind The Scenes Highlight",
-      "date": "2025-11-28",
-      "url": "https://www.youtube.com/watch?v=jigcIaQnPVo",
-      "thumb": "https://i3.ytimg.com/vi/jigcIaQnPVo/hqdefault.jpg"
     }
   ],
   "news": [
@@ -720,12 +720,6 @@
       "outlet": "Cubed3",
       "date": "2026-08-05",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObU9PNmhNMGZWc25GOEZuYVJJUE1mbE1QejBXWk1hZHF2RV9nZnNmSkR6WWJnVWlKczBpMDF0cGhURXlwdGY5WmcxSUs3aGhpalBqV2hPLVRNaGgtYkdTSUZXNndfQUlscXpHczJaSnlsZlJUY0JrSFgyVkJZZFZRbU1RMko1Q1J4czA3NnFTRWhPR0VWRXduSTlOTHFpaTJt?oc=5"
-    },
-    {
-      "title": "10 K-pop comebacks to watch in August 2026, from Red Velvet to Stray Kids",
-      "outlet": "Hashtag Legend Hong Kong",
-      "date": "2026-08-04",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CRUpIbm1pclItVVQ0TVFQaHRJSjJocGVwLUo1dUpTcjJuYVFKOFRwdGI4VE9QdUVPVjMyaDV3aHExQ3plMnktWlVGZHZQWEpJYlhBUllXU3FnUnhWeldUREFvb3ZaR0F6Z3ZnMk9aZ0Q1bUpjcWZjaDVTU1A?oc=5"
     },
     {
       "title": "TAEMIN Launches ‘LiMiNaL’ World Tour 2026-2027",
@@ -753,7 +747,7 @@
     },
     {
       "title": "Taemin says he's still learning after years of success | AP interview",
-      "outlet": "Shoreline Media Group",
+      "outlet": "shorelinemedia.net",
       "date": "2026-06-10",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOS0JuSml2aTNuejkzMWd2TEpMUF9QZGNabnhYOW1oWXV3eDJSd2sxeHdNZ194ZFV4NVpNUzN6eHF6cjMteVdpdUk2YW5xN0dFc0NRazdLTlNrdEZIYzVkd3VCRjJ6OWc4RDhGYkppRVY1MmhFZzF1WDBkQ1NmMHVNN0dPR1dGSHNoTGhLSXFNQWU0bGVNclRyRDUtM0tBSE1RclV0VnBSVXJOOGRlc2VaTzlhLWpBbFFrMGxfRE1vY3IyX24yOFd5SW9peXUtYmZydnZndHd1NFczMHlVcFdsMmNoUnBqMWRzOC1sSXNMNkE3UHBkRHAtOXRfblZqUi1iNER3?oc=5"
     },
@@ -765,7 +759,7 @@
     },
     {
       "title": "Summer is getting colorful: Taemin, Yongguk, and 8TURN bring K-Pop to Europe!",
-      "outlet": "nolae.eu",
+      "outlet": "Nolae",
       "date": "2026-06-04",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN01zTGMyQmtKMGFUWkpZcGxTeExWeTc2VDVWZkhxTVk1OEJxOVp3V0x6aDVsT0hUN0c2MHFDQ2xHN0dSQ3dyWG1iZl9MV09mR3pLcmotejhQMzF0Q2JtR0g5ZTE5LTVieTdEd1RhVVFaNWFQbk5IVVc4b0FxZ2ItaU85dnVpMklTSU1kbklLM0U0ZlNuMHc?oc=5"
     },
@@ -855,9 +849,15 @@
     },
     {
       "title": "TAEMIN Is Ready For The Next ‘First’ After COACHELLA",
-      "outlet": "forbes.com",
+      "outlet": "Forbes",
       "date": "2026-04-16",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUnBmeVdmZXlPU2N4N2N2bzdod0M0VWFEVkZJYlJlVjhJR0xnWGpsRE5JMFhFanpiMkFJVVdjd2xKczJRTEZYRU1vdnd1QjJsNUluTXRQU3RQYVlQTHd6eWFnSzdnS0dxNmJEektMUlh3ZDJsaUI2XzIzTzNmUlRQdW8zalVnQUFOZDdMbDhkUWhBZkZ6WlFUYm94SXQzZExCeTRmeWNmZw?oc=5"
+    },
+    {
+      "title": "Taemin Is Ready to Make an Even Bigger Impact During Coachella Weekend Two",
+      "outlet": "WWD",
+      "date": "2026-04-16",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SeUY0M0ZfSTYtc2dGN1lvb0h2Y2J5d3FTNnEwRVNKNy1GZ3FqQ0pwMWdoTExsdnp4V1BLSkI3cTZvU1BXTHJIT01UQ1NTeEtRRGMteHVhM1JPMjBNd0pQV1VVQUM4UQ?oc=5"
     }
   ],
   "bio": {
@@ -915,7 +915,7 @@
     },
     {
       "title": "Taemin Reveals Poster for World Tour Seoul Concert... Kicks Off in Jamsil in September",
-      "outlet": "mk.co.kr",
+      "outlet": "매일경제",
       "date": "2026-08-04",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYW1tVTFxY0VUQzBqZGo4RHAxZV90N1FKa1BmOWVNamJZSWZNZ2lDcV9tcFNZVmdNa3Z2M2tmam12ZDhSV0tyYVV4cDYxQkpx?oc=5"
     },
@@ -939,7 +939,7 @@
     },
     {
       "title": "Taemin to make a comeback on Aug. 31, launch new world tour, and \"expand his artistic boundaries\"",
-      "outlet": "mk.co.kr",
+      "outlet": "매일경제",
       "date": "2026-07-24",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80NHpORnZ6OG1sNFhMVkRlbERseERsdFQySFJLYVM4N2NUaEVDS3Ixc1BETUZybkhvVzdvN3ZqclkwbVlaeUliT05jOTBYVnp3?oc=5"
     }

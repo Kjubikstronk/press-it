@@ -662,6 +662,16 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
   text-transform: uppercase;
   color: var(--grey);
 }
+/* Date and venue. Given its own full-width line rather than squeezed onto
+   the city row: the venue names run long ("myticket JAHRHUNDERTHALLE
+   FRANKFURT") and would push the status pill off the row on a phone. */
+.liminal__meta {
+  flex: 1 0 100%;
+  order: 2;
+  font: 400 .62rem var(--mono);
+  letter-spacing: .1em;
+  color: var(--ash);
+}
 .liminal__city-status {
   margin-left: auto;
   font: 400 .58rem var(--mono);
@@ -670,6 +680,16 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
   color: var(--grey);
   white-space: nowrap;
 }
+/* The one stop you can actually buy for. --signal is the site's only strong
+   colour and is otherwise reserved for Press It, which is the point: on a
+   list where sixteen rows say "coming soon", the buyable one should be the
+   thing the eye lands on. */
+a.liminal__city-status--live {
+  color: var(--signal);
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+}
+a.liminal__city-status--live:hover { color: var(--bone); }
 
 /* ─── shared section furniture ───────────────────────────────────────── */
 
@@ -808,6 +828,29 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
   color: var(--grey);
   margin-right: .35rem;
 }
+/* Pointer up to the LiMiNaL band, in place of relisting its stops. */
+.tour__run {
+  margin: 1.8rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--hair-soft);
+  max-width: 68ch;
+  color: var(--ash);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+.tour__run strong { color: var(--bone); font-weight: 500; }
+.tour__run a { color: var(--bone); text-underline-offset: 3px; }
+.tour__run a:hover { color: var(--signal); }
+
+/* Ticketing reality, including the parts that do not exist yet. */
+.tour__tickets {
+  margin: 1.6rem 0 .9rem;
+  max-width: 68ch;
+  color: var(--ash);
+  font-size: .92rem;
+  line-height: 1.7;
+}
+.tour__tickets .chip { margin-left: .5rem; vertical-align: baseline; }
 .tour__none { color: var(--ash); }
 .tour__none-lead { font-family: var(--display); font-size: clamp(1.2rem, 3vw, 1.8rem); margin: 0 0 .5rem; color: var(--bone); }
 .tour__none-sub { max-width: 52ch; margin: 0; font-size: .92rem; }

@@ -5,7 +5,16 @@
   "siteUrl": "https://taemin.online",
 
 
-  "_tourNote": "There is no free tour-dates API that works without a key, so this list is hand-kept. Add shows as they're announced — anything with a past date hides itself, so old entries are safe to leave. When the list is empty the section shows the alert links instead, which is the honest answer to 'where can I see him' when nothing is scheduled.",
+  "_tourNote": "Only one-off bookings are hand-kept here — festivals and guest slots, which appear on no single site. Every LiMiNaL stop with a date is merged in automatically by build.js from taemintour.com, so do NOT copy tour stops into this list: a curated entry wins on a date+city clash and would freeze a row that otherwise updates itself. Anything with a past date hides itself, so old entries are safe to leave. When the list is empty the section shows the alert links instead, which is the honest answer to 'where can I see him' when nothing is scheduled.",
+
+  "_ticketNote": "Checked 2026-08-12. No VIP or package tiers exist for LiMiNaL yet — not on taemintour.com, and not on any promoter page. Soundcheck and package tiers are normal for K-pop runs in North America and Europe, so they will very likely appear when those legs go on sale, but nothing has been announced and this site does not guess. Beware what search turns up: several sites with tour-shaped names rank well, sell nothing official, and describe generic VIP tiers borrowed from other artists' tours. Seoul is the only stop on sale and it sells through Yes24, linked directly on its row. When a real package page exists, add it to ticketing.links below.",
+  "ticketing": {
+    "status": "Seoul is on sale through Yes24. Every other stop still reads Coming Soon, and no VIP or package tiers have been announced anywhere.",
+    "links": [
+      { "label": "Official tour site", "url": "https://taemintour.com/" }
+    ]
+  },
+
   "tour": {
     "_example": {
       "date": "2026-11-14",
@@ -40,7 +49,7 @@
     ]
   },
 
-  "_worldTourNote": "The LiMiNaL run is kept separate from tour.dates on purpose. tour.dates needs a real date on every entry and hides anything in the past, and as of 2026-07-31 only cities have been announced — every stop on taemintour.com reads 'Coming Soon' with no date or venue. Putting invented dates in tour.dates to make them show up would be worse than showing nothing. When a city gets a real date, move it into tour.dates in the normal shape, or set a status on the leg city so the section stops calling it pending. Do not attribute the announcement to a label without checking who represents him: he left SM in March 2024, left Big Planet Made in February 2026, and signed with Galaxy Corporation in March 2026. Source: https://taemintour.com/",
+  "_worldTourNote": "Only the run's identity is kept here. The routing — every city, date, venue, status and ticket link — is read off taemintour.com by tourStops() in build.js on each run, grouped into legs by country, and the dated stops are merged into tour.dates so the Live section carries them too. There is deliberately NO 'legs' or 'status' key below: this file held a hand-written twelve-city list with no dates for weeks after the site itself had grown to seventeen cities with venues and a Seoul on-sale, which is exactly the staleness the scrape removes. If the fetch fails the build falls back to the previous run's routing in data/site.json, so a bad day at taemintour.com costs nothing. Do not attribute the announcement to a label without checking who represents him: he left SM in March 2024, left Big Planet Made in February 2026, and signed with Galaxy Corporation in March 2026. Source: https://taemintour.com/",
 
   "worldTour": {
     "label": "Taemin World Tour",
@@ -48,38 +57,8 @@
     "run": "2026 – 27",
     "url": "https://taemintour.com/",
     "announced": "2026-07-24",
-    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
-    "status": "Twelve cities are confirmed. No dates or venues yet.",
-    "more": "and more to come",
-    "legs": [
-      {
-        "name": "Asia",
-        "cities": [
-          { "city": "Seoul", "country": "Korea" }
-        ]
-      },
-      {
-        "name": "North America",
-        "cities": [
-          { "city": "San Jose", "country": "U.S.A." },
-          { "city": "Los Angeles", "country": "U.S.A." },
-          { "city": "Las Vegas", "country": "U.S.A." },
-          { "city": "Grand Prairie", "country": "U.S.A." },
-          { "city": "Chicago", "country": "U.S.A." },
-          { "city": "Newark", "country": "U.S.A." }
-        ]
-      },
-      {
-        "name": "Latin America",
-        "cities": [
-          { "city": "Monterrey", "country": "Mexico" },
-          { "city": "Mexico City", "country": "Mexico" },
-          { "city": "Santiago", "country": "Chile" },
-          { "city": "Lima", "country": "Peru" },
-          { "city": "São Paulo", "country": "Brazil" }
-        ]
-      }
-    ]
+    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. Re-checked 2026-08-12: several outlets now assert the limen reading, but they trace to each other rather than to anything he or the tour has said, so it stays out. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
+    "more": "and more to come"
   },
 
   "timeline": [

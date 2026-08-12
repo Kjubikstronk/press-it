@@ -274,6 +274,7 @@ function renderWorldTour() {
 
   const cities = legs.flatMap((l) => l.cities);
   const countries = new Set(cities.map((c) => c.country).filter(Boolean));
+  const dated = cities.filter((c) => c.date).length;
 
   const label = $('[data-wt-label]', host);
   if (label) label.textContent = [wt.label, wt.run].filter(Boolean).join(' · ');
@@ -304,8 +305,8 @@ function renderWorldTour() {
         <div class="liminal__stat-value">${countries.size}</div>
         <div class="liminal__stat-label">countries</div>
       </div>
-      <div class="liminal__stat liminal__stat--open">
-        <div class="liminal__stat-value">—</div>
+      <div class="liminal__stat${dated ? '' : ' liminal__stat--open'}">
+        <div class="liminal__stat-value">${dated || '—'}</div>
         <div class="liminal__stat-label">dates announced</div>
       </div>`;
   }
@@ -328,12 +329,39 @@ function renderWorldTour() {
           ${leg.cities
             .map((c) => {
               n += 1;
+
+              /* A run of nights inside one month collapses to "18–20 Sep
+                 2026" — how the tour site writes it and how anyone reads it
+                 out loud. Spanning a month boundary it falls back to two
+                 full dates rather than inventing a shorthand for a case
+                 that has not come up yet. */
+              const a = c.date ? new Date(c.date + 'T00:00:00') : null;
+              const b = c.end ? new Date(c.end + 'T00:00:00') : null;
+              const sameMonth =
+                a && b && a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear();
+              const when = sameMonth
+                ? `${a.getDate()}–${b.getDate()} ${fmtDate(c.end, { month: 'short', year: 'numeric' })}`
+                : b
+                  ? `${fmtDate(c.date)} – ${fmtDate(c.end)}`
+                  : fmtDate(c.date);
+              const meta = [when, c.venue].filter(Boolean).join(' · ');
+
+              /* On-sale rows carry the real ticket link; everything else is
+                 plain text, so the status never looks clickable when there
+                 is nothing behind it. */
+              const label = esc(c.status || 'Coming soon');
+              const stat = c.url
+                ? `<a class="liminal__city-status liminal__city-status--live"
+                      href="${esc(c.url)}" target="_blank" rel="noopener">${label} ↗</a>`
+                : `<span class="liminal__city-status">${label}</span>`;
+
               return `
             <li class="liminal__city">
               <span class="liminal__idx">${String(n).padStart(2, '0')}</span>
               <span class="liminal__city-name">${esc(c.city || '')}</span>
               <span class="liminal__country">${esc(c.country || '')}</span>
-              <span class="liminal__city-status">${esc(c.status || 'Coming soon')}</span>
+              ${meta ? `<span class="liminal__meta">${esc(meta)}</span>` : ''}
+              ${stat}
             </li>`;
             })
             .join('')}
@@ -365,7 +393,45 @@ function renderTour() {
     )
     .join('');
 
+  /* Where tickets actually come from, and — just as usefully — what does not
+     exist yet. "No VIP packages announced" is a real answer to a question
+     people are actively searching, and it beats silence, which reads as
+     though the page simply failed to mention them. */
+  const tk = DATA.ticketing;
+  const official = (tk?.links || [])
+    .map(
+      (l) =>
+        `<a class="chip chip--link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`
+    )
+    .join('');
+
+  const ticketRow = tk?.status
+    ? `<p class="tour__tickets">${esc(tk.status)}${official ? ` ${official}` : ''}</p>`
+    : '';
+
+  /* The rest of the run, as one line rather than a second copy of the list.
+     This section used to repeat every dated LiMiNaL stop, which said the
+     same thing twice on one page; the stops live upstairs, and each one
+     arrives here on its own the day it goes on sale. */
+  const ann = tour.announced;
+  const monthOf = (d) => fmtDate(d, { month: 'long' });
+  const span =
+    ann && monthOf(ann.from) !== monthOf(ann.to)
+      ? ` from ${monthOf(ann.from)} to ${monthOf(ann.to)}`
+      : ann
+        ? ` in ${monthOf(ann.from)}`
+        : '';
+  const runRow = ann
+    ? `<p class="tour__run">
+         <strong>${ann.count}</strong> more LiMiNaL ${ann.count === 1 ? 'date' : 'dates'}
+         ${ann.count === 1 ? 'is' : 'are'} announced${span}, with tickets not on sale yet —
+         <a href="#tour">see the full run</a>.
+       </p>`
+    : '';
+
   const alertRow = `
+    ${runRow}
+    ${ticketRow}
     <div class="tour__alerts">
       <span class="tour__alerts-label">Get told about new dates</span>${alerts}
     </div>`;

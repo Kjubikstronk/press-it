@@ -24,7 +24,31 @@ const SOURCES = {
   youtubeChannel: 'UCa2YkG6KvkGXJd5UmvZbXGw',
   musicbrainzArtist: '48652da5-f54c-4f65-9c11-0fc05df18075',
   wikipediaPage: 'Taemin',
+  tourSite: 'https://taemintour.com/',
 };
+
+/* Which leg a stop belongs to. The tour site groups stops under filter
+   buttons, but the buttons are client-side and the rows carry no leg of
+   their own, so the grouping has to be rebuilt from the country. Anything
+   unrecognised lands in "More" and is named in the build log rather than
+   being dropped — a new continent should be visible, not silently missing. */
+const LEG_BY_COUNTRY = {
+  'Korea': 'Asia', 'South Korea': 'Asia', 'Japan': 'Asia', 'Taiwan': 'Asia',
+  'Hong Kong': 'Asia', 'Singapore': 'Asia', 'Thailand': 'Asia',
+  'Philippines': 'Asia', 'Indonesia': 'Asia', 'Malaysia': 'Asia', 'Macau': 'Asia',
+  'U.S.A': 'North America', 'U.S.A.': 'North America', 'USA': 'North America',
+  'US': 'North America', 'Canada': 'North America',
+  'Mexico': 'Latin America', 'Chile': 'Latin America', 'Peru': 'Latin America',
+  'Brazil': 'Latin America', 'Argentina': 'Latin America',
+  'Colombia': 'Latin America',
+  'France': 'Europe', 'Germany': 'Europe', 'UK': 'Europe',
+  'United Kingdom': 'Europe', 'Netherlands': 'Europe', 'Spain': 'Europe',
+  'Italy': 'Europe', 'Poland': 'Europe', 'Sweden': 'Europe',
+  'Belgium': 'Europe', 'Portugal': 'Europe', 'Switzerland': 'Europe',
+  'Australia': 'Oceania', 'New Zealand': 'Oceania',
+};
+
+const LEG_ORDER = ['Asia', 'North America', 'Latin America', 'Europe', 'Oceania', 'More'];
 
 const UA = 'PressIt-Fanpage/1.0 (+https://github.com/) static-site-builder';
 
@@ -280,6 +304,164 @@ async function tourNews() {
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1))
     .slice(0, 6);
+}
+
+/**
+ * The LiMiNaL run, read off the official tour site.
+ *
+ * This is the only scraped source here — everything else is a feed or an
+ * API. It earns the exception because it is the *only* public place the
+ * routing exists: no tour API is open (see tourNews above), the news feed
+ * reports announcements days late and never carries venues, and the run was
+ * being kept by hand, which is exactly how it went stale. Twelve cities with
+ * no dates were listed here while the site itself had grown to seventeen
+ * with venues and a Seoul on-sale.
+ *
+ * Scraping markup is brittle by nature, so this is written to fail safely:
+ * it anchors on the row container and pulls each field by its own class, so
+ * a field moving or vanishing costs that field rather than the row. If the
+ * parse yields implausibly few stops the caller keeps whatever it already
+ * had — a layout change must never empty the section.
+ */
+async function tourStops() {
+  const html = await grab(SOURCES.tourSite, { as: 'text' });
+
+  const text = (s = '') =>
+    clean(s.replace(/<!--[\s\S]*?-->/g, '')).replace(/\s+/g, ' ').trim();
+  const pick = (chunk, re) => {
+    const m = chunk.match(re);
+    return m ? text(m[1]) : null;
+  };
+
+  const rows = html
+    .split(/<div class="flex items-center justify-between gap-4 border-b/)
+    .slice(1)
+    .map((chunk) => {
+      const end = chunk.indexOf('</div></div>');
+      const c = end > -1 ? chunk.slice(0, end) : chunk;
+
+      const where = pick(c, /<span class="text-xl font-semibold[^"]*">([\s\S]*?)<\/span>/);
+      if (!where) return null;
+
+      // "Seoul, Korea" — the site writes city and country in one span.
+      const split = where.lastIndexOf(',');
+      const city = split > -1 ? where.slice(0, split).trim() : where;
+      const country = split > -1 ? where.slice(split + 1).trim() : '';
+
+      const link = c.match(/<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
+      const pill = pick(c, /<span class="shrink-0[^"]*">([\s\S]*?)<\/span>/);
+
+      return {
+        ...stopDate(pick(c, /<span class="text-sm font-medium[^"]*">([\s\S]*?)<\/span>/)),
+        city,
+        country,
+        venue: pick(c, /<span class="text-sm text-white\/55[^"]*">([\s\S]*?)<\/span>/),
+        status: link ? text(link[2]) : pill,
+        url: link ? link[1] : null,
+      };
+    })
+    .filter(Boolean);
+
+  // Twelve cities were announced on day one, so anything near that count is
+  // a real read and anything far below it is a broken selector.
+  if (rows.length < 5) throw new Error(`only ${rows.length} stops parsed`);
+  return rows;
+}
+
+/** "2026.09.18-20" -> three nights from the 18th. "2026.11.02" -> one date. */
+function stopDate(raw) {
+  if (!raw) return {};
+  const m = raw.match(/(\d{4})\.(\d{1,2})\.(\d{1,2})(?:\s*[-–—]\s*(\d{1,2}))?/);
+  if (!m) return {};
+  const [, y, mo, d, d2] = m;
+  const pad = (n) => String(n).padStart(2, '0');
+  const date = `${y}-${pad(mo)}-${pad(d)}`;
+  if (!d2 || Number(d2) <= Number(d)) return { date };
+  return { date, end: `${y}-${pad(mo)}-${pad(d2)}`, nights: Number(d2) - Number(d) + 1 };
+}
+
+/** Group flat stops into legs, and describe the run in one honest sentence. */
+function buildWorldTour(curatedWt, stops) {
+  const unknown = new Set();
+  const byLeg = new Map();
+
+  for (const s of stops) {
+    const leg = LEG_BY_COUNTRY[s.country] || 'More';
+    if (leg === 'More') unknown.add(s.country || '(no country)');
+    if (!byLeg.has(leg)) byLeg.set(leg, []);
+    byLeg.get(leg).push(s);
+  }
+  if (unknown.size) {
+    log.warn(`unmapped tour countries: ${[...unknown].join(', ')} — filed under "More"`);
+  }
+
+  const legs = LEG_ORDER.filter((n) => byLeg.has(n)).map((name) => ({
+    name,
+    cities: byLeg.get(name),
+  }));
+
+  const dated = stops.filter((s) => s.date).length;
+  const onSale = stops.filter((s) => /on sale/i.test(s.status || '')).length;
+  const countries = new Set(stops.map((s) => s.country).filter(Boolean)).size;
+
+  const status = dated
+    ? `${stops.length} cities across ${countries} countries. ` +
+      `${dated} ${dated === 1 ? 'has a date and a venue' : 'have dates and venues'}` +
+      (onSale ? `, and ${onSale === 1 ? 'one is' : `${onSale} are`} on sale.` : '.')
+    : `${stops.length} cities are confirmed. No dates or venues yet.`;
+
+  return { ...curatedWt, legs, status, stats: { cities: stops.length, countries, dated, onSale } };
+}
+
+/**
+ * Feed the Live section from the run — but only the part you can act on.
+ *
+ * The first cut of this merged every dated stop, which listed the same
+ * twelve rows in both sections and made the page read as though it were
+ * padding. The two now answer genuinely different questions:
+ *
+ *   LiMiNaL  — the whole run: every city, dates and venues as confirmed.
+ *   Live     — what you can buy a ticket for today.
+ *
+ * So only on-sale stops cross over, alongside the curated one-off bookings.
+ * Nothing needs maintaining as legs go on sale: a stop moves into Live by
+ * itself the moment taemintour.com stops saying "Coming Soon". The ones
+ * still waiting are counted, not listed, so Live can point at the run
+ * without repeating it.
+ */
+function mergeTourDates(curatedTour, stops) {
+  const dated = stops.filter((s) => s.date);
+  const onSale = dated.filter((s) => /on sale/i.test(s.status || ''));
+  const waiting = dated.filter((s) => !/on sale/i.test(s.status || ''));
+
+  const out = [...(curatedTour?.dates ?? [])];
+  const seen = new Set(out.map((d) => `${d.date}|${(d.city || '').toLowerCase()}`));
+
+  for (const s of onSale) {
+    const key = `${s.date}|${s.city.toLowerCase()}`;
+    if (seen.has(key)) continue; // a hand-checked entry wins
+    seen.add(key);
+    out.push({
+      date: s.date,
+      city: s.city,
+      country: s.country,
+      venue: s.venue || null,
+      note: ['LiMiNaL world tour', s.nights ? `${s.nights} nights` : null]
+        .filter(Boolean)
+        .join(' · '),
+      url: s.url || null,
+    });
+  }
+
+  const sorted = waiting.map((s) => s.date).sort();
+
+  return {
+    ...curatedTour,
+    dates: out.sort((a, b) => (a.date > b.date ? 1 : -1)),
+    announced: sorted.length
+      ? { count: sorted.length, from: sorted[0], to: sorted[sorted.length - 1] }
+      : null,
+  };
 }
 
 async function bio() {
@@ -569,7 +751,7 @@ async function main() {
   const curated = await readJson(path.join(ROOT, 'content', 'curated.json'));
 
   log.step('Fetching sources');
-  const [apple, deezer, songs, vids, press, shows, wiki] = await Promise.all([
+  const [apple, deezer, songs, vids, press, shows, wiki, stops] = await Promise.all([
     source('Apple Music  discography', itunesReleases, []),
     source('Deezer       discography', deezerReleases, []),
     source('Apple Music  top songs', topSongs, prev.songs ?? []),
@@ -577,6 +759,14 @@ async function main() {
     source('Google News  headlines', news, prev.news ?? []),
     source('Google News  show announcements', tourNews, prev.tourNews ?? []),
     source('Wikipedia    bio', bio, prev.bio ?? null),
+    /* The previous run's cities *are* the previous stops, so a failed fetch
+       falls back to the last good routing rather than to the hand-written
+       list, which is older than both. */
+    source(
+      'Tour site    LiMiNaL routing',
+      tourStops,
+      prev.worldTour?.legs?.flatMap((l) => l.cities || []) ?? null
+    ),
   ]);
 
   log.step('Merging');
@@ -618,9 +808,12 @@ async function main() {
     videos: vids,
     news: press,
     bio: wiki ?? prev.bio ?? null,
-    tour: curated.tour ?? null,
+    tour: stops?.length ? mergeTourDates(curated.tour, stops) : (curated.tour ?? null),
+    ticketing: curated.ticketing ?? null,
     tourNews: shows,
-    worldTour: curated.worldTour ?? null,
+    worldTour: stops?.length
+      ? buildWorldTour(curated.worldTour ?? {}, stops)
+      : (prev.worldTour ?? curated.worldTour ?? null),
     timeline: curated.timeline,
     facts: curated.facts,
     pressIt: { ...curated.pressIt, release: pressItRelease },

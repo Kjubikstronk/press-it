@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T07:54:08.927Z",
+  "generated": "2026-08-12T09:16:05.666Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -716,6 +716,12 @@
   ],
   "news": [
     {
+      "title": "K-pop idols are finding their own voices via solo careers",
+      "outlet": "The Korea Herald",
+      "date": "2026-08-12",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Nckk2azFoZG8xeWJ1SkxoOVdodFU1d2FGNTFYcjNzQnQtNVd0azZ4NUk5N3VTSmlDVW9UZTVLUFlQMS03ZlM4S3VLeEp1ZzMzWGtEcEczcw?oc=5"
+    },
+    {
       "title": "TAEMIN To Bring LiMiNaL World Tour To London's OVO Arena Wembley In November",
       "outlet": "Stereoboard.com",
       "date": "2026-08-11",
@@ -852,12 +858,6 @@
       "outlet": "Manila Bulletin",
       "date": "2026-04-22",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY29uYzF4bHRaSGFBbG9GVnd6dDhNU2lvZTJYN040VGp5bnZvaTkweTBtTE5WWjM4eC1hQ0UxQnhoc2x5elV0TE44ejMzcGJpR1pjTno0c09yWGRLTXktZ05aVDlIQ0REclVFSXBJckRCN1VkdzdwU1dLQXlrUTA3MA?oc=5"
-    },
-    {
-      "title": "TAEMIN Conquers Coachella: New Pop Star Emerges",
-      "outlet": "mamasgeeky.com",
-      "date": "2026-04-22",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN05nUHhJS0dYMUVjUkFMY2RRc1hUdXk0NkF6cDF0ZmVqV0o1RHdJRzI4aUdQNU1qLU0xZ0xwZVNUY2g1OENubzJKSUZVTE11bmpZY1hjbXpkY2VJTW1ZOXJWM3lvVERORjAzSHA1UGlOR2VDQzBPcEZNTlV5bmFFYjMtOTVOMmNvQ0E?oc=5"
     }
   ],
   "bio": {
@@ -903,6 +903,28 @@
         "venue": "TAURON Park Śląski",
         "note": "Sound in Colors K-POP EXPOSÉ, day 2",
         "url": "https://soundincolors.com/"
+      },
+      {
+        "date": "2026-09-18",
+        "city": "Seoul",
+        "country": "Korea",
+        "venue": "JAMSIL INDOOR STADIUM",
+        "note": "LiMiNaL world tour · 3 nights",
+        "url": "https://ticket.yes24.com/Special/59646"
+      }
+    ],
+    "announced": {
+      "count": 10,
+      "from": "2026-10-28",
+      "to": "2026-11-24"
+    }
+  },
+  "ticketing": {
+    "status": "Seoul is on sale through Yes24. Every other stop still reads Coming Soon, and no VIP or package tiers have been announced anywhere.",
+    "links": [
+      {
+        "label": "Official tour site",
+        "url": "https://taemintour.com/"
       }
     ]
   },
@@ -950,16 +972,21 @@
     "run": "2026 – 27",
     "url": "https://taemintour.com/",
     "announced": "2026-07-24",
-    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
-    "status": "Twelve cities are confirmed. No dates or venues yet.",
+    "_meaningNote": "There is deliberately no 'meaning' field. taemintour.com does not say what the title refers to, and the explanations floating around in coverage are other people's readings rather than anything stated. 'Liminal' could be the Latin limen, could be the liminal-space idea, could be neither. Re-checked 2026-08-12: several outlets now assert the limen reading, but they trace to each other rather than to anything he or the tour has said, so it stays out. renderWorldTour() only prints this if a meaning key exists, so leave it out unless there is a direct statement to point at.",
     "more": "and more to come",
     "legs": [
       {
         "name": "Asia",
         "cities": [
           {
+            "date": "2026-09-18",
+            "end": "2026-09-20",
+            "nights": 3,
             "city": "Seoul",
-            "country": "Korea"
+            "country": "Korea",
+            "venue": "JAMSIL INDOOR STADIUM",
+            "status": "On Sale",
+            "url": "https://ticket.yes24.com/Special/59646"
           }
         ]
       },
@@ -968,27 +995,45 @@
         "cities": [
           {
             "city": "San Jose",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           },
           {
             "city": "Los Angeles",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           },
           {
             "city": "Las Vegas",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           },
           {
             "city": "Grand Prairie",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           },
           {
             "city": "Chicago",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           },
           {
             "city": "Newark",
-            "country": "U.S.A."
+            "country": "U.S.A",
+            "venue": null,
+            "status": "Coming Soon",
+            "url": null
           }
         ]
       },
@@ -996,28 +1041,100 @@
         "name": "Latin America",
         "cities": [
           {
+            "date": "2026-10-28",
             "city": "Monterrey",
-            "country": "Mexico"
+            "country": "Mexico",
+            "venue": "Arena Monterrey",
+            "status": "Coming Soon",
+            "url": null
           },
           {
+            "date": "2026-10-30",
             "city": "Mexico City",
-            "country": "Mexico"
+            "country": "Mexico",
+            "venue": "Fray Nano Stadium",
+            "status": "Coming Soon",
+            "url": null
           },
           {
+            "date": "2026-11-02",
             "city": "Santiago",
-            "country": "Chile"
+            "country": "Chile",
+            "venue": "Movistar Arena",
+            "status": "Coming Soon",
+            "url": null
           },
           {
+            "date": "2026-11-06",
             "city": "Lima",
-            "country": "Peru"
+            "country": "Peru",
+            "venue": "Arena Monumental",
+            "status": "Coming Soon",
+            "url": null
           },
           {
+            "date": "2026-11-08",
             "city": "São Paulo",
-            "country": "Brazil"
+            "country": "Brazil",
+            "venue": "Vibra",
+            "status": "Coming Soon",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Europe",
+        "cities": [
+          {
+            "date": "2026-11-16",
+            "city": "Paris",
+            "country": "France",
+            "venue": "Adidas Arena",
+            "status": "Coming Soon",
+            "url": null
+          },
+          {
+            "date": "2026-11-18",
+            "city": "Berlin",
+            "country": "Germany",
+            "venue": "Uber Eats Music Hall",
+            "status": "Coming Soon",
+            "url": null
+          },
+          {
+            "date": "2026-11-20",
+            "city": "Frankfurt",
+            "country": "Germany",
+            "venue": "myticket JAHRHUNDERTHALLE FRANKFURT",
+            "status": "Coming Soon",
+            "url": null
+          },
+          {
+            "date": "2026-11-22",
+            "city": "London",
+            "country": "UK",
+            "venue": "OVO Arena Wembley",
+            "status": "Coming Soon",
+            "url": null
+          },
+          {
+            "date": "2026-11-24",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "venue": "AFAS Live",
+            "status": "Coming Soon",
+            "url": null
           }
         ]
       }
-    ]
+    ],
+    "status": "17 cities across 10 countries. 11 have dates and venues, and one is on sale.",
+    "stats": {
+      "cities": 17,
+      "countries": 10,
+      "dated": 11,
+      "onSale": 1
+    }
   },
   "timeline": [
     {

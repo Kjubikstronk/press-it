@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T01:58:59.951Z",
+  "generated": "2026-08-21T07:08:50.394Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -794,12 +794,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN01zTGMyQmtKMGFUWkpZcGxTeExWeTc2VDVWZkhxTVk1OEJxOVp3V0x6aDVsT0hUN0c2MHFDQ2xHN0dSQ3dyWG1iZl9MV09mR3pLcmotejhQMzF0Q2JtR0g5ZTE5LTVieTdEd1RhVVFaNWFQbk5IVVc4b0FxZ2ItaU85dnVpMklTSU1kbklLM0U0ZlNuMHc?oc=5"
     },
     {
-      "title": "TAEMIN Enters U.S. Top 40 Radio Airplay Charts",
-      "outlet": "mamasgeeky.com",
-      "date": "2026-06-02",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EMHhhNHVZdHlFRl82cEZRYnlzLW5wY2JNbFdrbXNQRnl0dEJBVlkzOTJVbkE5RG9OU3lTSnpadV91VmY3a1haTEdKc3ZPaE9XUkl2RE1kU2dYZFZVUjRQNFhKZWVDVmRMR2xF?oc=5"
-    },
-    {
       "title": "“PERMISSION” Unleashed: Global Phenomenon TAEMIN Powers Into a New Era",
       "outlet": "mamasgeeky.com",
       "date": "2026-05-22",
@@ -858,6 +852,12 @@
       "outlet": "Manila Bulletin",
       "date": "2026-04-22",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY29uYzF4bHRaSGFBbG9GVnd6dDhNU2lvZTJYN040VGp5bnZvaTkweTBtTE5WWjM4eC1hQ0UxQnhoc2x5elV0TE44ejMzcGJpR1pjTno0c09yWGRLTXktZ05aVDlIQ0REclVFSXBJckRCN1VkdzdwU1dLQXlrUTA3MA?oc=5"
+    },
+    {
+      "title": "TAEMIN joins us during his Coachella whirlwind to talk about his historic performance",
+      "outlet": "Audacy",
+      "date": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZnRZWXlDTUtwQno4VmJmUWhOTU82bWcxMVdkRW0zeUloRGNUcTVUV3ZmdGllUWlPN3NiTktXWkUyNzlaVkZ0ZVZjTGw1cDJMRERhVUdQZ05xVDdHV3dBVDBSeUFzdVRmWEZnbGZfWmdmQTRYM0F0MmtuZ2tSZEFEMG8zc0dIMHdWdWhxckZR?oc=5"
     }
   ],
   "bio": {
@@ -911,12 +911,52 @@
         "venue": "JAMSIL INDOOR STADIUM",
         "note": "LiMiNaL world tour · 3 nights",
         "url": "https://ticket.yes24.com/Special/59646"
+      },
+      {
+        "date": "2026-11-16",
+        "city": "Paris",
+        "country": "France",
+        "venue": "Adidas Arena",
+        "note": "LiMiNaL world tour",
+        "url": "https://onionproduction.com/taemin"
+      },
+      {
+        "date": "2026-11-18",
+        "city": "Berlin",
+        "country": "Germany",
+        "venue": "Uber Eats Music Hall",
+        "note": "LiMiNaL world tour",
+        "url": "https://onionproduction.com/taemin"
+      },
+      {
+        "date": "2026-11-20",
+        "city": "Frankfurt",
+        "country": "Germany",
+        "venue": "myticket JAHRHUNDERTHALLE FRANKFURT",
+        "note": "LiMiNaL world tour",
+        "url": "https://onionproduction.com/taemin"
+      },
+      {
+        "date": "2026-11-22",
+        "city": "London",
+        "country": "UK",
+        "venue": "OVO Arena Wembley",
+        "note": "LiMiNaL world tour",
+        "url": "https://onionproduction.com/taemin"
+      },
+      {
+        "date": "2026-11-24",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "venue": "AFAS Live",
+        "note": "LiMiNaL world tour",
+        "url": "https://onionproduction.com/taemin"
       }
     ],
     "announced": {
-      "count": 16,
+      "count": 11,
       "from": "2026-10-12",
-      "to": "2026-11-24"
+      "to": "2026-11-08"
     }
   },
   "ticketing": {
@@ -1096,50 +1136,50 @@
             "city": "Paris",
             "country": "France",
             "venue": "Adidas Arena",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://onionproduction.com/taemin"
           },
           {
             "date": "2026-11-18",
             "city": "Berlin",
             "country": "Germany",
             "venue": "Uber Eats Music Hall",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://onionproduction.com/taemin"
           },
           {
             "date": "2026-11-20",
             "city": "Frankfurt",
             "country": "Germany",
             "venue": "myticket JAHRHUNDERTHALLE FRANKFURT",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://onionproduction.com/taemin"
           },
           {
             "date": "2026-11-22",
             "city": "London",
             "country": "UK",
             "venue": "OVO Arena Wembley",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://onionproduction.com/taemin"
           },
           {
             "date": "2026-11-24",
             "city": "Amsterdam",
             "country": "Netherlands",
             "venue": "AFAS Live",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://onionproduction.com/taemin"
           }
         ]
       }
     ],
-    "status": "17 cities across 10 countries. 17 have dates and venues, and one is on sale.",
+    "status": "17 cities across 10 countries. 17 have dates and venues, and 6 are on sale.",
     "stats": {
       "cities": 17,
       "countries": 10,
       "dated": 17,
-      "onSale": 1
+      "onSale": 6
     }
   },
   "timeline": [

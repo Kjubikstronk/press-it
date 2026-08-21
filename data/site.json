@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T07:08:50.394Z",
+  "generated": "2026-08-21T13:12:23.884Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -609,6 +609,13 @@
   ],
   "videos": [
     {
+      "id": "yhIZ5SJE_NE",
+      "title": "Sweet Violence - Sketch",
+      "date": "2026-08-21",
+      "url": "https://www.youtube.com/watch?v=yhIZ5SJE_NE",
+      "thumb": "https://i2.ytimg.com/vi/yhIZ5SJE_NE/hqdefault.jpg"
+    },
+    {
       "id": "c55aIBIDrZQ",
       "title": "TAEMIN (태민) - 'PHASE 1 : Soft Violence' Trailer",
       "date": "2026-08-16",
@@ -705,13 +712,6 @@
       "date": "2026-02-20",
       "url": "https://www.youtube.com/watch?v=2h0GaZRLMK0",
       "thumb": "https://i3.ytimg.com/vi/2h0GaZRLMK0/hqdefault.jpg"
-    },
-    {
-      "id": "lXfZuz9Wui0",
-      "title": "Taemin - Sexy In The Air | Amazon Music presents: In the Paint Highlight",
-      "date": "2026-02-20",
-      "url": "https://www.youtube.com/watch?v=lXfZuz9Wui0",
-      "thumb": "https://i1.ytimg.com/vi/lXfZuz9Wui0/hqdefault.jpg"
     }
   ],
   "news": [

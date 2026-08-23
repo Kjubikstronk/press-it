@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T18:49:51.785Z",
+  "generated": "2026-08-23T02:00:23.522Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -97,7 +97,7 @@
       "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/1400x1400bb.jpg",
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/stage-fighter-stf-original-vol-2-5-original-television/1773703633?uo=4",
-      "copyright": "℗ 2024 STONE MUSIC",
+      "copyright": "℗ 2024 Stone Music Entertainment",
       "genre": "Soundtrack",
       "via": "apple",
       "kind": "OST",
@@ -970,12 +970,6 @@
   },
   "tourNews": [
     {
-      "title": "TAEMIN is heading to Europe: The ‘LiMiNaL World Tour’ starts in September!",
-      "outlet": "Nolae",
-      "date": "2026-08-18",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2Fud3lyWm1qQ0ZWZ0JqNkJzZENXb05EZHFRUVgybDBNT2NEZFlQdFU3bGtDdDJmSmZNR3UzNmxYOTRkRDdYUFdVQlk2aENKYXdnNEhFNEY1YU01NWdxRTdsN2xvVlJfSXVWcW1zWHNwQUdiS2VWWXpseEYxN0E1aEZyX1ZQRHd2c1U2VmNZSUlUMWMtNGxoeENtVy1VOUhPbHlMVHIzcVhOdw?oc=5"
-    },
-    {
       "title": "TAEMIN Reveals North American Leg of LiMiNaL World Tour",
       "outlet": "mamasgeeky.com",
       "date": "2026-08-14",
@@ -994,16 +988,22 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TQkp6OGRuOFBORzcxa29WbXlzbWp4TEt1TFh2OFZHQWhxWVJYWTk5V1lySXVIXzFNZ1dqYTd0UkVMcmpVcFBuNkEtUmhkaWZ4MElpWUhRd2ViUUdqaVE?oc=5"
     },
     {
-      "title": "Sensational visuals.. Taemin reveals poster for Seoul concert of world tour",
-      "outlet": "starnewskorea.com",
-      "date": "2026-08-04",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tR1RJaEc3VHBWNnhDSF95YjM0YkNDVnpVWUdtRk1CQ1M5MEZBSXNQVDI5a2hBOTZuLVpxc29xYzltWmJYRWxNVU9QUE5yeXU0NUVCZ2tocV9TM1E0SFZBbHVqel9ORm9Rejd1eTZJU0o2YnpCU2tz?oc=5"
+      "title": "Taemin’s “LiMiNaL” world tour now has an official website",
+      "outlet": "Music Mundial",
+      "date": "2026-08-01",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX29UTnNlU3g1S3ZUZVA5aHFMWFVwTFFfMEd5T0xTZ3pGVGljTmhxZVZnZXd1Y0otU2QtRWxXUkhrV2VSVl9mcHk0QzZRQTVMS3ZrRHMwSTQ3VHIwLVpZQ3hSSGhrM0lnU2VFVzFTMVFQN1dxVk5nRThRN3pKbG5EZWV5RjhkUjZoNUlnM0NCc23SAZYBQVVfeXFMTzE2cThEbGpCcjRjSE1rdm50blpXSkRPY3lEdlY5UWs1bjBUMEx0NWMwaDlXTjlycVVkZmp5cmVQV2hGTFZHdU1IODRVNXpCRk1MSS1vNEwyS2VOUDc0Z1pFOHVEWVpDcDVycER2SkVHajJyZWRtd2M5dXRaLXluWGVKWmRMVkxaTDNOeXlNa19DTlZrTHZ3?oc=5"
     },
     {
-      "title": "Taemin Reveals Poster for World Tour Seoul Concert... Kicks Off in Jamsil in September",
-      "outlet": "매일경제",
-      "date": "2026-08-04",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYW1tVTFxY0VUQzBqZGo4RHAxZV90N1FKa1BmOWVNamJZSWZNZ2lDcV9tcFNZVmdNa3Z2M2tmam12ZDhSV0tyYVV4cDYxQkpx?oc=5"
+      "title": "TAEMIN opens official website for ‘LiMiNaL’ world tour",
+      "outlet": "allkpop",
+      "date": "2026-08-01",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSm5rX25vbUxWU09DU2ZJYUlZdEVjZnNRRERybWNJalNYdmEyTm5UMVgyN3F4Njk4Qnk3LUZ1RlpuZXhKYkE4MGxyWTBxelZMSE1jZWFVYXJJSVFaeVRqLXhua1R0bG5YOV85WVlJc0pxYVRkSHAwV3I3aE9ZTDc5NkxreVFPRG92TTd4Q3NDVG90eHh1bHdn?oc=5"
+    },
+    {
+      "title": "TAEMIN Launches ‘LiMiNaL’ World Tour 2026-2027",
+      "outlet": "mamasgeeky.com",
+      "date": "2026-07-28",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1RRUZiUmh5anRRNktCX2ZwdENDR2oteWhXNklvSGtZOENxd1VGMjVEZmNUeW80eWZoTnR0QnpVNm9QQThpOG5XSDNkVl92dm4yN3JQSVlad0V4azFIc3pnY2lsVnc3enVrSFpXS0RlSXNKRzQ?oc=5"
     }
   ],
   "worldTour": {

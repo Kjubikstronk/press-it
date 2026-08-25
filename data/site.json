@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T01:53:32.942Z",
+  "generated": "2026-08-25T18:58:44.383Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -716,6 +716,12 @@
   ],
   "news": [
     {
+      "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
+      "outlet": "inmusicblog.com",
+      "date": "2026-08-25",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU1GenlhSUJmYTJaTlBxNlZUZkh2VE1MRm1iOGljR2pOYm9SNHFZTmJrUnluYV9jM202eWk3MDFnREg4dzM1Y2Z1aVFFSmxoQ3c2Z0NjdjZJZ28ydTM3UWFGaWlvVXFjRnBVNmdzaHVJN3VQZ2wwd2x6dGhDVWw1ZkVR?oc=5"
+    },
+    {
       "title": "Galaxy Corporation Is Building a Humanoid Robot K-Pop Idol for a 2027 World Tour",
       "outlet": "Complex",
       "date": "2026-08-21",
@@ -852,12 +858,6 @@
       "outlet": "Singapore",
       "date": "2026-04-27",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdFV25ZTVJFZ0IyaGNKYXFOa0gwRzc5VjFNUHZ4aG1rMDEtNDhIeUZPS25jdDNCYXVEblFESkNzb1J4dGhIdjhxQmlYSnVlZVdSLWpNUXg2Q1JaeTJfeGV4RG8tYUlWcmo1Rzh5SFotU1piY05OcGhwZXN1WnIxYzBoUUd1ZU55VzJ0dmY2MTBjNmdmZ192akNNUVlFaTlNMkwwdHF4aHdEZTRKcUEzN0YzendFX1NL0gG-AUFVX3lxTFBKTDNQS1RiLUhyYnZUa1JhUy1saHhkckNkLW5OS0VpWFRFWXBzamhtazBVcE1pUGI3Tlg2c0FsZFVobzRySk50Mjk0amZ3bUYwWV9TRmZYM3B0M2F4Mko1YzlzZmFzWV95VDNhQnNMd0p5X2JwZ0ZzeXJzOUZXU0w2TjVBelJXNVJmRGhDWUw2WEotQzBwcDdYYW5XXzVNd3Z3aDVVcHJxUFFrVDJIczNCNHhnaG83WWx0SldDbEE?oc=5"
-    },
-    {
-      "title": "TAEMIN: A Career In Song Ratings",
-      "outlet": "thebiaslist.com",
-      "date": "2026-04-25",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0Rzl0YkxQUmVpcXBCOTdSV2VvSGJ5REJybUhEN1M4c3lWdWdrcDZiU0tSbGFyTE9ZU1dCWDlUMk9Mb2FMcjZuU3N5d2RXSjYzb2RoNjQtVGw3a3pSSWg2M1BWYlRHcm5OQ1RwOUdHRWJ1N2I3MWc?oc=5"
     }
   ],
   "bio": {
@@ -970,6 +970,18 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
+      "outlet": "inmusicblog.com",
+      "date": "2026-08-25",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU1GenlhSUJmYTJaTlBxNlZUZkh2VE1MRm1iOGljR2pOYm9SNHFZTmJrUnluYV9jM202eWk3MDFnREg4dzM1Y2Z1aVFFSmxoQ3c2Z0NjdjZJZ28ydTM3UWFGaWlvVXFjRnBVNmdzaHVJN3VQZ2wwd2x6dGhDVWw1ZkVR?oc=5"
+    },
+    {
+      "title": "TAEMIN Will Embark on Tour in North America, Kicking Off in October",
+      "outlet": "BroadwayWorld",
+      "date": "2026-08-25",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVWhWRHRMTFFTbGRjcDZuRnhCSkY0NXBuSUczejVqaU9NUHdlVEUzUktXUmV3QlAzc0Z3YmFhVlV4UjNMZzhTc09OUmd6RkhuNXRGa0E5N2pZTEFrTktSLS16QWpqTEFMYnFyblBCcXdnaVMyZUpZNHZtSVFDWVJWU1lmUDVGTm5ZdkhGUUk4U1NVZWVPejlvVWVSbG5VUm9Dd2RwakthOUdNTTZudkdSWjZRMDVJc3pfYV9Ib2tFSEJlM0FZaWI5Uy1R?oc=5"
+    },
+    {
       "title": "TAEMIN is heading to Europe: The ‘LiMiNaL World Tour’ starts in September!",
       "outlet": "Nolae",
       "date": "2026-08-18",
@@ -992,18 +1004,6 @@
       "outlet": "Stereoboard.com",
       "date": "2026-08-11",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TQkp6OGRuOFBORzcxa29WbXlzbWp4TEt1TFh2OFZHQWhxWVJYWTk5V1lySXVIXzFNZ1dqYTd0UkVMcmpVcFBuNkEtUmhkaWZ4MElpWUhRd2ViUUdqaVE?oc=5"
-    },
-    {
-      "title": "Sensational visuals.. Taemin reveals poster for Seoul concert of world tour",
-      "outlet": "starnewskorea.com",
-      "date": "2026-08-04",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tR1RJaEc3VHBWNnhDSF95YjM0YkNDVnpVWUdtRk1CQ1M5MEZBSXNQVDI5a2hBOTZuLVpxc29xYzltWmJYRWxNVU9QUE5yeXU0NUVCZ2tocV9TM1E0SFZBbHVqel9ORm9Rejd1eTZJU0o2YnpCU2tz?oc=5"
-    },
-    {
-      "title": "Taemin Reveals Poster for World Tour Seoul Concert... Kicks Off in Jamsil in September",
-      "outlet": "매일경제",
-      "date": "2026-08-04",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oYW1tVTFxY0VUQzBqZGo4RHAxZV90N1FKa1BmOWVNamJZSWZNZ2lDcV9tcFNZVmdNa3Z2M2tmam12ZDhSV0tyYVV4cDYxQkpx?oc=5"
     }
   ],
   "worldTour": {

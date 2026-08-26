@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T13:17:49.819Z",
+  "generated": "2026-08-26T20:05:18.542Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -609,6 +609,13 @@
   ],
   "videos": [
     {
+      "id": "8Us6S8Z0rAg",
+      "title": "With you I FLOAT",
+      "date": "2026-08-26",
+      "url": "https://www.youtube.com/watch?v=8Us6S8Z0rAg",
+      "thumb": "https://i1.ytimg.com/vi/8Us6S8Z0rAg/hqdefault.jpg"
+    },
+    {
       "id": "yhIZ5SJE_NE",
       "title": "Sweet Violence - Sketch",
       "date": "2026-08-21",
@@ -705,13 +712,6 @@
       "date": "2026-03-06",
       "url": "https://www.youtube.com/watch?v=m5PBwuzovak",
       "thumb": "https://i2.ytimg.com/vi/m5PBwuzovak/hqdefault.jpg"
-    },
-    {
-      "id": "2h0GaZRLMK0",
-      "title": "Taemin - Sexy In The Air | Amazon Music presents: In the Paint",
-      "date": "2026-02-20",
-      "url": "https://www.youtube.com/watch?v=2h0GaZRLMK0",
-      "thumb": "https://i3.ytimg.com/vi/2h0GaZRLMK0/hqdefault.jpg"
     }
   ],
   "news": [
@@ -720,6 +720,12 @@
       "outlet": "TicketNews",
       "date": "2026-08-26",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+    },
+    {
+      "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
+      "outlet": "TicketNews",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
     },
     {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
@@ -834,12 +840,6 @@
       "outlet": "mamasgeeky.com",
       "date": "2026-05-22",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iQ1ltajlKYmtSTzItdGRPRFJQT1I4NUIzUW1ESzZMR3hwT3R4Tl9fM054QzRwWVJPdTBha3FRWk5aVHM3NUJXOGlRbGZWRFBxRmhBSFU1TmkwQ3NSWHJQblFqWQ?oc=5"
-    },
-    {
-      "title": "PERMISSION - YouTube",
-      "outlet": "YouTube",
-      "date": "2026-05-21",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JcGxGUnNLb3l0UGpUeGl3OHFtYVNWMVlkX2lFcWw5Z0tSaFAzMTYxNGF6RTVSaXhBTlNwUnhUWUdtYW9rbEk4OG9iVUtvRVdsanJqRTJNQmd3WmVR?oc=5"
     },
     {
       "title": "Grammy Museum extends Taemin exhibition",
@@ -976,6 +976,12 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
+      "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
+      "outlet": "TicketNews",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
+    },
+    {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
       "outlet": "inmusicblog.com",
       "date": "2026-08-25",
@@ -998,12 +1004,6 @@
       "outlet": "mamasgeeky.com",
       "date": "2026-08-14",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLb082bmp2OTlFVTZ4MEFEMzV5QkprY084RnRJeHgtenNxYURPeXNaTExZbml0ZGRtZ1JqZnlzbldyeGU1QnpZX2Zqd29scUt2bFBpSExGN2s4RnpHVWVYS0NYdGVQUFRVTk5iV29hYTI0bHRob3c?oc=5"
-    },
-    {
-      "title": "TAEMIN Announces North American LiMiNaL Tour Dates With AEG",
-      "outlet": "Forbes",
-      "date": "2026-08-14",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGdNcDRJbTNYaTRHN05HS1FXbnNUaUlFQUFsWFhfQmV5TDBEcnVqSmY0c3hRTFBpelpMUVdHZGJYbi1sZFJNOWxpRWV6SllHU29SV3J0eHQ1X2g5MllJQWVSNUhTX0VrUHBEaUlHOHNOaTRYaDlIcy1oS3VHT0dGeHdJZkJNR1YyaTJuamYxYlhCSjdJZWd2SnlFYWswSTZOZG8xTjRfQk50TEpzTkdCX1BVZXNfYVV6WmtJeWNR?oc=5"
     }
   ],
   "worldTour": {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T09:52:43.899Z",
+  "generated": "2026-08-27T17:17:42.890Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -609,6 +609,27 @@
   ],
   "videos": [
     {
+      "id": "hM6piAikKKI",
+      "title": "TAEMIN (태민) - 'FLOAT' Official MV Teaser",
+      "date": "2026-08-27",
+      "url": "https://www.youtube.com/watch?v=hM6piAikKKI",
+      "thumb": "https://i1.ytimg.com/vi/hM6piAikKKI/hqdefault.jpg"
+    },
+    {
+      "id": "8TFUfAnzwOA",
+      "title": "TAEMIN (태민) - 'FLOAT' Official MV Teaser",
+      "date": "2026-08-27",
+      "url": "https://www.youtube.com/watch?v=8TFUfAnzwOA",
+      "thumb": "https://i1.ytimg.com/vi/8TFUfAnzwOA/hqdefault.jpg"
+    },
+    {
+      "id": "EUdnWmEZK7k",
+      "title": "Easy Loving You",
+      "date": "2026-08-27",
+      "url": "https://www.youtube.com/watch?v=EUdnWmEZK7k",
+      "thumb": "https://i2.ytimg.com/vi/EUdnWmEZK7k/hqdefault.jpg"
+    },
+    {
       "id": "8Us6S8Z0rAg",
       "title": "With you I FLOAT",
       "date": "2026-08-26",
@@ -691,30 +712,15 @@
       "date": "2026-06-26",
       "url": "https://www.youtube.com/watch?v=VhIElwh2Q6o",
       "thumb": "https://i3.ytimg.com/vi/VhIElwh2Q6o/hqdefault.jpg"
-    },
-    {
-      "id": "YzxSQeMTwWw",
-      "title": "TAEMIN (태민) - PERMISSION",
-      "date": "2026-06-10",
-      "url": "https://www.youtube.com/watch?v=YzxSQeMTwWw",
-      "thumb": "https://i2.ytimg.com/vi/YzxSQeMTwWw/hqdefault.jpg"
-    },
-    {
-      "id": "IsLVn9WcULM",
-      "title": "TAEMIN (태민) – Veil｜The Kelly Clarkson Show HIGHLIGHT",
-      "date": "2026-03-06",
-      "url": "https://www.youtube.com/watch?v=IsLVn9WcULM",
-      "thumb": "https://i2.ytimg.com/vi/IsLVn9WcULM/hqdefault.jpg"
-    },
-    {
-      "id": "m5PBwuzovak",
-      "title": "TAEMIN (태민) – Veil｜The Kelly Clarkson Show",
-      "date": "2026-03-06",
-      "url": "https://www.youtube.com/watch?v=m5PBwuzovak",
-      "thumb": "https://i2.ytimg.com/vi/m5PBwuzovak/hqdefault.jpg"
     }
   ],
   "news": [
+    {
+      "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
+      "outlet": "TicketNews",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
+    },
     {
       "title": "Taemin Newark tickets on sale at Prudential Center",
       "outlet": "TicketNews",
@@ -722,16 +728,10 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
-      "title": "Galaxy Corporation Plans Humanoid Robot K-Pop Idol for 2027 World Tour",
-      "outlet": "Yahoo",
-      "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFFWQ3JleGd3YlhNbE5DZ0J0SldHRFZueS1MRGFpbzk0T29xd0R5b21EOE1tU24zem1kT1AwazdjQTdwVVhuRThySkJPNExIMmJVMkRIV0RxbzV3MXFSNk9CcDBlYmZkNjNqZHRLdEItcTBhN3FQNmttcnVXd3VZMFNsa0FTbHlmdjY1QWlNRWVOXzBTQlJRejVyM3FTcHYzRDRpNzlNYVE?oc=5"
-    },
-    {
-      "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
-      "outlet": "TicketNews",
-      "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
+      "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
+      "outlet": "inmusicblog.com",
+      "date": "2026-08-25",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU1GenlhSUJmYTJaTlBxNlZUZkh2VE1MRm1iOGljR2pOYm9SNHFZTmJrUnluYV9jM202eWk3MDFnREg4dzM1Y2Z1aVFFSmxoQ3c2Z0NjdjZJZ28ydTM3UWFGaWlvVXFjRnBVNmdzaHVJN3VQZ2wwd2x6dGhDVWw1ZkVR?oc=5"
     },
     {
       "title": "TAEMIN Will Embark on Tour in North America, Kicking Off in October",
@@ -932,7 +932,7 @@
         "date": "2026-11-20",
         "city": "Frankfurt",
         "country": "Germany",
-        "venue": "myticket JAHRHUNDERTHALLE FRANKFURT",
+        "venue": "Centry Halle",
         "note": "LiMiNaL world tour",
         "url": "https://www.onionproduction.com/taeminf"
       },
@@ -1151,7 +1151,7 @@
             "date": "2026-11-20",
             "city": "Frankfurt",
             "country": "Germany",
-            "venue": "myticket JAHRHUNDERTHALLE FRANKFURT",
+            "venue": "Centry Halle",
             "status": "On Sale",
             "url": "https://www.onionproduction.com/taeminf"
           },

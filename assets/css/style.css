@@ -647,9 +647,11 @@ a.wire__cell:hover { background: var(--card-hover); color: inherit; }
   gap: .4rem .9rem;
   padding: .8rem .15rem;
   border-bottom: 1px solid var(--hair-soft);
-  transition: background .3s, padding-left .3s;
+  transition: background .3s, transform .2s;
 }
-.liminal__city:hover { background: var(--tint); padding-left: .7rem; }
+@media (hover: hover) and (pointer: fine) {
+  .liminal__city:hover { background: var(--tint); transform: translateX(.7rem); }
+}
 .liminal__idx { font: 400 .62rem var(--mono); color: var(--grey); flex: none; width: 1.8rem; }
 .liminal__city-name {
   font-family: var(--display);
@@ -876,7 +878,9 @@ a.liminal__city-status--live:hover { color: var(--bone); }
   object-fit: cover;
   transition: transform .7s var(--ease);
 }
-.card:hover .card__frame img { transform: scale(1.07); }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .card__frame img { transform: scale(1.07); }
+}
 .card__kind {
   position: absolute;
   bottom: 0; left: 0; right: 0;
@@ -1080,7 +1084,9 @@ a.liminal__city-status--live:hover { color: var(--bone); }
   object-fit: cover;
   transition: transform .7s var(--ease);
 }
-.card:hover .vid__frame img { transform: scale(1.07); }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .vid__frame img { transform: scale(1.07); }
+}
 .vid__play {
   position: absolute;
   right: .6rem; bottom: .6rem;

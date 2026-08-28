@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T22:25:16.273Z",
+  "generated": "2026-08-28T11:26:41.777Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -716,16 +716,10 @@
   ],
   "news": [
     {
-      "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
-      "outlet": "TicketNews",
+      "title": "Galaxy Corporation Plans Humanoid Robot K-Pop Idol for 2027 World Tour",
+      "outlet": "Yahoo",
       "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
-    },
-    {
-      "title": "Taemin Newark tickets on sale at Prudential Center",
-      "outlet": "TicketNews",
-      "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFFWQ3JleGd3YlhNbE5DZ0J0SldHRFZueS1MRGFpbzk0T29xd0R5b21EOE1tU24zem1kT1AwazdjQTdwVVhuRThySkJPNExIMmJVMkRIV0RxbzV3MXFSNk9CcDBlYmZkNjNqZHRLdEItcTBhN3FQNmttcnVXd3VZMFNsa0FTbHlmdjY1QWlNRWVOXzBTQlJRejVyM3FTcHYzRDRpNzlNYVE?oc=5"
     },
     {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
@@ -858,6 +852,12 @@
       "outlet": "facebook.com",
       "date": "2026-04-27",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdldmLUV6SG4tcmZlbmw0aG1vMm9xSm9QYjhGMXVUZ0FTOURKa2twalNSYmVLN3hoX0cwdXhnWjNMNmhBRXg5V1lQUTliMEZKSUJncmJkaWhhWWUxZE9naVAyQjFDNnVpN2c5eThBVTVWMkpCYnprS2o5RlVfVzdQWjkxcUQ3SVZxY2pWYVFnbFJnTW9mQmJXeWduLXNmUXNzYzNEeWktOFdLMG5BVmE2dHpBYjAxTldOdE9WTHU0d2Z1SUZrdmxnVkY4MFlxaDAyazg5Qnludw?oc=5"
+    },
+    {
+      "title": "Where are the SHINee members now? The second generation K-pop group’s net worth and more - Prestige Online",
+      "outlet": "Singapore",
+      "date": "2026-04-27",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdFV25ZTVJFZ0IyaGNKYXFOa0gwRzc5VjFNUHZ4aG1rMDEtNDhIeUZPS25jdDNCYXVEblFESkNzb1J4dGhIdjhxQmlYSnVlZVdSLWpNUXg2Q1JaeTJfeGV4RG8tYUlWcmo1Rzh5SFotU1piY05OcGhwZXN1WnIxYzBoUUd1ZU55VzJ0dmY2MTBjNmdmZ192akNNUVlFaTlNMkwwdHF4aHdEZTRKcUEzN0YzendFX1NL0gG-AUFVX3lxTFBKTDNQS1RiLUhyYnZUa1JhUy1saHhkckNkLW5OS0VpWFRFWXBzamhtazBVcE1pUGI3Tlg2c0FsZFVobzRySk50Mjk0amZ3bUYwWV9TRmZYM3B0M2F4Mko1YzlzZmFzWV95VDNhQnNMd0p5X2JwZ0ZzeXJzOUZXU0w2TjVBelJXNVJmRGhDWUw2WEotQzBwcDdYYW5XXzVNd3Z3aDVVcHJxUFFrVDJIczNCNHhnaG83WWx0SldDbEE?oc=5"
     }
   ],
   "bio": {
@@ -905,14 +905,6 @@
         "url": "https://soundincolors.com/"
       },
       {
-        "date": "2026-09-18",
-        "city": "Seoul",
-        "country": "Korea",
-        "venue": "JAMSIL INDOOR STADIUM",
-        "note": "LiMiNaL world tour · 3 nights",
-        "url": "https://ticket.yes24.com/Special/59646"
-      },
-      {
         "date": "2026-11-16",
         "city": "Paris",
         "country": "France",
@@ -954,8 +946,8 @@
       }
     ],
     "announced": {
-      "count": 11,
-      "from": "2026-10-12",
+      "count": 12,
+      "from": "2026-09-18",
       "to": "2026-11-08"
     }
   },
@@ -970,16 +962,22 @@
   },
   "tourNews": [
     {
-      "title": "Taemin Newark tickets on sale at Prudential Center",
+      "title": "Taemin Las Vegas tickets on sale at T-Mobile Arena",
       "outlet": "TicketNews",
-      "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+      "date": "2026-08-27",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXRJTFNWNkdlZHJobjY2SEVGNzdLZ3lLdHFENHpvZWdnVE14YjhMSU9Oc0doZjVBTzF0cjJoRmxYUG9KcjBNZ3ZySnhuOXdXbXo2NHVoUTlRYXo3d3NEUklLSGVsM1ExTjVEWllBN1ppdXJHSHZDbWhVME1sS1ZtWGRNTGxzRUxMYzVDY3NvOA?oc=5"
     },
     {
       "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
       "outlet": "TicketNews",
       "date": "2026-08-26",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
+    },
+    {
+      "title": "Taemin Newark tickets on sale at Prudential Center",
+      "outlet": "TicketNews",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
@@ -994,16 +992,10 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVWhWRHRMTFFTbGRjcDZuRnhCSkY0NXBuSUczejVqaU9NUHdlVEUzUktXUmV3QlAzc0Z3YmFhVlV4UjNMZzhTc09OUmd6RkhuNXRGa0E5N2pZTEFrTktSLS16QWpqTEFMYnFyblBCcXdnaVMyZUpZNHZtSVFDWVJWU1lmUDVGTm5ZdkhGUUk4U1NVZWVPejlvVWVSbG5VUm9Dd2RwakthOUdNTTZudkdSWjZRMDVJc3pfYV9Ib2tFSEJlM0FZaWI5Uy1R?oc=5"
     },
     {
-      "title": "TAEMIN is heading to Europe: The ‘LiMiNaL World Tour’ starts in September!",
-      "outlet": "Nolae",
-      "date": "2026-08-18",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2Fud3lyWm1qQ0ZWZ0JqNkJzZENXb05EZHFRUVgybDBNT2NEZFlQdFU3bGtDdDJmSmZNR3UzNmxYOTRkRDdYUFdVQlk2aENKYXdnNEhFNEY1YU01NWdxRTdsN2xvVlJfSXVWcW1zWHNwQUdiS2VWWXpseEYxN0E1aEZyX1ZQRHd2c1U2VmNZSUlUMWMtNGxoeENtVy1VOUhPbHlMVHIzcVhOdw?oc=5"
-    },
-    {
-      "title": "TAEMIN Reveals North American Leg of LiMiNaL World Tour",
-      "outlet": "mamasgeeky.com",
-      "date": "2026-08-14",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLb082bmp2OTlFVTZ4MEFEMzV5QkprY084RnRJeHgtenNxYURPeXNaTExZbml0ZGRtZ1JqZnlzbldyeGU1QnpZX2Zqd29scUt2bFBpSExGN2s4RnpHVWVYS0NYdGVQUFRVTk5iV29hYTI0bHRob3c?oc=5"
+      "title": "Galaxy Corporation Is Building a Humanoid Robot K-Pop Idol for a 2027 World Tour",
+      "outlet": "Complex",
+      "date": "2026-08-21",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWpaM01GbU1ORHJhNngzV3VTZ3hmZlN2U2lia1lDOGRObUxzbzhjdGFZU3I1Z1UtUldiVEl1dW9ablhmSU9teEY3YjE2Wm5rc2RnMXhFVnc0T3ZFWUFZZGlpSnlsQ0YxX0V1TkNCT203YUxqSHBveFdzTWdDNFA0RnE5S1RrUnVBaUVyd3gxeG5iYkpGbFIzWA?oc=5"
     }
   ],
   "worldTour": {
@@ -1025,8 +1017,8 @@
             "city": "Seoul",
             "country": "Korea",
             "venue": "JAMSIL INDOOR STADIUM",
-            "status": "On Sale",
-            "url": "https://ticket.yes24.com/Special/59646"
+            "status": "SEOUL PACKAGE",
+            "url": "https://cutly.kr/sciux2"
           }
         ]
       },
@@ -1174,12 +1166,12 @@
         ]
       }
     ],
-    "status": "17 cities across 10 countries. 17 have dates and venues, and 6 are on sale.",
+    "status": "17 cities across 10 countries. 17 have dates and venues, and 5 are on sale.",
     "stats": {
       "cities": 17,
       "countries": 10,
       "dated": 17,
-      "onSale": 6
+      "onSale": 5
     }
   },
   "timeline": [

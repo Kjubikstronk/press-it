@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T05:39:45.424Z",
+  "generated": "2026-08-31T13:55:47.141Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -10,26 +10,42 @@
   "stats": {
     "yearsSinceDebut": 18,
     "yearsSinceSoloDebut": 12,
-    "releaseCount": 30,
-    "albumCount": 5
+    "releaseCount": 31,
+    "albumCount": 6
   },
   "latest": {
-    "id": "itunes-6770655485",
-    "title": "PERMISSION - Single",
-    "date": "2026-05-22",
-    "trackCount": 1,
-    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/74/88/44748810-a3df-2c8f-ac64-e90f1c8b482a/a32dee27-216f-4a33-a230-936c89a34fd2.jpg/1400x1400bb.jpg",
-    "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/74/88/44748810-a3df-2c8f-ac64-e90f1c8b482a/a32dee27-216f-4a33-a230-936c89a34fd2.jpg/600x600bb.jpg",
-    "url": "https://music.apple.com/us/album/permission-single/6770655485?uo=4",
-    "copyright": "℗ 2026 The Yoo Group",
-    "genre": "K-Pop",
+    "id": "itunes-6804629429",
+    "title": "PHASE 1 : Soft Violence",
+    "date": "2026-08-31",
+    "trackCount": 10,
+    "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/eb/9e/72eb9efa-2454-a4a6-74ae-c4ef47444846/8800388639357_cover.jpg/1400x1400bb.jpg",
+    "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/eb/9e/72eb9efa-2454-a4a6-74ae-c4ef47444846/8800388639357_cover.jpg/600x600bb.jpg",
+    "url": "https://music.apple.com/us/album/phase-1-soft-violence/6804629429?uo=4",
+    "copyright": "℗ 2026 Galaxy Corporation Co., Ltd., under license to YG PLUS",
+    "genre": "Dance",
     "via": "apple",
-    "recordType": "single",
-    "deezerUrl": "https://www.deezer.com/album/983239781",
-    "kind": "Single",
+    "recordType": "album",
+    "deezerUrl": "https://www.deezer.com/album/1061448352",
+    "kind": "Album",
     "year": "2026"
   },
   "releases": [
+    {
+      "id": "itunes-6804629429",
+      "title": "PHASE 1 : Soft Violence",
+      "date": "2026-08-31",
+      "trackCount": 10,
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/eb/9e/72eb9efa-2454-a4a6-74ae-c4ef47444846/8800388639357_cover.jpg/1400x1400bb.jpg",
+      "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/eb/9e/72eb9efa-2454-a4a6-74ae-c4ef47444846/8800388639357_cover.jpg/600x600bb.jpg",
+      "url": "https://music.apple.com/us/album/phase-1-soft-violence/6804629429?uo=4",
+      "copyright": "℗ 2026 Galaxy Corporation Co., Ltd., under license to YG PLUS",
+      "genre": "Dance",
+      "via": "apple",
+      "recordType": "album",
+      "deezerUrl": "https://www.deezer.com/album/1061448352",
+      "kind": "Album",
+      "year": "2026"
+    },
     {
       "id": "itunes-6770655485",
       "title": "PERMISSION - Single",
@@ -609,6 +625,27 @@
   ],
   "videos": [
     {
+      "id": "zKNI4ZhNme0",
+      "title": "TAEMIN (태민) - 'FLOAT' Official MV Out Now☁️",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=zKNI4ZhNme0",
+      "thumb": "https://i3.ytimg.com/vi/zKNI4ZhNme0/hqdefault.jpg"
+    },
+    {
+      "id": "q4TWrmwiufo",
+      "title": "TAEMIN (태민) - 'FLOAT' Official MV",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=q4TWrmwiufo",
+      "thumb": "https://i2.ytimg.com/vi/q4TWrmwiufo/hqdefault.jpg"
+    },
+    {
+      "id": "edKYpDmNEng",
+      "title": "TAEMIN (태민) - 'FLOAT' Official MV Out Now",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=edKYpDmNEng",
+      "thumb": "https://i2.ytimg.com/vi/edKYpDmNEng/hqdefault.jpg"
+    },
+    {
       "id": "kmHw_cD9d2A",
       "title": "내가 원하는 대로",
       "date": "2026-08-29",
@@ -691,27 +728,6 @@
       "date": "2026-07-25",
       "url": "https://www.youtube.com/watch?v=jhgW_MqtbgQ",
       "thumb": "https://i3.ytimg.com/vi/jhgW_MqtbgQ/hqdefault.jpg"
-    },
-    {
-      "id": "I4xO4hXLYNE",
-      "title": "This is",
-      "date": "2026-07-22",
-      "url": "https://www.youtube.com/watch?v=I4xO4hXLYNE",
-      "thumb": "https://i2.ytimg.com/vi/I4xO4hXLYNE/hqdefault.jpg"
-    },
-    {
-      "id": "gRYtHSjBQR8",
-      "title": "TAEMIN (태민) - Don't Need No Permission. Just FLO.",
-      "date": "2026-07-02",
-      "url": "https://www.youtube.com/watch?v=gRYtHSjBQR8",
-      "thumb": "https://i4.ytimg.com/vi/gRYtHSjBQR8/hqdefault.jpg"
-    },
-    {
-      "id": "C4tv02jJZdY",
-      "title": "TAEMIN (태민) - BST Hyde Park Sketch 🎬",
-      "date": "2026-06-30",
-      "url": "https://www.youtube.com/watch?v=C4tv02jJZdY",
-      "thumb": "https://i4.ytimg.com/vi/C4tv02jJZdY/hqdefault.jpg"
     }
   ],
   "news": [
@@ -722,10 +738,22 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
     },
     {
+      "title": "TAEMIN delivers PHASE I : Soft Violence, an 11-track return to dark K-pop artistry",
+      "outlet": "Martin Cid Magazine",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NZnAxb2NBaXZSelItMVBYVjRJYzFVWURNdmNjb2lfN1pkOHhxbnFjOE8tdWQtOWtRX0pueEVNWWJ5aUo0ZzhUUnhlangtZnZhMjJOZmR6UkpSLXhCdFhDbGtOZ1NZa2JfcDVyUmd4cW53UQ?oc=5"
+    },
+    {
       "title": "Galaxy Corporation Plans Humanoid Robot K-Pop Idol for 2027 World Tour",
       "outlet": "Yahoo",
       "date": "2026-08-26",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFFWQ3JleGd3YlhNbE5DZ0J0SldHRFZueS1MRGFpbzk0T29xd0R5b21EOE1tU24zem1kT1AwazdjQTdwVVhuRThySkJPNExIMmJVMkRIV0RxbzV3MXFSNk9CcDBlYmZkNjNqZHRLdEItcTBhN3FQNmttcnVXd3VZMFNsa0FTbHlmdjY1QWlNRWVOXzBTQlJRejVyM3FTcHYzRDRpNzlNYVE?oc=5"
+    },
+    {
+      "title": "Taemin Newark tickets on sale at Prudential Center",
+      "outlet": "TicketNews",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
@@ -750,6 +778,12 @@
       "outlet": "The Korea Herald",
       "date": "2026-08-19",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50RHNJYnRzd2hEcENEdDRXcDgyZ0NIQ19ENXRqQ3ZnaGJzd3hvWnVldFdGMXdSYml4SnVobWc5YWZWVXF5dGVWTTFmQl96WlNDYWJDdjMxRQ?oc=5"
+    },
+    {
+      "title": "TAEMIN is heading to Europe: The ‘LiMiNaL World Tour’ starts in September!",
+      "outlet": "Nolae",
+      "date": "2026-08-18",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2Fud3lyWm1qQ0ZWZ0JqNkJzZENXb05EZHFRUVgybDBNT2NEZFlQdFU3bGtDdDJmSmZNR3UzNmxYOTRkRDdYUFdVQlk2aENKYXdnNEhFNEY1YU01NWdxRTdsN2xvVlJfSXVWcW1zWHNwQUdiS2VWWXpseEYxN0E1aEZyX1ZQRHd2c1U2VmNZSUlUMWMtNGxoeENtVy1VOUhPbHlMVHIzcVhOdw?oc=5"
     },
     {
       "title": "TAEMIN Reveals North American Leg of LiMiNaL World Tour",
@@ -840,24 +874,6 @@
       "outlet": "highlandernews.org",
       "date": "2026-04-28",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQW1BVVh3ZWpGT2JwY19haF9iaU13eHNOd0VVdkJyd2pZU2JXWG5vYjJWWF9IcE9XSXRLTERzbnZtWU9CVHpuelhvN283d1J2bzFqNEpyQUQxQmM4M0ktRlhhNlQ2c1RtOFZFUjlkWkkzQW1DdkRNSUZyVVB4aGFOQXlQUXVwTUJJRk1ER0psNlh6dUxMNDdzYW9iZjdlY1o0ZkFxaTIwdFFqWkgyZUxMemhFV1p3N3NBU3ZteA?oc=5"
-    },
-    {
-      "title": "SUHO'S COACHELLA EXPERIENCE 🎡 EXO's leader Suho enjoyed his time attending Coachella, where he supported his friend and fellow K-pop star Taemin with a series of photos he shared online. \"See you again Coachella 🤟,\" he wrote. (📷: Suho /Instagra",
-      "outlet": "facebook.com",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdldmLUV6SG4tcmZlbmw0aG1vMm9xSm9QYjhGMXVUZ0FTOURKa2twalNSYmVLN3hoX0cwdXhnWjNMNmhBRXg5V1lQUTliMEZKSUJncmJkaWhhWWUxZE9naVAyQjFDNnVpN2c5eThBVTVWMkpCYnprS2o5RlVfVzdQWjkxcUQ3SVZxY2pWYVFnbFJnTW9mQmJXeWduLXNmUXNzYzNEeWktOFdLMG5BVmE2dHpBYjAxTldOdE9WTHU0d2Z1SUZrdmxnVkY4MFlxaDAyazg5Qnludw?oc=5"
-    },
-    {
-      "title": "Where are the SHINee members now? The second generation K-pop group’s net worth and more - Prestige Online",
-      "outlet": "Singapore",
-      "date": "2026-04-27",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdFV25ZTVJFZ0IyaGNKYXFOa0gwRzc5VjFNUHZ4aG1rMDEtNDhIeUZPS25jdDNCYXVEblFESkNzb1J4dGhIdjhxQmlYSnVlZVdSLWpNUXg2Q1JaeTJfeGV4RG8tYUlWcmo1Rzh5SFotU1piY05OcGhwZXN1WnIxYzBoUUd1ZU55VzJ0dmY2MTBjNmdmZ192akNNUVlFaTlNMkwwdHF4aHdEZTRKcUEzN0YzendFX1NL0gG-AUFVX3lxTFBKTDNQS1RiLUhyYnZUa1JhUy1saHhkckNkLW5OS0VpWFRFWXBzamhtazBVcE1pUGI3Tlg2c0FsZFVobzRySk50Mjk0amZ3bUYwWV9TRmZYM3B0M2F4Mko1YzlzZmFzWV95VDNhQnNMd0p5X2JwZ0ZzeXJzOUZXU0w2TjVBelJXNVJmRGhDWUw2WEotQzBwcDdYYW5XXzVNd3Z3aDVVcHJxUFFrVDJIczNCNHhnaG83WWx0SldDbEE?oc=5"
-    },
-    {
-      "title": "TAEMIN: A Career In Song Ratings",
-      "outlet": "thebiaslist.com",
-      "date": "2026-04-25",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0Rzl0YkxQUmVpcXBCOTdSV2VvSGJ5REJybUhEN1M4c3lWdWdrcDZiU0tSbGFyTE9ZU1dCWDlUMk9Mb2FMcjZuU3N5d2RXSjYzb2RoNjQtVGw3a3pSSWg2M1BWYlRHcm5OQ1RwOUdHRWJ1N2I3MWc?oc=5"
     }
   ],
   "bio": {

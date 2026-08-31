@@ -1,5 +1,7 @@
 # PRESS IT
 
+<img src="assets/banner.svg" alt="" width="960">
+
 An auto-updating TAEMIN archive. Monochrome, built around the duality concept
 of the 2016 album.
 

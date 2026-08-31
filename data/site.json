@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T13:55:47.141Z",
+  "generated": "2026-08-31T22:52:56.063Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -625,6 +625,41 @@
   ],
   "videos": [
     {
+      "id": "NMQjAaTGMLc",
+      "title": "TAEMIN (태민) - 'Gooey' Performance Video",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=NMQjAaTGMLc",
+      "thumb": "https://i3.ytimg.com/vi/NMQjAaTGMLc/hqdefault.jpg"
+    },
+    {
+      "id": "20nnYQ_24XQ",
+      "title": "TAEMIN (태민) - 'Gooey' Performance Video",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=20nnYQ_24XQ",
+      "thumb": "https://i3.ytimg.com/vi/20nnYQ_24XQ/hqdefault.jpg"
+    },
+    {
+      "id": "ZBMj86rEAgw",
+      "title": "TAEMIN (태민) - 'Gooey' Performance Video",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=ZBMj86rEAgw",
+      "thumb": "https://i3.ytimg.com/vi/ZBMj86rEAgw/hqdefault.jpg"
+    },
+    {
+      "id": "XZ26PE7aAy8",
+      "title": "The end",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=XZ26PE7aAy8",
+      "thumb": "https://i1.ytimg.com/vi/XZ26PE7aAy8/hqdefault.jpg"
+    },
+    {
+      "id": "h-nhWLN5K78",
+      "title": "The end",
+      "date": "2026-08-31",
+      "url": "https://www.youtube.com/watch?v=h-nhWLN5K78",
+      "thumb": "https://i1.ytimg.com/vi/h-nhWLN5K78/hqdefault.jpg"
+    },
+    {
       "id": "zKNI4ZhNme0",
       "title": "TAEMIN (태민) - 'FLOAT' Official MV Out Now☁️",
       "date": "2026-08-31",
@@ -693,49 +728,32 @@
       "date": "2026-08-16",
       "url": "https://www.youtube.com/watch?v=c55aIBIDrZQ",
       "thumb": "https://i4.ytimg.com/vi/c55aIBIDrZQ/hqdefault.jpg"
-    },
-    {
-      "id": "79VTxw5KmLE",
-      "title": "TAEMIN (태민) - 'PHASE 1 : Soft Violence' Trailer",
-      "date": "2026-08-16",
-      "url": "https://www.youtube.com/watch?v=79VTxw5KmLE",
-      "thumb": "https://i4.ytimg.com/vi/79VTxw5KmLE/hqdefault.jpg"
-    },
-    {
-      "id": "Q1C91pBXE8E",
-      "title": "This Is The End - Sketch",
-      "date": "2026-08-13",
-      "url": "https://www.youtube.com/watch?v=Q1C91pBXE8E",
-      "thumb": "https://i2.ytimg.com/vi/Q1C91pBXE8E/hqdefault.jpg"
-    },
-    {
-      "id": "5bs59vQwH-A",
-      "title": "TAEMIN (태민) - 'This Is The End' Official Video Highlight",
-      "date": "2026-08-10",
-      "url": "https://www.youtube.com/watch?v=5bs59vQwH-A",
-      "thumb": "https://i2.ytimg.com/vi/5bs59vQwH-A/hqdefault.jpg"
-    },
-    {
-      "id": "3Pbrd5piZNM",
-      "title": "TAEMIN (태민) - 'This Is The End' Official Video",
-      "date": "2026-08-10",
-      "url": "https://www.youtube.com/watch?v=3Pbrd5piZNM",
-      "thumb": "https://i4.ytimg.com/vi/3Pbrd5piZNM/hqdefault.jpg"
-    },
-    {
-      "id": "jhgW_MqtbgQ",
-      "title": "TAEMIN (태민) - POV: WATERBOMB💙",
-      "date": "2026-07-25",
-      "url": "https://www.youtube.com/watch?v=jhgW_MqtbgQ",
-      "thumb": "https://i3.ytimg.com/vi/jhgW_MqtbgQ/hqdefault.jpg"
     }
   ],
   "news": [
+    {
+      "title": "TAEMIN (태민) - 'Gooey' Performance Video",
+      "outlet": "YouTube",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwZXR4QmJFeTc3WDkyS2RmTnVNZzVUWllQbUNGOXRNQ0J2MmZveUI3bTJQYmZvRjVYY0JMeGlrOU5rdEw5a2VxTXhtbmg5ZnpvV2I0M2d6YkRSUWlF?oc=5"
+    },
     {
       "title": "Taemin’s ‘PHASE 1: SOFT VIOLENCE’ Is Here—5 Details Fans Need to Notice",
       "outlet": "Dojeon Media",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
+    },
+    {
+      "title": "TAEMIN Returns With Double Title Track EP 'Phase 1: Soft Violence' : K-WAVE",
+      "outlet": "en.koreaportal.com",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVW9hQmxZcGlCZFV5SjV1WWdRUTN6d2xRd0c2dzYwSHBIZS1DRGhaUDJVdnh1UzNYY1p4Sm16UEM1SXk2WWVrWWhaaG4wRk1sRXN4Y2p4MmZFMUZKNWJhSW9STXMyc1IxalpUby1PdTlLQnJ6dUJUbUd3WkszVVpDWDRvX05ielpIQWE0dUVvNFUzSk9seGxSajQxWWZ2Q09kWDFOME5CR3daVGpCRUZHRTJmbw?oc=5"
+    },
+    {
+      "title": "Taemin Chicago tickets on sale at Wintrust Arena",
+      "outlet": "TicketNews",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
     },
     {
       "title": "TAEMIN delivers PHASE I : Soft Violence, an 11-track return to dark K-pop artistry",
@@ -744,16 +762,22 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NZnAxb2NBaXZSelItMVBYVjRJYzFVWURNdmNjb2lfN1pkOHhxbnFjOE8tdWQtOWtRX0pueEVNWWJ5aUo0ZzhUUnhlangtZnZhMjJOZmR6UkpSLXhCdFhDbGtOZ1NZa2JfcDVyUmd4cW53UQ?oc=5"
     },
     {
-      "title": "Galaxy Corporation Plans Humanoid Robot K-Pop Idol for 2027 World Tour",
-      "outlet": "Yahoo",
-      "date": "2026-08-26",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFFWQ3JleGd3YlhNbE5DZ0J0SldHRFZueS1MRGFpbzk0T29xd0R5b21EOE1tU24zem1kT1AwazdjQTdwVVhuRThySkJPNExIMmJVMkRIV0RxbzV3MXFSNk9CcDBlYmZkNjNqZHRLdEItcTBhN3FQNmttcnVXd3VZMFNsa0FTbHlmdjY1QWlNRWVOXzBTQlJRejVyM3FTcHYzRDRpNzlNYVE?oc=5"
+      "title": "Song Review: Taemin – Float",
+      "outlet": "thebiaslist.com",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcjczT0Q4N185M2NCcXU1cDg3WkZkR1dLR0hBQUpaRktsZVdUOWJvMnJOUUp5VThwZUg2WVdQOTVKSFdjVUpjSFYyWUhBLUF4LWJua3RUWVhzaHd5VXlRbHlMQml4aEo3ZXVCcA?oc=5"
     },
     {
       "title": "Taemin Newark tickets on sale at Prudential Center",
       "outlet": "TicketNews",
       "date": "2026-08-26",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+    },
+    {
+      "title": "Galaxy Corporation Plans Humanoid Robot K-Pop Idol for 2027 World Tour",
+      "outlet": "Yahoo",
+      "date": "2026-08-26",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZFFWQ3JleGd3YlhNbE5DZ0J0SldHRFZueS1MRGFpbzk0T29xd0R5b21EOE1tU24zem1kT1AwazdjQTdwVVhuRThySkJPNExIMmJVMkRIV0RxbzV3MXFSNk9CcDBlYmZkNjNqZHRLdEItcTBhN3FQNmttcnVXd3VZMFNsa0FTbHlmdjY1QWlNRWVOXzBTQlJRejVyM3FTcHYzRDRpNzlNYVE?oc=5"
     },
     {
       "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
@@ -846,34 +870,10 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5EMHhhNHVZdHlFRl82cEZRYnlzLW5wY2JNbFdrbXNQRnl0dEJBVlkzOTJVbkE5RG9OU3lTSnpadV91VmY3a1haTEdKc3ZPaE9XUkl2RE1kU2dYZFZVUjRQNFhKZWVDVmRMR2xF?oc=5"
     },
     {
-      "title": "“PERMISSION” Unleashed: Global Phenomenon TAEMIN Powers Into a New Era",
-      "outlet": "mamasgeeky.com",
-      "date": "2026-05-22",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iQ1ltajlKYmtSTzItdGRPRFJQT1I4NUIzUW1ESzZMR3hwT3R4Tl9fM054QzRwWVJPdTBha3FRWk5aVHM3NUJXOGlRbGZWRFBxRmhBSFU1TmkwQ3NSWHJQblFqWQ?oc=5"
-    },
-    {
-      "title": "Grammy Museum extends Taemin exhibition",
-      "outlet": "Korea JoongAng Daily",
-      "date": "2026-05-20",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWVHTjdsa2t5blQ2ZzJrWmlZcFpDc3gzd2pOLTk3eHByV3c4T3RsOV9haDFLVEM1U2hGbVB4THFHM3FFZjBYSjNZUnY3S1V0NXE2cm4xVmx2MXQ1RkV1SGRjX1pienppVFFPLWZnRTRLaVZKZGFlYlpneTgwSlZpSkhsbzlscjNFTHczX1I5amlxdVJjY2J3VkdqcVF5dw?oc=5"
-    },
-    {
-      "title": "Where Are the Current SHINee Members? Wealth and Other Things - Prestige Online",
-      "outlet": "Singapore",
-      "date": "2026-05-14",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONXFWdU1FY19jMVk5VnZQWm9WalFwMTBPQjVsZTlTZ013OVUycFlmVUg0S21kM05ETU41SnFYWU9UVjRSbVhvMDZwQmozeElWNkxHWHY5Q3IzbTBVMVFqZ3VqWVZLNmY1cEM5VDZyMXRwWFVNRzFFR01BcmU0RFVrNVJ3ck1yMlJYWVpHWVVIYnU4TEE1dTdhRzVaYmljVVpaWlNSaHBGMGlTNWQ10gGyAUFVX3lxTE02MVJ3azNnTmdsWWdLVmNlRjg3WGZyNEhEQ2NUekJhRV9zTnlHM0FBRGtJYWphWGRJU0RhVFdGUHlFUVVCLXpkNHF3clBEOEo1cE5iVGtPUGROdFZ6eUUxdERFVGk0SGpVSnlJZUVmdnVjYzRlZ1FURGRzM0Z6a3c2UlJzcTBwcEUyT2FBSVhXZ2lCVWZ1NWtxQkl6U213OEJ3ZkI4Slg1VGVhSTB1bXlic2c?oc=5"
-    },
-    {
-      "title": "Taemin: Reflecting on the first K-pop male solo artist to perform at Coachella – The Point",
-      "outlet": "thepointweekly",
-      "date": "2026-04-29",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMjQ5S1REeGVjNWJUbzh5Um9YRmtQN0lDd2p6cnM1OHh3NVpWc0hySnBjRVNGaEFkN2xHUnFRSGhOV3FNdDYxaThRcjBza0ZtcDduVzJ6SEtvZDlzMHVNbVQzeHpUa2NjVmY0NXJ6dDRnaG5kUU52Zzl1bnNmam1kb0w3VHFpdXZKU3prR2lJTzYxUFYyVjA0aWRIcFRPS1lV?oc=5"
-    },
-    {
-      "title": "Taemin’s Coachella performances set a precedent for the longevity of a K-Pop artist",
-      "outlet": "highlandernews.org",
-      "date": "2026-04-28",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQW1BVVh3ZWpGT2JwY19haF9iaU13eHNOd0VVdkJyd2pZU2JXWG5vYjJWWF9IcE9XSXRLTERzbnZtWU9CVHpuelhvN283d1J2bzFqNEpyQUQxQmM4M0ktRlhhNlQ2c1RtOFZFUjlkWkkzQW1DdkRNSUZyVVB4aGFOQXlQUXVwTUJJRk1ER0psNlh6dUxMNDdzYW9iZjdlY1o0ZkFxaTIwdFFqWkgyZUxMemhFV1p3N3NBU3ZteA?oc=5"
+      "title": "K-POP Male Solo First… Why ‘TAEMCHELLA’ Was Special [HT Focus]",
+      "outlet": "Hanteo News",
+      "date": "2026-05-27",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3blZvcmh5LS13QXgyNkI0WnBYOVBxVVo4amotY2RkWjFZSS1RUmV3bkVyZVFUelVZWWF0cDBCcG1WSXg2aTZZVHItV1BURHNtVzZONmFn?oc=5"
     }
   ],
   "bio": {
@@ -1026,6 +1026,18 @@
   },
   "tourNews": [
     {
+      "title": "Taemin Chicago tickets on sale at Wintrust Arena",
+      "outlet": "TicketNews",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
+    },
+    {
+      "title": "TAEMIN's LiMiNaL Tour Hits Six US Cities. Tickets Go On Sale This Week. : CONCERTS",
+      "outlet": "en.koreaportal.com",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRUZYdmxvVzd2NEJIYkdWRFV1b2dUd3BNbGd4R2xCUXFkLXVBLVJHbXFOc1FQdkdzT0liX1FZNGRMREQ2cG5RcWI3Y1FVZWdaZkJWSHlkbkNRT29Kd1Y0cGdRcUpua3FxX0tXS09VclJnVy1kSEk4X21UQVlBcnJ4T0lmc2xhcGNLdUFxOVZXbVJEVXlsRExGZlFnTklYSzJZbXBPVktQTzlLNDUySXJMN1Z4RWxHWTQ?oc=5"
+    },
+    {
       "title": "Taemin San Jose tickets on sale at SAP Center",
       "outlet": "TicketNews",
       "date": "2026-08-28",
@@ -1048,18 +1060,6 @@
       "outlet": "TicketNews",
       "date": "2026-08-26",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
-    },
-    {
-      "title": "TAEMIN Announces Six North American Dates for LiMiNaL World Tour",
-      "outlet": "inmusicblog.com",
-      "date": "2026-08-25",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNU1GenlhSUJmYTJaTlBxNlZUZkh2VE1MRm1iOGljR2pOYm9SNHFZTmJrUnluYV9jM202eWk3MDFnREg4dzM1Y2Z1aVFFSmxoQ3c2Z0NjdjZJZ28ydTM3UWFGaWlvVXFjRnBVNmdzaHVJN3VQZ2wwd2x6dGhDVWw1ZkVR?oc=5"
-    },
-    {
-      "title": "TAEMIN Will Embark on Tour in North America, Kicking Off in October",
-      "outlet": "BroadwayWorld",
-      "date": "2026-08-25",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVWhWRHRMTFFTbGRjcDZuRnhCSkY0NXBuSUczejVqaU9NUHdlVEUzUktXUmV3QlAzc0Z3YmFhVlV4UjNMZzhTc09OUmd6RkhuNXRGa0E5N2pZTEFrTktSLS16QWpqTEFMYnFyblBCcXdnaVMyZUpZNHZtSVFDWVJWU1lmUDVGTm5ZdkhGUUk4U1NVZWVPejlvVWVSbG5VUm9Dd2RwakthOUdNTTZudkdSWjZRMDVJc3pfYV9Ib2tFSEJlM0FZaWI5Uy1R?oc=5"
     }
   ],
   "worldTour": {

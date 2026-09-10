@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T04:46:32.051Z",
+  "generated": "2026-09-10T11:23:12.288Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,6 +627,13 @@
   ],
   "videos": [
     {
+      "id": "HrpjNxANOnw",
+      "title": "TAEMIN (태민) - BST Hyde Park Behind",
+      "date": "2026-09-10",
+      "url": "https://www.youtube.com/watch?v=HrpjNxANOnw",
+      "thumb": "https://i1.ytimg.com/vi/HrpjNxANOnw/hqdefault.jpg"
+    },
+    {
       "id": "pDfLgtZ0gMc",
       "title": "TAEMIN - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.2)",
       "date": "2026-09-09",
@@ -723,19 +730,12 @@
       "date": "2026-08-31",
       "url": "https://www.youtube.com/watch?v=edKYpDmNEng",
       "thumb": "https://i2.ytimg.com/vi/edKYpDmNEng/hqdefault.jpg"
-    },
-    {
-      "id": "kmHw_cD9d2A",
-      "title": "내가 원하는 대로",
-      "date": "2026-08-29",
-      "url": "https://www.youtube.com/watch?v=kmHw_cD9d2A",
-      "thumb": "https://i4.ytimg.com/vi/kmHw_cD9d2A/hqdefault.jpg"
     }
   ],
   "news": [
     {
       "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
-      "outlet": "hanteonews.com",
+      "outlet": "Hanteo News",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RQXRsUDFBNnhUcjhHNjlyejVraGJ6bllldXgtRTFLMWliZUlISzdTYlRMSFpIQkpQSy1SR1FXUGUxbkxRLXhobkp3bmhKM2Vo?oc=5"
     },
@@ -861,7 +861,7 @@
     },
     {
       "title": "5 Taemin Solo Performances That Redefined What A Stage Can Be",
-      "outlet": "thehoneypop.com",
+      "outlet": "The Honey POP",
       "date": "2026-07-17",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTBrSnZYUTVocVN4b2JsRlhkZ0JzSmVPaE5iUGNYWGNDUVdibHVXSEdaaG5faTZKQkpzSHdsYVV5WUdqT3NjVWc2MlFQWWJCWnVhczVYYzFlTFlWUEVXdGEwRTU5Ny1YcXpqeUNwZFd6TmdBQVhqOHhXV2ZlMDItRjZUWmE5N3VHbUV6N3g5N0lmNnFUazJMTzg4SVlPQQ?oc=5"
     },
@@ -1074,12 +1074,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
     {
-      "title": "KRAZY Taipei unveils major K-pop and Asian line-up",
-      "outlet": "Karlobag.eu",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX3RlZGh5RU16Z1Bwa2xCZ3hCa0RoWXFlNTNwZjI2SG8tSmlhX284UVBJekM2U3hoTUEwTDZ6Z29OVFBfSXp5RFA5U3VjWUZ1TFRzZVpSNFhySGRHd3VlcXJVZzd4dGpkRjZjUllfd3h0RVg0VU1sX1R3RU5LQWJkYzZhX2Q5UkozOVZidVpSZHlmd1d1eC1JZjFQbFY5NnZxTUt2T283QWNEVUwxSHBmTTU1S3NNZ0k?oc=5"
-    },
-    {
       "title": "Taemin to give first concert in Kazakhstan",
       "outlet": "Qazinform",
       "date": "2026-09-08",
@@ -1102,6 +1096,12 @@
       "outlet": "TicketNews",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
+    },
+    {
+      "title": "TAEMIN's LiMiNaL Tour Hits Six US Cities. Tickets Go On Sale This Week. : CONCERTS",
+      "outlet": "en.koreaportal.com",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2ExOTRlREIzRl9BbjI2T1lqRjdJMi1FYmhqX1ZNWHhMbUlJaWxpcXFfQnYzWktSVmZGUW1VTWhfVTI3UGdiNEV2dmNIVHF6aWJlMmMtWEo3Tm5UR1hGSVZWdUZ0NVFxTWIyaVY3NnppM2R0eFRLU2lMNnROS1ppTFg1akNBOF9lbVZrLXNZbW1NdlRQQWVvb1JiNkN4QVRncGE3NDRFTHh5Y010ZXRuTU9R?oc=5"
     }
   ],
   "worldTour": {

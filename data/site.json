@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T20:57:22.204Z",
+  "generated": "2026-09-10T04:46:32.051Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -735,21 +735,15 @@
   "news": [
     {
       "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
-      "outlet": "Hanteo News",
+      "outlet": "hanteonews.com",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RQXRsUDFBNnhUcjhHNjlyejVraGJ6bllldXgtRTFLMWliZUlISzdTYlRMSFpIQkpQSy1SR1FXUGUxbkxRLXhobkp3bmhKM2Vo?oc=5"
     },
     {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "Kursiv Media",
+      "outlet": "Kursiv Media Казахстан: последние новости Казахстана и мира",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
-    },
-    {
-      "title": "The Art of Oxymorons: Taemin on Why ‘Soft Violence’ Defines His New Era",
-      "outlet": "Rolling Stone India",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEJJdGQtYTZrX0RsU0JyN3FhZDdVemxHX0ExdTZrbGVlQjdJN3VUZkZDZXNWTDAwSnlDYldLVExVaFFTb2JhTnk4NzQybm5FbnlseWFtN0Ywa1E0blo0ZU4wSkFQRkxGY1pOZXczY19JSWNhWUgwT1lCc05OQzc0U1hMLWxwdmVjdlHSAY8BQVVfeXFMUEtOMzJxX0NNdDFKb1pGUk16cS1WQ3JGVlY3Ti13clpiaXlrZmlsU19aV2ZOOVo0MGpPYmZPTEVOTDlDQ0pTblZreHJkNU8ycTNCeWFWVVZHZVpDbHVpTm5SQVN5TTJ1aTFGRFdUQU1EOGZYSXk5dEk0ZVpQVmgyTXhpVWtmd0dLTEFGdURoNjQ?oc=5"
     },
     {
       "title": "KRAZY Taipei unveils major K-pop and Asian line-up",
@@ -758,13 +752,19 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX3RlZGh5RU16Z1Bwa2xCZ3hCa0RoWXFlNTNwZjI2SG8tSmlhX284UVBJekM2U3hoTUEwTDZ6Z29OVFBfSXp5RFA5U3VjWUZ1TFRzZVpSNFhySGRHd3VlcXJVZzd4dGpkRjZjUllfd3h0RVg0VU1sX1R3RU5LQWJkYzZhX2Q5UkozOVZidVpSZHlmd1d1eC1JZjFQbFY5NnZxTUt2T283QWNEVUwxSHBmTTU1S3NNZ0k?oc=5"
     },
     {
+      "title": "The Art of Oxymorons: Taemin on Why ‘Soft Violence’ Defines His New Era",
+      "outlet": "Rolling Stone India",
+      "date": "2026-09-08",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEJJdGQtYTZrX0RsU0JyN3FhZDdVemxHX0ExdTZrbGVlQjdJN3VUZkZDZXNWTDAwSnlDYldLVExVaFFTb2JhTnk4NzQybm5FbnlseWFtN0Ywa1E0blo0ZU4wSkFQRkxGY1pOZXczY19JSWNhWUgwT1lCc05OQzc0U1hMLWxwdmVjdlHSAY8BQVVfeXFMUEtOMzJxX0NNdDFKb1pGUk16cS1WQ3JGVlY3Ti13clpiaXlrZmlsU19aV2ZOOVo0MGpPYmZPTEVOTDlDQ0pTblZreHJkNU8ycTNCeWFWVVZHZVpDbHVpTm5SQVN5TTJ1aTFGRFdUQU1EOGZYSXk5dEk0ZVpQVmgyTXhpVWtmd0dLTEFGdURoNjQ?oc=5"
+    },
+    {
       "title": "Taemin to give first concert in Kazakhstan",
       "outlet": "Qazinform",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFpY0lTdnZtWGlXZDBjWjlaR1FEbVhRUklSUFVWbVM4bFhBSVRBa2tldjR0LUZha1lUVE9EaEdyLU9tWjk2c1Z0cmdVaW9ZUTllbF9rTnQ4RUlHS2t2M2U0QTNSMFdjaUEwVkhiMllXM3pOV0lTaHlmVU5LYTRvdy1n0gGCAUFVX3lxTE43LW1lZGZZdV9RMmZmdjVNcWxfTnV4NXJGNDFxNVV0LTNQSjQ5aXdMY2sxNmVhcUlmSnBkTmMydnRjQTVmRmhWR1pKckFjVXpQdG4yd1dXU2hkS3ZJaW5HclJWQzRsVjB2RFNIblNvS2RzVU9VQkpsMmNhcG5WelhzQnc?oc=5"
     },
     {
-      "title": "Taemin, JJ Lin Complete Lineup For First Krazy Music Festival Taipei",
+      "title": "KRAZY Taipei 2026: TAEMIN, JJ Lin Complete Lineup With ITZY, MAX",
       "outlet": "Forbes",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzhXNUdfaXBiWkVBR29EUXB3bGNDQjl4NFE5eG5wbUZ6ZHVXYXhxcGZ5cFJuR2o2NlFDNUtqWWh1cTR4QXdXaFlkTHJyMHVLZWJRTy1uWnhBSmMtTG84b2VhMTZPem9kYWY1Z192eUwzcGpPSHF2MDVISVRQSlhJT1RWQ2ZpeGF5QmFHd3pXRTEzR0drN3JfOXVDcnY2RlMyQXh2cVQ3a3RJeFpyUV9VY3RVMHhTOG50b2ZNaUZ3?oc=5"
@@ -861,7 +861,7 @@
     },
     {
       "title": "5 Taemin Solo Performances That Redefined What A Stage Can Be",
-      "outlet": "The Honey POP",
+      "outlet": "thehoneypop.com",
       "date": "2026-07-17",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTBrSnZYUTVocVN4b2JsRlhkZ0JzSmVPaE5iUGNYWGNDUVdibHVXSEdaaG5faTZKQkpzSHdsYVV5WUdqT3NjVWc2MlFQWWJCWnVhczVYYzFlTFlWUEVXdGEwRTU5Ny1YcXpqeUNwZFd6TmdBQVhqOHhXV2ZlMDItRjZUWmE5N3VHbUV6N3g5N0lmNnFUazJMTzg4SVlPQQ?oc=5"
     },
@@ -1003,6 +1003,14 @@
         "url": "https://teleticket.com.pe/taemin-world-tour-liminal-lima"
       },
       {
+        "date": "2026-11-08",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "venue": "Vibra",
+        "note": "LiMiNaL world tour",
+        "url": "https://pixelticket.com.br/eventos/33075/taemin"
+      },
+      {
         "date": "2026-11-16",
         "city": "Paris",
         "country": "France",
@@ -1044,9 +1052,9 @@
       }
     ],
     "announced": {
-      "count": 2,
+      "count": 3,
       "from": "2026-09-18",
-      "to": "2026-11-08"
+      "to": "2026-12-09"
     }
   },
   "ticketing": {
@@ -1061,7 +1069,7 @@
   "tourNews": [
     {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "Kursiv Media",
+      "outlet": "Kursiv Media Казахстан: последние новости Казахстана и мира",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
@@ -1078,7 +1086,7 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFpY0lTdnZtWGlXZDBjWjlaR1FEbVhRUklSUFVWbVM4bFhBSVRBa2tldjR0LUZha1lUVE9EaEdyLU9tWjk2c1Z0cmdVaW9ZUTllbF9rTnQ4RUlHS2t2M2U0QTNSMFdjaUEwVkhiMllXM3pOV0lTaHlmVU5LYTRvdy1n0gGCAUFVX3lxTE43LW1lZGZZdV9RMmZmdjVNcWxfTnV4NXJGNDFxNVV0LTNQSjQ5aXdMY2sxNmVhcUlmSnBkTmMydnRjQTVmRmhWR1pKckFjVXpQdG4yd1dXU2hkS3ZJaW5HclJWQzRsVjB2RFNIblNvS2RzVU9VQkpsMmNhcG5WelhzQnc?oc=5"
     },
     {
-      "title": "Taemin, JJ Lin Complete Lineup For First Krazy Music Festival Taipei",
+      "title": "KRAZY Taipei 2026: TAEMIN, JJ Lin Complete Lineup With ITZY, MAX",
       "outlet": "Forbes",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzhXNUdfaXBiWkVBR29EUXB3bGNDQjl4NFE5eG5wbUZ6ZHVXYXhxcGZ5cFJuR2o2NlFDNUtqWWh1cTR4QXdXaFlkTHJyMHVLZWJRTy1uWnhBSmMtTG84b2VhMTZPem9kYWY1Z192eUwzcGpPSHF2MDVISVRQSlhJT1RWQ2ZpeGF5QmFHd3pXRTEzR0drN3JfOXVDcnY2RlMyQXh2cVQ3a3RJeFpyUV9VY3RVMHhTOG50b2ZNaUZ3?oc=5"
@@ -1213,8 +1221,8 @@
             "city": "São Paulo",
             "country": "Brazil",
             "venue": "Vibra",
-            "status": "Coming Soon",
-            "url": null
+            "status": "On Sale",
+            "url": "https://pixelticket.com.br/eventos/33075/taemin"
           }
         ]
       },
@@ -1262,14 +1270,35 @@
             "url": "https://www.onionproduction.com/taemina"
           }
         ]
+      },
+      {
+        "name": "More",
+        "cities": [
+          {
+            "date": "2026-12-06",
+            "city": "Almaty",
+            "country": "Kazakhstan",
+            "venue": "Almaty Arena",
+            "status": "Coming Soon",
+            "url": null
+          },
+          {
+            "date": "2026-12-09",
+            "city": "Tbilisi",
+            "country": "Georgia",
+            "venue": "Palas of Sports",
+            "status": "Coming Soon",
+            "url": null
+          }
+        ]
       }
     ],
-    "status": "17 cities across 10 countries. 17 have dates and venues, and 15 are on sale.",
+    "status": "19 cities across 12 countries. 19 have dates and venues, and 16 are on sale.",
     "stats": {
-      "cities": 17,
-      "countries": 10,
-      "dated": 17,
-      "onSale": 15
+      "cities": 19,
+      "countries": 12,
+      "dated": 19,
+      "onSale": 16
     }
   },
   "timeline": [

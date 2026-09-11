@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T20:53:55.314Z",
+  "generated": "2026-09-11T04:44:41.025Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,20 +734,20 @@
   ],
   "news": [
     {
+      "title": "TAEMIN in Almaty as part of the world tour",
+      "outlet": "Freedom Ticketon",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oMU82TzZFZGw3TjFjdGVRa3VLRkVYUDExLUhlTmJNb2Y3U1IwUWhPd3J2c2ZkemU0OGNnOVdmZVd3MGFQMl9tRXU2bw?oc=5"
+    },
+    {
       "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
       "outlet": "Hanteo News",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RQXRsUDFBNnhUcjhHNjlyejVraGJ6bllldXgtRTFLMWliZUlISzdTYlRMSFpIQkpQSy1SR1FXUGUxbkxRLXhobkp3bmhKM2Vo?oc=5"
     },
     {
-      "title": "The Art of Oxymorons: Taemin on Why ‘Soft Violence’ Defines His New Era",
-      "outlet": "Rolling Stone India",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEJJdGQtYTZrX0RsU0JyN3FhZDdVemxHX0ExdTZrbGVlQjdJN3VUZkZDZXNWTDAwSnlDYldLVExVaFFTb2JhTnk4NzQybm5FbnlseWFtN0Ywa1E0blo0ZU4wSkFQRkxGY1pOZXczY19JSWNhWUgwT1lCc05OQzc0U1hMLWxwdmVjdlHSAYoBQVVfeXFMUHRCSXRkLWE2a19EbFNCcjdxYWQ3VXpsR19BMXU2a2xlZUI3STd1VGZGQ2VzVkwwMEp5Q2JXS1RMVWhRU29iYU55ODc0Mm5uRW55bHlhbTdGMGtRNG5aNGVOMEpBUEZMRmNaTmV3M2NfSUljYVlIME9ZQnNOTkM3NFNYTC1scHZlY3ZR?oc=5"
-    },
-    {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "Kursiv Media",
+      "outlet": "kz.kursiv.media",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
@@ -771,13 +771,13 @@
     },
     {
       "title": "[4K] NCT 127, MONSTA X, ALD1, NEXZ, DINO, TAEMIN, CHUNGHA, OURBIRTHDAY, TUIDE, HANBIN | On the way to Music Bank 260904",
-      "outlet": "KBS WORLD Radio",
+      "outlet": "world.kbs.co.kr",
       "date": "2026-09-04",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTEt6eW5SVThubU1nbFhhTWNzN2tWNThrXzFXMTRmNV9pWm9mNUdWS1FuSkl3VkYxRU95WW1KVzh1ZTVXX3kzc010MGpZOFdaTG9RVks4WUxHdkJoYnA5TFdHc3dYZkJfY0txb1kyOUtUYW90RUgzUExSRGZDUVV5cWhfRDRKY2ZHUnFYemg0SjBnZw?oc=5"
     },
     {
       "title": "Taemin's Coachella Debut Contrasts with Sung Si-kyung's Mall Past",
-      "outlet": "조선일보",
+      "outlet": "chosun.com",
       "date": "2026-09-04",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbVpqLTdudkxqYmpsTnpoMjU3RnFCYUJuSXV3bzdQZEZYbHhBV1JEODZfRDI0TTUtbTlBamdmLVFzTlJZbjZrRS1oT0JpZGZVaXFuY2hFVXFzWEE0cGxfQ0xiNE1vRkxkeGt2V3VWNHljTUhONi11dW0wNzZ2ZlJkZWprVzdRRlk1S2tJM0d3?oc=5"
     },
@@ -848,6 +848,12 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdGdNcDRJbTNYaTRHN05HS1FXbnNUaUlFQUFsWFhfQmV5TDBEcnVqSmY0c3hRTFBpelpMUVdHZGJYbi1sZFJNOWxpRWV6SllHU29SV3J0eHQ1X2g5MllJQWVSNUhTX0VrUHBEaUlHOHNOaTRYaDlIcy1oS3VHT0dGeHdJZkJNR1YyaTJuamYxYlhCSjdJZWd2SnlFYWswSTZOZG8xTjRfQk50TEpzTkdCX1BVZXNfYVV6WmtJeWNR?oc=5"
     },
     {
+      "title": "TAEMIN To Bring LiMiNaL World Tour To London's OVO Arena Wembley In November",
+      "outlet": "stereoboard.com",
+      "date": "2026-08-11",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TQkp6OGRuOFBORzcxa29WbXlzbWp4TEt1TFh2OFZHQWhxWVJYWTk5V1lySXVIXzFNZ1dqYTd0UkVMcmpVcFBuNkEtUmhkaWZ4MElpWUhRd2ViUUdqaVE?oc=5"
+    },
+    {
       "title": "TAEMIN Launches ‘LiMiNaL’ World Tour 2026-2027",
       "outlet": "mamasgeeky.com",
       "date": "2026-07-28",
@@ -861,7 +867,7 @@
     },
     {
       "title": "5 Taemin Solo Performances That Redefined What A Stage Can Be",
-      "outlet": "The Honey POP",
+      "outlet": "thehoneypop.com",
       "date": "2026-07-17",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTBrSnZYUTVocVN4b2JsRlhkZ0JzSmVPaE5iUGNYWGNDUVdibHVXSEdaaG5faTZKQkpzSHdsYVV5WUdqT3NjVWc2MlFQWWJCWnVhczVYYzFlTFlWUEVXdGEwRTU5Ny1YcXpqeUNwZFd6TmdBQVhqOHhXV2ZlMDItRjZUWmE5N3VHbUV6N3g5N0lmNnFUazJMTzg4SVlPQQ?oc=5"
     },
@@ -870,12 +876,6 @@
       "outlet": "The Korea Herald",
       "date": "2026-07-08",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GZmlDZW9TazIzSjdjSWptRHI0Vndzc3dDQUNWLW9NcnRBMkNyb2RUMTB6T3ZqLVVZRTd2a0RSMGx6QThyeEx3emRCUDZIcHVqOHVDcU5SUQ?oc=5"
-    },
-    {
-      "title": "“I’ll Really Be Able To Brag About This!” Taemin On His UK Festival Debut",
-      "outlet": "clashmusic.com",
-      "date": "2026-07-06",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcFdVQmVPZVV6UlUtZUNBZjFBWGJSRkU5RUlVYVNrbVUzcEdfRWxzWmlJcThzSklxZ1EwV2hzR0ZjTWVCVGp5bVktajNaVjcxbFdWLW9ha3lDQkxRSlhyOTkzRTVkMWJnbmF3WHhVWmRQNEJNcHJfM0tnem5YdUdOd0QwWkRUUk9INFB1enhTSzJldml5eFpuT05scl9Da3ZETTZFS2UzcnBMZw?oc=5"
     }
   ],
   "bio": {
@@ -1068,8 +1068,14 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN in Almaty as part of the world tour",
+      "outlet": "Freedom Ticketon",
+      "date": "2026-09-10",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oMU82TzZFZGw3TjFjdGVRa3VLRkVYUDExLUhlTmJNb2Y3U1IwUWhPd3J2c2ZkemU0OGNnOVdmZVd3MGFQMl9tRXU2bw?oc=5"
+    },
+    {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "Kursiv Media",
+      "outlet": "kz.kursiv.media",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
@@ -1096,12 +1102,6 @@
       "outlet": "TicketNews",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
-    },
-    {
-      "title": "TAEMIN's LiMiNaL Tour Hits Six US Cities. Tickets Go On Sale This Week. : CONCERTS",
-      "outlet": "en.koreaportal.com",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2ExOTRlREIzRl9BbjI2T1lqRjdJMi1FYmhqX1ZNWHhMbUlJaWxpcXFfQnYzWktSVmZGUW1VTWhfVTI3UGdiNEV2dmNIVHF6aWJlMmMtWEo3Tm5UR1hGSVZWdUZ0NVFxTWIyaVY3NnppM2R0eFRLU2lMNnROS1ppTFg1akNBOF9lbVZrLXNZbW1NdlRQQWVvb1JiNkN4QVRncGE3NDRFTHh5Y010ZXRuTU9R?oc=5"
     }
   ],
   "worldTour": {

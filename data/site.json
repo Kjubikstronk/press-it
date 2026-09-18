@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T11:19:27.729Z",
+  "generated": "2026-09-18T16:26:40.054Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,20 +734,32 @@
   ],
   "news": [
     {
+      "title": "TAEMIN Launches LiMiNaL World Tour: Full Setlist",
+      "outlet": "inmusicblog.com",
+      "date": "2026-09-18",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KQkNWYWN1RkNtQzZWbnVEWjFZYWdnTkI1SVVEU3N6WGdCLWZVNi1YQ0o5bXllNEVhemxEd3FhOXRycmlKMERiQjdmeE1wcmQ5dWU5YlpCZE8xOVh4M0lSNmpNd1g0ZGQ5dVUxMEtkN1A2WG9BU1BlRGJB?oc=5"
+    },
+    {
       "title": "Taemin's Head Massage Reveals Choo Sung-hoon's Tough Scalp",
-      "outlet": "chosun.com",
+      "outlet": "조선일보",
       "date": "2026-09-17",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVBzSDJfWlFOb0IxSDNrSmxxOFBGNy1PM2V5M1VvNWotX2hweWU2elJacDBUUndIdU9BUzRiSVljYmdWWnJ1X2tFX3RSSHpBZkVFYVlQcHBSOTBpbHNLZlRYeGtuM0U3bVNLZmlUOTd0eFM4UDg5bmEtYW1sc1MwVUhRd1dEWDhxaDQzamh3?oc=5"
     },
     {
       "title": "TAEMIN in Almaty as part of the world tour",
-      "outlet": "Freedom Ticketon",
+      "outlet": "ticketon.kz",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oMU82TzZFZGw3TjFjdGVRa3VLRkVYUDExLUhlTmJNb2Y3U1IwUWhPd3J2c2ZkemU0OGNnOVdmZVd3MGFQMl9tRXU2bw?oc=5"
     },
     {
+      "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
+      "outlet": "Hanteo News",
+      "date": "2026-09-08",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RQXRsUDFBNnhUcjhHNjlyejVraGJ6bllldXgtRTFLMWliZUlISzdTYlRMSFpIQkpQSy1SR1FXUGUxbkxRLXhobkp3bmhKM2Vo?oc=5"
+    },
+    {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "kz.kursiv.media",
+      "outlet": "Kursiv Media",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
@@ -759,7 +771,7 @@
     },
     {
       "title": "Taemin to give first concert in Kazakhstan",
-      "outlet": "qazinform.com",
+      "outlet": "Qazinform",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFpY0lTdnZtWGlXZDBjWjlaR1FEbVhRUklSUFVWbVM4bFhBSVRBa2tldjR0LUZha1lUVE9EaEdyLU9tWjk2c1Z0cmdVaW9ZUTllbF9rTnQ4RUlHS2t2M2U0QTNSMFdjaUEwVkhiMllXM3pOV0lTaHlmVU5LYTRvdy1n0gGCAUFVX3lxTE43LW1lZGZZdV9RMmZmdjVNcWxfTnV4NXJGNDFxNVV0LTNQSjQ5aXdMY2sxNmVhcUlmSnBkTmMydnRjQTVmRmhWR1pKckFjVXpQdG4yd1dXU2hkS3ZJaW5HclJWQzRsVjB2RFNIblNvS2RzVU9VQkpsMmNhcG5WelhzQnc?oc=5"
     },
@@ -771,7 +783,7 @@
     },
     {
       "title": "Taemin's Coachella Debut Contrasts with Sung Si-kyung's Mall Past",
-      "outlet": "chosun.com",
+      "outlet": "조선일보",
       "date": "2026-09-05",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbVpqLTdudkxqYmpsTnpoMjU3RnFCYUJuSXV3bzdQZEZYbHhBV1JEODZfRDI0TTUtbTlBamdmLVFzTlJZbjZrRS1oT0JpZGZVaXFuY2hFVXFzWEE0cGxfQ0xiNE1vRkxkeGt2V3VWNHljTUhONi11dW0wNzZ2ZlJkZWprVzdRRlk1S2tJM0d3?oc=5"
     },
@@ -788,8 +800,14 @@
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1QNzlPNVF6cEhBNzhMSzJRWHRaLVFsNllxd3NKU0Jud3RWdkFfUTB6TUU3ZnM1cWVoc2hDcHIxTklIa1RCRk44cmxwdlVlM214ejNNYWdTZw?oc=5"
     },
     {
+      "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
+      "outlet": "TicketNews",
+      "date": "2026-09-01",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
+    },
+    {
       "title": "Taemin’s ‘PHASE 1: SOFT VIOLENCE’ Is Here—5 Details Fans Need to Notice",
-      "outlet": "Dojeon Media",
+      "outlet": "dojeonmedia.com",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
     },
@@ -798,12 +816,6 @@
       "outlet": "People.com",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rQWxnM05pVG4yWm1ETWVHQ3hqdVVNQW5Zb0l0TEZsYW1rTXdrN05kLTZHN29QX3VlbnBIY1ItNXdtZmtiMm82Rll0cHBPWTIwc3dzdjZyR1NSS2VsaVdDUXVnaXBQLUlMNU1ZZ0pB?oc=5"
-    },
-    {
-      "title": "Song Review: Taemin – Float",
-      "outlet": "thebiaslist.com",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcjczT0Q4N185M2NCcXU1cDg3WkZkR1dLR0hBQUpaRktsZVdUOWJvMnJOUUp5VThwZUg2WVdQOTVKSFdjVUpjSFYyWUhBLUF4LWJua3RUWVhzaHd5VXlRbHlMQml4aEo3ZXVCcA?oc=5"
     },
     {
       "title": "Taemin Newark tickets on sale at Prudential Center",
@@ -822,6 +834,12 @@
       "outlet": "The Korea Herald",
       "date": "2026-08-19",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50RHNJYnRzd2hEcENEdDRXcDgyZ0NIQ19ENXRqQ3ZnaGJzd3hvWnVldFdGMXdSYml4SnVobWc5YWZWVXF5dGVWTTFmQl96WlNDYWJDdjMxRQ?oc=5"
+    },
+    {
+      "title": "TAEMIN is heading to Europe: The ‘LiMiNaL World Tour’ starts in September!",
+      "outlet": "Nolae",
+      "date": "2026-08-18",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV2Fud3lyWm1qQ0ZWZ0JqNkJzZENXb05EZHFRUVgybDBNT2NEZFlQdFU3bGtDdDJmSmZNR3UzNmxYOTRkRDdYUFdVQlk2aENKYXdnNEhFNEY1YU01NWdxRTdsN2xvVlJfSXVWcW1zWHNwQUdiS2VWWXpseEYxN0E1aEZyX1ZQRHd2c1U2VmNZSUlUMWMtNGxoeENtVy1VOUhPbHlMVHIzcVhOdw?oc=5"
     },
     {
       "title": "TAEMIN Announces North American LiMiNaL Tour Dates With AEG",
@@ -843,7 +861,7 @@
     },
     {
       "title": "FLO, Taemin and More join ATEEZ’s BST Hyde Park 2026 line-up",
-      "outlet": "United By Pop",
+      "outlet": "unitedbypop.com",
       "date": "2026-07-25",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDhyaUM3aWFmMlZiRXJZVzBkS0ZzRGdxRHJpeGxvTW1sWTZaZEZJVlBpN0VnZHRsNUF6QUxFNzJxVEVzTVQwWVRCaFMwSzBBWU82LVBEdXZNZEsxdE13Z2UtWmVvRThEeVphOVExeGxBeVlRTm9iSVBUc1hXNlp3cW9pSVYxTGVmNTVqUmV5eTktYzBCZjBXX1VMMTR2bEU?oc=5"
     },
@@ -858,24 +876,6 @@
       "outlet": "The Korea Herald",
       "date": "2026-07-08",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GZmlDZW9TazIzSjdjSWptRHI0Vndzc3dDQUNWLW9NcnRBMkNyb2RUMTB6T3ZqLVVZRTd2a0RSMGx6QThyeEx3emRCUDZIcHVqOHVDcU5SUQ?oc=5"
-    },
-    {
-      "title": "“I’ll Really Be Able To Brag About This!” Taemin On His UK Festival Debut",
-      "outlet": "clashmusic.com",
-      "date": "2026-07-06",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcFdVQmVPZVV6UlUtZUNBZjFBWGJSRkU5RUlVYVNrbVUzcEdfRWxzWmlJcThzSklxZ1EwV2hzR0ZjTWVCVGp5bVktajNaVjcxbFdWLW9ha3lDQkxRSlhyOTkzRTVkMWJnbmF3WHhVWmRQNEJNcHJfM0tnem5YdUdOd0QwWkRUUk9INFB1enhTSzJldml5eFpuT05scl9Da3ZETTZFS2UzcnBMZw?oc=5"
-    },
-    {
-      "title": "Taemin Moves Fans to Tears: \"I Want to Collaborate with the Late Jonghyun. He Would Have Become an Amazing Artist\"",
-      "outlet": "스포츠조선",
-      "date": "2026-07-04",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeHIycldOVjlkRV80MGtFcFpBTkZUemdaLTdNMzlLOUltdVh2NTNPUEZhZ1BOVTNvaDdqZ21UbHphREpsRlA0SzJVMXV0TzlyMWNmMFp3emVpVkNTYS1ORzRCSDFQYnk0UVdzaXNjUFFzMEwtT0FUNktycnl1MERhUHBCRQ?oc=5"
-    },
-    {
-      "title": "K-POP Male Solo First… Why ‘TAEMCHELLA’ Was Special [HT Focus]",
-      "outlet": "Hanteo News",
-      "date": "2026-05-27",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3blZvcmh5LS13QXgyNkI0WnBYOVBxVVo4amotY2RkWjFZSS1RUmV3bkVyZVFUelVZWWF0cDBCcG1WSXg2aTZZVHItV1BURHNtVzZONmFn?oc=5"
     }
   ],
   "bio": {
@@ -1084,20 +1084,26 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN Launches LiMiNaL World Tour: Full Setlist",
+      "outlet": "inmusicblog.com",
+      "date": "2026-09-18",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KQkNWYWN1RkNtQzZWbnVEWjFZYWdnTkI1SVVEU3N6WGdCLWZVNi1YQ0o5bXllNEVhemxEd3FhOXRycmlKMERiQjdmeE1wcmQ5dWU5YlpCZE8xOVh4M0lSNmpNd1g0ZGQ5dVUxMEtkN1A2WG9BU1BlRGJB?oc=5"
+    },
+    {
       "title": "TAEMIN in Almaty as part of the world tour",
-      "outlet": "Freedom Ticketon",
+      "outlet": "ticketon.kz",
       "date": "2026-09-10",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1oMU82TzZFZGw3TjFjdGVRa3VLRkVYUDExLUhlTmJNb2Y3U1IwUWhPd3J2c2ZkemU0OGNnOVdmZVd3MGFQMl9tRXU2bw?oc=5"
     },
     {
       "title": "K-pop idol Taemin of SHINee to perform in Almaty for the first time",
-      "outlet": "kz.kursiv.media",
+      "outlet": "Kursiv Media",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORl94aThtUnY1dm51N0tQVDlsYy1KZm44UW9NLUlDYVlyOTlJSjQwVldLcXc0SzBPeHQyUkhUdWU0Z0x3VEg3SGR2VnpMZk00RXYxVjFOVlNWbzRwSWttX0dUeWRGaGxFM1MzV0pDSlpVSGUzVWRudjZqeE4wbDlUTDE1RmhwUjZ4aThYc053SDZpR3BkZ1M5QkZBN3ZVT1NXODJfcTBITlE5MXgxY0YwdVAzYmx6R0k?oc=5"
     },
     {
       "title": "Taemin to give first concert in Kazakhstan",
-      "outlet": "qazinform.com",
+      "outlet": "Qazinform",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFpY0lTdnZtWGlXZDBjWjlaR1FEbVhRUklSUFVWbVM4bFhBSVRBa2tldjR0LUZha1lUVE9EaEdyLU9tWjk2c1Z0cmdVaW9ZUTllbF9rTnQ4RUlHS2t2M2U0QTNSMFdjaUEwVkhiMllXM3pOV0lTaHlmVU5LYTRvdy1n0gGCAUFVX3lxTE43LW1lZGZZdV9RMmZmdjVNcWxfTnV4NXJGNDFxNVV0LTNQSjQ5aXdMY2sxNmVhcUlmSnBkTmMydnRjQTVmRmhWR1pKckFjVXpQdG4yd1dXU2hkS3ZJaW5HclJWQzRsVjB2RFNIblNvS2RzVU9VQkpsMmNhcG5WelhzQnc?oc=5"
     },
@@ -1108,16 +1114,10 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzhXNUdfaXBiWkVBR29EUXB3bGNDQjl4NFE5eG5wbUZ6ZHVXYXhxcGZ5cFJuR2o2NlFDNUtqWWh1cTR4QXdXaFlkTHJyMHVLZWJRTy1uWnhBSmMtTG84b2VhMTZPem9kYWY1Z192eUwzcGpPSHF2MDVISVRQSlhJT1RWQ2ZpeGF5QmFHd3pXRTEzR0drN3JfOXVDcnY2RlMyQXh2cVQ3a3RJeFpyUV9VY3RVMHhTOG50b2ZNaUZ3?oc=5"
     },
     {
-      "title": "TAEMIN's LiMiNaL Tour Hits Six US Cities. Tickets Go On Sale This Week. : CONCERTS",
-      "outlet": "en.koreaportal.com",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2ExOTRlREIzRl9BbjI2T1lqRjdJMi1FYmhqX1ZNWHhMbUlJaWxpcXFfQnYzWktSVmZGUW1VTWhfVTI3UGdiNEV2dmNIVHF6aWJlMmMtWEo3Tm5UR1hGSVZWdUZ0NVFxTWIyaVY3NnppM2R0eFRLU2lMNnROS1ppTFg1akNBOF9lbVZrLXNZbW1NdlRQQWVvb1JiNkN4QVRncGE3NDRFTHh5Y010ZXRuTU9R?oc=5"
-    },
-    {
-      "title": "Taemin Las Vegas tickets on sale at T-Mobile Arena",
+      "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
       "outlet": "TicketNews",
-      "date": "2026-08-28",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXRJTFNWNkdlZHJobjY2SEVGNzdLZ3lLdHFENHpvZWdnVE14YjhMSU9Oc0doZjVBTzF0cjJoRmxYUG9KcjBNZ3ZySnhuOXdXbXo2NHVoUTlRYXo3d3NEUklLSGVsM1ExTjVEWllBN1ppdXJHSHZDbWhVME1sS1ZtWGRNTGxzRUxMYzVDY3NvOA?oc=5"
+      "date": "2026-09-01",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
     }
   ],
   "worldTour": {

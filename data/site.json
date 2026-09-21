@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T20:51:12.038Z",
+  "generated": "2026-09-21T04:59:27.719Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,12 +734,6 @@
   ],
   "news": [
     {
-      "title": "TAEMIN Launches LiMiNaL World Tour: Full Setlist",
-      "outlet": "inmusicblog.com",
-      "date": "2026-09-18",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KQkNWYWN1RkNtQzZWbnVEWjFZYWdnTkI1SVVEU3N6WGdCLWZVNi1YQ0o5bXllNEVhemxEd3FhOXRycmlKMERiQjdmeE1wcmQ5dWU5YlpCZE8xOVh4M0lSNmpNd1g0ZGQ5dVUxMEtkN1A2WG9BU1BlRGJB?oc=5"
-    },
-    {
       "title": "TAEMIN in Almaty as part of the world tour",
       "outlet": "Freedom Ticketon",
       "date": "2026-09-10",
@@ -806,8 +800,14 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd2ExOTRlREIzRl9BbjI2T1lqRjdJMi1FYmhqX1ZNWHhMbUlJaWxpcXFfQnYzWktSVmZGUW1VTWhfVTI3UGdiNEV2dmNIVHF6aWJlMmMtWEo3Tm5UR1hGSVZWdUZ0NVFxTWIyaVY3NnppM2R0eFRLU2lMNnROS1ppTFg1akNBOF9lbVZrLXNZbW1NdlRQQWVvb1JiNkN4QVRncGE3NDRFTHh5Y010ZXRuTU9R?oc=5"
     },
     {
+      "title": "Taemin’s new album 'PHASE 1: Soft Violence' is the first step into a new era — Album Review",
+      "outlet": "melodicmag.com",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUk1SzAta0RBbHJMNHJMdmIwSVJsYnhEU0taeVdYdVhacHR4YjlfNXFvbTdaaTdBRHJDLW9tVzkybUJnUUh5ZDlMLWYwc3ZYZHlmSnRDc1dmdE5Qb2FjUTcwUzhka3V6bWQ3NGExeXViNS1Sa0lZODNud0FwM3ZnMUN1NkY0aVBrRlgya3U0VkcwU3hxTUxpbjd6Zw?oc=5"
+    },
+    {
       "title": "Taemin’s ‘PHASE 1: SOFT VIOLENCE’ Is Here—5 Details Fans Need to Notice",
-      "outlet": "Dojeon Media",
+      "outlet": "dojeonmedia.com",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
     },
@@ -855,7 +855,7 @@
     },
     {
       "title": "FLO, Taemin and More join ATEEZ’s BST Hyde Park 2026 line-up",
-      "outlet": "United By Pop",
+      "outlet": "unitedbypop.com",
       "date": "2026-07-25",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUDhyaUM3aWFmMlZiRXJZVzBkS0ZzRGdxRHJpeGxvTW1sWTZaZEZJVlBpN0VnZHRsNUF6QUxFNzJxVEVzTVQwWVRCaFMwSzBBWU82LVBEdXZNZEsxdE13Z2UtWmVvRThEeVphOVExeGxBeVlRTm9iSVBUc1hXNlp3cW9pSVYxTGVmNTVqUmV5eTktYzBCZjBXX1VMMTR2bEU?oc=5"
     },
@@ -1084,12 +1084,6 @@
   },
   "tourNews": [
     {
-      "title": "TAEMIN Launches LiMiNaL World Tour: Full Setlist",
-      "outlet": "inmusicblog.com",
-      "date": "2026-09-18",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KQkNWYWN1RkNtQzZWbnVEWjFZYWdnTkI1SVVEU3N6WGdCLWZVNi1YQ0o5bXllNEVhemxEd3FhOXRycmlKMERiQjdmeE1wcmQ5dWU5YlpCZE8xOVh4M0lSNmpNd1g0ZGQ5dVUxMEtkN1A2WG9BU1BlRGJB?oc=5"
-    },
-    {
       "title": "TAEMIN in Almaty as part of the world tour",
       "outlet": "Freedom Ticketon",
       "date": "2026-09-10",
@@ -1118,6 +1112,12 @@
       "outlet": "Forbes",
       "date": "2026-09-08",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzhXNUdfaXBiWkVBR29EUXB3bGNDQjl4NFE5eG5wbUZ6ZHVXYXhxcGZ5cFJuR2o2NlFDNUtqWWh1cTR4QXdXaFlkTHJyMHVLZWJRTy1uWnhBSmMtTG84b2VhMTZPem9kYWY1Z192eUwzcGpPSHF2MDVISVRQSlhJT1RWQ2ZpeGF5QmFHd3pXRTEzR0drN3JfOXVDcnY2RlMyQXh2cVQ3a3RJeFpyUV9VY3RVMHhTOG50b2ZNaUZ3?oc=5"
+    },
+    {
+      "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
+      "outlet": "TicketNews",
+      "date": "2026-09-01",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
     }
   ],
   "worldTour": {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T05:59:49.782Z",
+  "generated": "2026-10-01T13:21:06.229Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -55,7 +55,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/74/88/44748810-a3df-2c8f-ac64-e90f1c8b482a/a32dee27-216f-4a33-a230-936c89a34fd2.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/permission-single/6770655485?uo=4",
       "copyright": "℗ 2026 The Yoo Group",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "single",
       "deezerUrl": "https://www.deezer.com/album/983239781",
@@ -87,7 +87,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/57/16/a25716d8-fe6a-855d-1e07-ec81aba41d5b/8800331139835_cover.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/veil-single/1838675544?uo=4",
       "copyright": "℗ 2025 BIGPLANETMADE, under license to YG PLUS",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "single",
       "deezerUrl": "https://www.deezer.com/album/818501431",
@@ -130,7 +130,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/eternal/1786293723?uo=4",
       "copyright": "℗ 2024 BIGPLANETMADE, under license to YG PLUS",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "ep",
       "deezerUrl": "https://www.deezer.com/album/685962421",
@@ -162,7 +162,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9a/15/ce/9a15cee2-7c2e-a6fd-e144-a2ff50d60cae/888735945755.png/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/guilty-the-4th-mini-album-ep/1713694332?uo=4",
       "copyright": "℗ 2023 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "ep",
       "deezerUrl": "https://www.deezer.com/album/504203441",
@@ -178,7 +178,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/advice-the-3rd-mini-album-ep/1567180786?uo=4",
       "copyright": "℗ 2021 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "ep",
       "deezerUrl": "https://www.deezer.com/album/229620062",
@@ -210,7 +210,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/never-gonna-dance-again-act-2-the-3rd-album/1538577808?uo=4",
       "copyright": "℗ 2020 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/184008632",
@@ -242,7 +242,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/1b/4b/e81b4be0-ecda-95b5-1981-bd50773c56ad/TAEMIN_Act1_Digital_Cover_44.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/never-gonna-dance-again-act-1-the-3rd-album/1530317819?uo=4",
       "copyright": "℗ 2020 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/171758622",
@@ -258,7 +258,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f0/20/1f/f0201fda-d354-11ff-1d02-740d4a5ff4b2/dj.pjxcveyb.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/2-kids-single/1525651710?uo=4",
       "copyright": "℗ 2020 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "single",
       "deezerUrl": "https://www.deezer.com/album/164984582",
@@ -290,7 +290,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3a/97/05/3a97058b-11cd-c56a-9723-da522680f568/TAEMIN_WANT_Cover_Art.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/want-the-2nd-mini-album/1451783260?uo=4",
       "copyright": "℗ 2019 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/106677422",
@@ -354,7 +354,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4c/6e/2f/4c6e2f92-677a-bb0d-bc83-91c4728688d1/TAEMIN_02_RE_COVER_global.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/move-ing-the-2nd-album-repackage-ep/1322925600?uo=4",
       "copyright": "℗ 2017 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "ep",
       "deezerUrl": "https://www.deezer.com/album/106767482",
@@ -370,7 +370,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/91/8a/a4/918aa466-8968-b3e1-d29e-3d606beab98e/Untitled.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/thirsty-off-sick-concert-version-single/1309584338?uo=4",
       "copyright": "℗ 2017 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "single",
       "deezerUrl": "https://www.deezer.com/album/106709302",
@@ -386,7 +386,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/move-the-2nd-album/1296637194?uo=4",
       "copyright": "℗ 2017 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/106766952",
@@ -418,7 +418,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/14/75/de147524-fb4b-d9fa-530d-746bd55bd42e/taemin_goodbye.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/goodbye-%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E3%81%B2%E3%81%A8%E3%82%8A-korean-version-single/1140337144?uo=4",
       "copyright": "℗ 2016 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "single",
       "deezerUrl": "https://www.deezer.com/album/106878582",
@@ -463,7 +463,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/ce/c1/00cec18a-9b05-b2e5-fcfc-4c8f4f7f8dc4/TAEMIN_iTunes_COVER_B.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/press-it-the-1st-album/1085060188?uo=4",
       "copyright": "℗ 2016 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/106777042",
@@ -479,7 +479,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/f3/81/dbf38100-1eab-64e7-0305-39c2363744ee/TJ.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/who-are-you-school-2015-original-television-soundtrack/1000552991?uo=4",
       "copyright": "℗ Stone Music Entertainment, NyamNyam Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "kind": "OST",
       "year": "2015"
@@ -509,7 +509,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6e/38/4f/6e384f51-9793-676a-6291-71b27b8543bb/asset.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/steps-from-prime-minister-i-single/854925204?uo=4",
       "copyright": "℗ 2014 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "kind": "Single",
       "year": "2014"
@@ -771,7 +771,7 @@
     },
     {
       "title": "Taemin postpones North American 'LiMiNaL' tour dates",
-      "outlet": "mb.com.ph",
+      "outlet": "Manila Bulletin",
       "date": "2026-09-29",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTElWZ0xBQ3c5MmxKeHBJbjV3LTR4MFIzLVo1Zm12b1czelRFdjV2RWNxQ1dXM0xoaERLWVhDaHg1TmNRSmZBX1AwVHg3amk3Q0UxYVdMVXY3WXpUWFh0dG9BVFFjVDNOSW1TV2o4eC0tOWdacFEtWThlbFlZaktUVkE4TjVvdw?oc=5"
     },
@@ -794,12 +794,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVkYxeDBwQnpJZks2bFVoeWRUSVRDRGI5UVZZS2tBc3ZzcGpRek5SazdodXFGa2FGZldmVW90TFFpVTB3eHFFMVcyYUJ1dl82RVhaM1BSVktucldndWZJbldzUk80NVdnOU1JZGs4S242MjdnbFcxNktlZlBvMlcyZWRxanFWaVhFOFBxVHlPa1JrajJT?oc=5"
     },
     {
-      "title": "Visa issues derail international star Taemin's San Jose concert",
-      "outlet": "SFGATE",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObG5ERkpUUGhxNkJtRUwyQjlfSUhIb2E1d2Z1UDNCZDgtTTAyRlZxcGJxM3lEZUdIMWhTbDQyMGh5Y2dlMG1tNGlyYkVqT0hLVmhidUxZV1YwTERmVmxzZ1g0Uy1MelNJc3pnZzZycXZLUmgyRDVvUnpiSkFLSVJEZUlXSQ?oc=5"
-    },
-    {
       "title": "Taemin postpones North American tour two weeks before launch over US visa delays",
       "outlet": "The Korea Times",
       "date": "2026-09-29",
@@ -807,9 +801,15 @@
     },
     {
       "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
-      "outlet": "sfchronicle.com",
+      "outlet": "San Francisco Chronicle",
       "date": "2026-09-29",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaldrNk93Nm5qbnZ1VzR4MXJ6UTZxN2RDNHVmY09TTjBkOHQzU1ZsMDNyeTB6RDROYmxfZDVqcnVVcnN6WHlMSnNOSFBwaldpQzc0NkVhd2F0OWlCemo1LWdKRl8zSWs0MF9zLXRDeDJPaDlhSlFmQjV6ZC1zRHdQMDhWcjNSLVhpNzFnaHhPZURRNUxTcXBvQ3lNYkdnZzA?oc=5"
+    },
+    {
+      "title": "Visa issues derail international star Taemin's San Jose concert",
+      "outlet": "SFGATE",
+      "date": "2026-09-29",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObG5ERkpUUGhxNkJtRUwyQjlfSUhIb2E1d2Z1UDNCZDgtTTAyRlZxcGJxM3lEZUdIMWhTbDQyMGh5Y2dlMG1tNGlyYkVqT0hLVmhidUxZV1YwTERmVmxzZ1g0Uy1MelNJc3pnZzZycXZLUmgyRDVvUnpiSkFLSVJEZUlXSQ?oc=5"
     },
     {
       "title": "260926 TAEMIN - Deja vu @ KRAZY MUSIC FESTIVAL TAIPEI",
@@ -848,6 +848,12 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEJJdGQtYTZrX0RsU0JyN3FhZDdVemxHX0ExdTZrbGVlQjdJN3VUZkZDZXNWTDAwSnlDYldLVExVaFFTb2JhTnk4NzQybm5FbnlseWFtN0Ywa1E0blo0ZU4wSkFQRkxGY1pOZXczY19JSWNhWUgwT1lCc05OQzc0U1hMLWxwdmVjdlHSAY8BQVVfeXFMUEtOMzJxX0NNdDFKb1pGUk16cS1WQ3JGVlY3Ti13clpiaXlrZmlsU19aV2ZOOVo0MGpPYmZPTEVOTDlDQ0pTblZreHJkNU8ycTNCeWFWVVZHZVpDbHVpTm5SQVN5TTJ1aTFGRFdUQU1EOGZYSXk5dEk0ZVpQVmgyTXhpVWtmd0dLTEFGdURoNjQ?oc=5"
     },
     {
+      "title": "KRAZY Taipei 2026: TAEMIN, JJ Lin Complete Lineup With ITZY, MAX",
+      "outlet": "Forbes",
+      "date": "2026-09-08",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzhXNUdfaXBiWkVBR29EUXB3bGNDQjl4NFE5eG5wbUZ6ZHVXYXhxcGZ5cFJuR2o2NlFDNUtqWWh1cTR4QXdXaFlkTHJyMHVLZWJRTy1uWnhBSmMtTG84b2VhMTZPem9kYWY1Z192eUwzcGpPSHF2MDVISVRQSlhJT1RWQ2ZpeGF5QmFHd3pXRTEzR0drN3JfOXVDcnY2RlMyQXh2cVQ3a3RJeFpyUV9VY3RVMHhTOG50b2ZNaUZ3?oc=5"
+    },
+    {
       "title": "Taemin's Coachella Debut Contrasts with Sung Si-kyung's Mall Past",
       "outlet": "조선일보",
       "date": "2026-09-05",
@@ -870,12 +876,6 @@
       "outlet": "MELODIC Magazine",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUk1SzAta0RBbHJMNHJMdmIwSVJsYnhEU0taeVdYdVhacHR4YjlfNXFvbTdaaTdBRHJDLW9tVzkybUJnUUh5ZDlMLWYwc3ZYZHlmSnRDc1dmdE5Qb2FjUTcwUzhka3V6bWQ3NGExeXViNS1Sa0lZODNud0FwM3ZnMUN1NkY0aVBrRlgya3U0VkcwU3hxTUxpbjd6Zw?oc=5"
-    },
-    {
-      "title": "Taemin’s ‘PHASE 1: SOFT VIOLENCE’ Is Here—5 Details Fans Need to Notice",
-      "outlet": "Dojeon Media",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
     }
   ],
   "bio": {
@@ -1077,15 +1077,15 @@
     },
     {
       "title": "Taemin postpones North American 'LiMiNaL' tour dates",
-      "outlet": "mb.com.ph",
+      "outlet": "Manila Bulletin",
       "date": "2026-09-29",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTElWZ0xBQ3c5MmxKeHBJbjV3LTR4MFIzLVo1Zm12b1czelRFdjV2RWNxQ1dXM0xoaERLWVhDaHg1TmNRSmZBX1AwVHg3amk3Q0UxYVdMVXY3WXpUWFh0dG9BVFFjVDNOSW1TV2o4eC0tOWdacFEtWThlbFlZaktUVkE4TjVvdw?oc=5"
     },
     {
-      "title": "Taemin LiMiNaL North America Tour Postponed: Refund Info",
-      "outlet": "en.koreaportal.com",
+      "title": "Taemin, who planned to head to the U.S. after Seoul, faces visa complication ahead of departure... North American tour postponed",
+      "outlet": "매일경제",
       "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVlJIMTZfQWtRTzlvSktGVW5fMUd6WE1DQjNiZ1ZtZ0xaN04xbDFaRm9MYUV4MlYxTklRNU44Rl9TeGVNNEFwcTJNZzBra3E0elNKUHdOZEV1ZmlKZTU0VEFCTWVCNjdfZ3Z4UFdDQWw1V1NkZWtQN2xoelIybm52cA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zcDN1TjJqdG54UGZoOUtmd2MzYi1vSTk2MFNOenQtTTA0dFJRZHZjci1EVWxnN0p1cjlzYzB2czh5VHlkVFpINGRIWTAzMXUyNlhXbXln?oc=5"
     }
   ],
   "worldTour": {
@@ -1471,7 +1471,7 @@
       "artSmall": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/ce/c1/00cec18a-9b05-b2e5-fcfc-4c8f4f7f8dc4/TAEMIN_iTunes_COVER_B.jpg/600x600bb.jpg",
       "url": "https://music.apple.com/us/album/press-it-the-1st-album/1085060188?uo=4",
       "copyright": "℗ 2016 SM Entertainment",
-      "genre": "K-Pop",
+      "genre": "MZGenre.Music.KPop",
       "via": "apple",
       "recordType": "album",
       "deezerUrl": "https://www.deezer.com/album/106777042",

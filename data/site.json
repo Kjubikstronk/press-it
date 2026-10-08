@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T06:09:15.683Z",
+  "generated": "2026-10-08T13:34:38.584Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,16 +734,16 @@
   ],
   "news": [
     {
+      "title": "TAEMIN - Atlas Arena",
+      "outlet": "Atlas Arena",
+      "date": "2026-10-08",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QldDa3B2cC1iMlQ2MXgxQkJ2VHdBT2pPcUF2M0pWbGZndFB6NEVCM0xVcHJPb1F5dW42MXNaYUtZcjU4RWkwT1hDM2dkVkdsM3o4ZXVR?oc=5"
+    },
+    {
       "title": "Taemin Newark tickets on sale at Prudential Center",
       "outlet": "TicketNews",
       "date": "2026-10-06",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
-    },
-    {
-      "title": "TAEMIN - Atlas Arena",
-      "outlet": "Atlas Arena",
-      "date": "2026-10-05",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QldDa3B2cC1iMlQ2MXgxQkJ2VHdBT2pPcUF2M0pWbGZndFB6NEVCM0xVcHJPb1F5dW42MXNaYUtZcjU4RWkwT1hDM2dkVkdsM3o4ZXVR?oc=5"
     },
     {
       "title": "Taemin Postpones North American Dates of Liminal Tour Over Visa Issues",
@@ -866,16 +866,16 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
     },
     {
+      "title": "TAEMIN ‘Phase 1: Soft Violence’ 2026: New EP Features ‘Float’ and ‘Gooey’ : K-WAVE",
+      "outlet": "Korea Portal (English Edition)",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVW9hQmxZcGlCZFV5SjV1WWdRUTN6d2xRd0c2dzYwSHBIZS1DRGhaUDJVdnh1UzNYY1p4Sm16UEM1SXk2WWVrWWhaaG4wRk1sRXN4Y2p4MmZFMUZKNWJhSW9STXMyc1IxalpUby1PdTlLQnJ6dUJUbUd3WkszVVpDWDRvX05ielpIQWE0dUVvNFUzSk9seGxSajQxWWZ2Q09kWDFOME5CR3daVGpCRUZHRTJmbw?oc=5"
+    },
+    {
       "title": "Taemin’s new album 'PHASE 1: Soft Violence' is the first step into a new era — Album Review",
       "outlet": "MELODIC Magazine",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUk1SzAta0RBbHJMNHJMdmIwSVJsYnhEU0taeVdYdVhacHR4YjlfNXFvbTdaaTdBRHJDLW9tVzkybUJnUUh5ZDlMLWYwc3ZYZHlmSnRDc1dmdE5Qb2FjUTcwUzhka3V6bWQ3NGExeXViNS1Sa0lZODNud0FwM3ZnMUN1NkY0aVBrRlgya3U0VkcwU3hxTUxpbjd6Zw?oc=5"
-    },
-    {
-      "title": "Taemin’s ‘PHASE 1: SOFT VIOLENCE’ Is Here—5 Details Fans Need to Notice",
-      "outlet": "Dojeon Media",
-      "date": "2026-08-31",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc24zSWR0YjBCV29WTFExRkJ5eksyLVdwWU10bm9aQ0RINVhVakh5MkUycmVjUkxkNXBET1haWDU5OFlGWUNNV0tXc1BJXzJjMmswWDVKRllRZGF6VEhJTFoxR1BNUjFCVlE2MG1Ob1ZWUzBsNzJtR0FKbG9TOG1ucVFKRVVvTnNwYWh0YjFvRW9rU0c4WWhydEx1MWZJVl9uaWhB?oc=5"
     }
   ],
   "bio": {
@@ -1066,6 +1066,12 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
     },
     {
+      "title": "[4K] 260919 태민(TAEMIN) 'Frankenstein' at 26-27 TAEMIN WORLD TOUR LiMiNaL in SEOUL",
+      "outlet": "YouTube",
+      "date": "2026-10-06",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HQkFtRVU3dFJOOTBwejFMTl8tZGx3QTRKdklCcU4zaXo4aVloTWRYeGJvR2lRMFg0d0JBbGp5VkZIWlpWRUlyNk9USGdKVEFnVWZxNGJtaXFTMFNq?oc=5"
+    },
+    {
       "title": "Taemin Newark tickets on sale at Prudential Center",
       "outlet": "TicketNews",
       "date": "2026-10-06",
@@ -1088,12 +1094,6 @@
       "outlet": "Atlas Arena",
       "date": "2026-10-02",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KS3JycGxEYnJFSFd2R1E4MC1MSmlxUS01NmVXNDY1VGREd3RkbHM0TWpOdW1BVGZCSkFPN3pwdVY3bE1jNVZVU2Q0LUEzVUpLRkw2OUFwV1ZGTk9yZThzMVprRTQ1NmZ5Y3pCNWxKMA?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones North American tour over US visa issues",
-      "outlet": "INQUIRER.net USA",
-      "date": "2026-10-02",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVZKVzZiSGlLbHNLMXMzTldYX244Z3Z2cEd3NnU4Vmx0ajJ4QldsTThPaDNhSjdaRnlQeEZXbTFJRGkyOTZpSnhNalFFQWw1NUUwQ2lWUWpaVDZvSHB1cWtyUEhLazcycDFBcEgtUHdGcnlVYXlEVS1sdVQxOE01QnE5YjdzazhkSHFZR2ZMR2R6aTRWY1BiSUxCWjI?oc=5"
     }
   ],
   "worldTour": {

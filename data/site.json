@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T04:57:31.146Z",
+  "generated": "2026-10-14T11:57:10.560Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,6 +734,12 @@
   ],
   "news": [
     {
+      "title": "Taemin's Seattle concert canceled, K-brand expo postponed",
+      "outlet": "The Korea Herald",
+      "date": "2026-10-14",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqQXJXVHB4cHNjb21uNmJ4TDlGS2VnUkVlT1lsQUZMQlc2Y1duRTl5WC1HN3NlMDVGWEs2UzYxbXYwM1hZTHM2TTlPcUxCakRNSjYzM0pJTQ?oc=5"
+    },
+    {
       "title": "K-pop mogul behind Taemin, EXO-CBX’s former agencies denies all allegations in $22M fraud trial",
       "outlet": "Korea JoongAng Daily",
       "date": "2026-10-13",
@@ -762,6 +768,12 @@
       "outlet": "TicketNews",
       "date": "2026-10-09",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+    },
+    {
+      "title": "[4K] 260920 TAEMIN WORLD TOUR \"LiMiNaL\" in SEOUL_Move",
+      "outlet": "YouTube",
+      "date": "2026-10-05",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBMUtWNjFqOThTc2ZqM2I3VlhqTnJZb3ROMFRLaHJXdERvV1V2a2w5eGtWYTZNQzdIMVFZRnoyeDBRUjlpcFZkVVNFOTVKaXFJSUZXSFBNN043c0RO?oc=5"
     },
     {
       "title": "Taemin Postpones North American Dates of Liminal Tour Over Visa Issues",
@@ -864,18 +876,6 @@
       "outlet": "YouTube",
       "date": "2026-09-07",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zTVRnRnFZUXpMb2xNTWZXY1had20zZHkxcHVHdHE4NG9xWW5jWEVRM2d2Z04wenRTM2RWR1JVWnFqSno4bUhYS3oxQlN1TUVtWWozZWxiaThQeGEt?oc=5"
-    },
-    {
-      "title": "TAEMIN's Soft Violence Is Two Minds, One Body : REVIEWS",
-      "outlet": "Korea Portal (English Edition)",
-      "date": "2026-09-02",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVW9PS2t3S3UwMzBnSmFBcDNwYVMtMW5UTktyQ2lPRkpDbGx0TFByaC0wSVg2WEc4Y2pUUVJhaG5ZU0NfVlVEanp1TUl0UnREZ3dyMnFPOVVkX0puTHE5cWZnZ1N5bzVSQ1RPd2x2WTRMWVdKU3NGZUZOajFYQWRNNEpEQ05lRnl4N3ZQY0Q3T1NNaC1XY2pYZ0syOA?oc=5"
-    },
-    {
-      "title": "Taemin on his new album and the legacy he wants to leave behind",
-      "outlet": "Vogue Singapore",
-      "date": "2026-09-02",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1QNzlPNVF6cEhBNzhMSzJRWHRaLVFsNllxd3NKU0Jud3RWdkFfUTB6TUU3ZnM1cWVoc2hDcHIxTklIa1RCRk44cmxwdlVlM214ejNNYWdTZw?oc=5"
     }
   ],
   "bio": {
@@ -1060,9 +1060,15 @@
   },
   "tourNews": [
     {
+      "title": "Taemin's Seattle concert canceled, K-brand expo postponed",
+      "outlet": "The Korea Herald",
+      "date": "2026-10-14",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqQXJXVHB4cHNjb21uNmJ4TDlGS2VnUkVlT1lsQUZMQlc2Y1duRTl5WC1HN3NlMDVGWEs2UzYxbXYwM1hZTHM2TTlPcUxCakRNSjYzM0pJTQ?oc=5"
+    },
+    {
       "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
       "outlet": "TicketNews",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYU1DTHRJX0VpVEE4NDdXYTlaZGpQNThJN29BMXZHNXl4V0N0UG1hcjJWc3pHMlJmUkc0S1ZsS1p5LXVMd0RMcEJRNTZwTkg1a3d2Rmd4N2poVG5DRC1aRnFGdEVhaTFoTk5PZllCTkpaWWxzM0FSRTJaQjdoODBiX0tCcTZpNU1RQXZyeHl1YnpRcjJp?oc=5"
     },
     {
@@ -1088,12 +1094,6 @@
       "outlet": "Yahoo",
       "date": "2026-10-03",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTU4d1ZCWmhpMVJRVm9yV2t6N0lHN3N0MG1hb0JJalF1LTFVMFRJQzNVMGJBSUZYcjgtWVh2RmZsc0hlMzVFcHFiZ2JOLXl2Tm4yYjVIaEdTSDF4OVJBYlRyalFpS2lVM2RXU0RCWUNRTkRXQlJpN0xVS0E0eFNHUDMzUTJscXRuR2VuUVNaSXhkTGdZSTlaTllSTks4UGZVdDNqS2pB?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones North American tour over US visa issues",
-      "outlet": "INQUIRER.net USA",
-      "date": "2026-10-02",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVZKVzZiSGlLbHNLMXMzTldYX244Z3Z2cEd3NnU4Vmx0ajJ4QldsTThPaDNhSjdaRnlQeEZXbTFJRGkyOTZpSnhNalFFQWw1NUUwQ2lWUWpaVDZvSHB1cWtyUEhLazcycDFBcEgtUHdGcnlVYXlEVS1sdVQxOE01QnE5YjdzazhkSHFZR2ZMR2R6aTRWY1BiSUxCWjI?oc=5"
     }
   ],
   "worldTour": {

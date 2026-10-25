@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T11:35:51.509Z",
+  "generated": "2026-10-25T16:25:59.359Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -770,6 +770,12 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
     },
     {
+      "title": "Taemin Meets Son Heung-min at LAFC Match",
+      "outlet": "조선일보",
+      "date": "2026-10-16",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMURva2FKb2U5M0o0a053VWFlVjFFc2JyNzhhRVZQQXFJelZ1WHdMdWVmLVpiUG1fWGMyUlF0WjllWUxONU1CTUgzTS1hWERLeEtfM0hTWUR0TEZ4N3VsTWR1cDQ5RFZPaklqRTE3SXNfVmJkdGVlOU1LYUs5SmhaZjNHNFFxZk9Vc2VlZ0t3?oc=5"
+    },
+    {
       "title": "Taemin's Seattle concert canceled, K-brand expo postponed",
       "outlet": "The Korea Herald",
       "date": "2026-10-14",
@@ -870,12 +876,6 @@
       "outlet": "PAP Magazine",
       "date": "2026-09-18",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUUd0RWVlLWdXNkc2VEl0NHBkUHQ1U01VM2RGQ29VbFo4Y2ZrNkp1NXR0aUc3aFFSeEdMN1pWM19kZGFKVDFmS25rU0tmR19yS2tvenN1a2E1SUN2NmJXLWtxck52Y1gyc09tc1RJMENHTEdVZ2FBdVZMWkV3UVE?oc=5"
-    },
-    {
-      "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
-      "outlet": "Hanteo News",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RQXRsUDFBNnhUcjhHNjlyejVraGJ6bllldXgtRTFLMWliZUlISzdTYlRMSFpIQkpQSy1SR1FXUGUxbkxRLXhobkp3bmhKM2Vo?oc=5"
     }
   ],
   "bio": {
@@ -1060,6 +1060,12 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN(태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "outlet": "YouTube",
+      "date": "2026-10-23",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1icUtucnJLcFhpZk1qQ3YwMFFRQWRoVFVWazdTQm1MRTl3anVsYi1ad29NVkhQNGhaV2dwYV8wU1k3M3ZNYTJGb09VN3p5QnRsSlFsZ0hjZVNWdUNR?oc=5"
+    },
+    {
       "title": "Taemin Chicago tickets on sale at Wintrust Arena",
       "outlet": "TicketNews",
       "date": "2026-10-23",
@@ -1072,28 +1078,22 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
     },
     {
+      "title": "TAEMIN Returns to Europe With His 2026–27 World Tour [LiMiNaL]",
+      "outlet": "https://kavenyou.com/",
+      "date": "2026-10-19",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
+    },
+    {
       "title": "Taemin San Jose tickets on sale at SAP Center",
       "outlet": "TicketNews",
       "date": "2026-10-19",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVThhZ056OU5LV2o3VDlVRXE3OG1OMnBtZW14aTlQVl9tRG83MW52cUVZRy14RHBXY0JFbEdoOWNMWk44WUhpamZpSjNXY0NBTFpUcXM2R2lGRWhEMExZQUhVbzB2czZJSVA2Y210emMwRUtHN25CVFFVb3hNYzNhR2E5OXBzWmVN?oc=5"
     },
     {
-      "title": "SHINee’s Taemin Postpones North American Stops Of “LiMiNaL” World Tour",
-      "outlet": "Soompi",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSmVIWk10RHFDOHZQTXg5Ujh4UXZhTEU1eUstd240QWt3SUxPLUNHUG5od09RQlZJWHFtcnlSbFRCRWlkaFAzZUdkbTJXdlNyUTdoNVJEX3hOUGdYbWQzaHVnai1lc1dGX2hKTHlWTGdsS2w2dTVfU0I3UGF0RVdnYmZjd0ltLWFRUjFzQkdNT19MQkZDOE9xYWQxZ0lUYk1tTG44RThWMjA0RDBTMEE?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour over visa issues",
-      "outlet": "The Straits Times",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXlVeE1FWmxNQjhISEVHS2lSZDNhV2xQcEQ3MEkyYUt3QUg2UlYtS3RZQjlKYktqUlI4c09OY2FkTGJ4RmVMOEJvaW1PYTFpdnVVN0UzWENXU1hNWVVjT0h2ZC03NGVVVVlmSmIwaFZBeDMzZEQ3YkhUeEFDSUdnZ0s4aF9jalY3MkNkOTVHYVJEYUZ6eU4tTGUyM2swQQ?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour dates over visa issues",
-      "outlet": "UA.NEWS",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVh5QXhESE5DbXZNeXp4Q2ltTExqUTFrS1F1NTVEa1RETkZQMWY0dWM3VEx2T082X19GbDhGTVpDSVIxdHlIZlppT2NHeTA4XzlKcmVURTZROEZRUjBZZUdYT0FiOW5LUV96aW52SXZ0ZkFnN1BOcy1RWXBLTmVLZGJfaWN0cEJoMW1TUjZkZGNOWHByMEY1SFNNMkNrT25OQW45alR2cWZ4d3dLa3c3c1RB?oc=5"
+      "title": "SHINee's Taemin Performs Honorary Falconer Ceremony at LAFC Home Match and Meets Son Heung-min",
+      "outlet": "news.sbs.co.kr",
+      "date": "2026-10-16",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yNnpZa1h1WFBWamh2SkZhSmtvN1hRREYzYmYyVGk4TkY3UnRVYnEyc0QzXzFhYjRZX3VrMUxjcFpLOVRaUEw5RnV6LWRtWGFtNUMwV2Fwd05INUNHd2dNNnJDaks2NV9hck01ZnVR?oc=5"
     }
   ],
   "worldTour": {

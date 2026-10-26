@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T04:51:35.363Z",
+  "generated": "2026-10-26T13:08:32.679Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,6 +627,13 @@
   ],
   "videos": [
     {
+      "id": "6QXs5RbMmx4",
+      "title": "TAEMIN 태민 'SKIN' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "date": "2026-10-26",
+      "url": "https://www.youtube.com/watch?v=6QXs5RbMmx4",
+      "thumb": "https://i3.ytimg.com/vi/6QXs5RbMmx4/hqdefault.jpg"
+    },
+    {
       "id": "uW0MsIEJwL8",
       "title": "TAEMIN (태민) - 'Easy Loving You' (Official Audio)",
       "date": "2026-10-24",
@@ -723,16 +730,15 @@
       "date": "2026-09-16",
       "url": "https://www.youtube.com/watch?v=7HaCaA2ofrA",
       "thumb": "https://i4.ytimg.com/vi/7HaCaA2ofrA/hqdefault.jpg"
-    },
-    {
-      "id": "oEgyI2DFcZU",
-      "title": "#FLOAT ☁️ with #SEAH #Shorts #TAEMIN #태민 #TUIDE",
-      "date": "2026-09-15",
-      "url": "https://www.youtube.com/watch?v=oEgyI2DFcZU",
-      "thumb": "https://i4.ytimg.com/vi/oEgyI2DFcZU/hqdefault.jpg"
     }
   ],
   "news": [
+    {
+      "title": "TAEMIN (태민) - '1004' (Official Audio)",
+      "outlet": "YouTube",
+      "date": "2026-10-24",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUR3BmQlBlbmxwMUxzeVV1NC1GcG9xdE85WjNRRWtGeU90cFY3NHRXQm92bU4tanhIU0VKRkE3QmhUNkxhNEZtQVM1RGFaczVvcTJJMURyb0Nra29R?oc=5"
+    },
     {
       "title": "From K-pop to community, Ian Eastwood reconnects with Korea's dance scene",
       "outlet": "The Korea Herald",
@@ -762,12 +768,6 @@
       "outlet": "https://kavenyou.com/",
       "date": "2026-10-19",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
-    },
-    {
-      "title": "Taemin Meets Son Heung-min at LAFC Match",
-      "outlet": "조선일보",
-      "date": "2026-10-16",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMURva2FKb2U5M0o0a053VWFlVjFFc2JyNzhhRVZQQXFJelZ1WHdMdWVmLVpiUG1fWGMyUlF0WjllWUxONU1CTUgzTS1hWERLeEtfM0hTWUR0TEZ4N3VsTWR1cDQ5RFZPaklqRTE3SXNfVmJkdGVlOU1LYUs5SmhaZjNHNFFxZk9Vc2VlZ0t3?oc=5"
     },
     {
       "title": "Taemin's Seattle concert canceled, K-brand expo postponed",

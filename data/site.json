@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T13:08:32.679Z",
+  "generated": "2026-10-26T22:41:59.188Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -934,7 +934,7 @@
         "date": "2026-10-30",
         "city": "Mexico City",
         "country": "Mexico",
-        "venue": "FORO TEAMBRO",
+        "venue": "Fray Nano Stadium",
         "note": "LiMiNaL world tour",
         "url": "https://www.tixr.com/groups/zepedabros/events/taemin-204322"
       },
@@ -942,7 +942,7 @@
         "date": "2026-11-02",
         "city": "Santiago",
         "country": "Chile",
-        "venue": "Santander Arena",
+        "venue": "Movistar Arena",
         "note": "LiMiNaL world tour",
         "url": "https://www.puntoticket.com/taemin-world-tour"
       },
@@ -982,7 +982,7 @@
         "date": "2026-11-20",
         "city": "Frankfurt",
         "country": "Germany",
-        "venue": "myticket Jahrhunderthalle Frankfurt",
+        "venue": "Jahrhunderthalle",
         "note": "LiMiNaL world tour",
         "url": "https://www.onionproduction.com/taeminf"
       },
@@ -1038,7 +1038,7 @@
         "date": "2026-12-09",
         "city": "Tbilisi",
         "country": "Georgia",
-        "venue": "Tbilisi Sports Palace",
+        "venue": "Palas of Sports",
         "note": "LiMiNaL world tour",
         "url": "https://parklive.world/shows/taemin-tbilisi"
       }
@@ -1135,7 +1135,7 @@
             "date": "2026-10-30",
             "city": "Mexico City",
             "country": "Mexico",
-            "venue": "FORO TEAMBRO",
+            "venue": "Fray Nano Stadium",
             "status": "On Sale",
             "url": "https://www.tixr.com/groups/zepedabros/events/taemin-204322"
           },
@@ -1143,7 +1143,7 @@
             "date": "2026-11-02",
             "city": "Santiago",
             "country": "Chile",
-            "venue": "Santander Arena",
+            "venue": "Movistar Arena",
             "status": "On Sale",
             "url": "https://www.puntoticket.com/taemin-world-tour"
           },
@@ -1188,7 +1188,7 @@
             "date": "2026-11-20",
             "city": "Frankfurt",
             "country": "Germany",
-            "venue": "myticket Jahrhunderthalle Frankfurt",
+            "venue": "Jahrhunderthalle",
             "status": "On Sale",
             "url": "https://www.onionproduction.com/taeminf"
           },
@@ -1257,7 +1257,7 @@
             "date": "2026-12-09",
             "city": "Tbilisi",
             "country": "Georgia",
-            "venue": "Tbilisi Sports Palace",
+            "venue": "Palas of Sports",
             "status": "On Sale",
             "url": "https://parklive.world/shows/taemin-tbilisi"
           }

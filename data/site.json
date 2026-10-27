@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T05:10:02.739Z",
+  "generated": "2026-10-27T12:16:42.231Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,8 +627,15 @@
   ],
   "videos": [
     {
+      "id": "EAnyXCa2SiE",
+      "title": "TAEMIN (태민) - LiMiNaL SEOUL (BEHIND THE SCENES)",
+      "date": "2026-10-27",
+      "url": "https://www.youtube.com/watch?v=EAnyXCa2SiE",
+      "thumb": "https://i2.ytimg.com/vi/EAnyXCa2SiE/hqdefault.jpg"
+    },
+    {
       "id": "6QXs5RbMmx4",
-      "title": "TAEMIN 태민 'SKIN' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "title": "TAEMIN (태민) 'SKIN' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
       "date": "2026-10-26",
       "url": "https://www.youtube.com/watch?v=6QXs5RbMmx4",
       "thumb": "https://i3.ytimg.com/vi/6QXs5RbMmx4/hqdefault.jpg"
@@ -691,21 +698,21 @@
     },
     {
       "id": "n6qNtY0lHqw",
-      "title": "TAEMIN(태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "title": "TAEMIN (태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
       "date": "2026-10-23",
       "url": "https://www.youtube.com/watch?v=n6qNtY0lHqw",
       "thumb": "https://i3.ytimg.com/vi/n6qNtY0lHqw/hqdefault.jpg"
     },
     {
       "id": "7s1yipnrVH4",
-      "title": "TAEMIN - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.5)",
+      "title": "TAEMIN (태민) - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.5)",
       "date": "2026-09-30",
       "url": "https://www.youtube.com/watch?v=7s1yipnrVH4",
       "thumb": "https://i4.ytimg.com/vi/7s1yipnrVH4/hqdefault.jpg"
     },
     {
       "id": "SoflnULV6co",
-      "title": "TAEMIN - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.4)",
+      "title": "TAEMIN (태민) - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.4)",
       "date": "2026-09-23",
       "url": "https://www.youtube.com/watch?v=SoflnULV6co",
       "thumb": "https://i4.ytimg.com/vi/SoflnULV6co/hqdefault.jpg"
@@ -719,49 +726,18 @@
     },
     {
       "id": "44Ae-dooo2o",
-      "title": "TAEMIN - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.3)",
+      "title": "TAEMIN (태민) - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.3)",
       "date": "2026-09-16",
       "url": "https://www.youtube.com/watch?v=44Ae-dooo2o",
       "thumb": "https://i1.ytimg.com/vi/44Ae-dooo2o/hqdefault.jpg"
-    },
-    {
-      "id": "7HaCaA2ofrA",
-      "title": "#FLOAT ☁️ with #MINHO #Shorts #TAEMIN #태민 #SHINEE",
-      "date": "2026-09-16",
-      "url": "https://www.youtube.com/watch?v=7HaCaA2ofrA",
-      "thumb": "https://i4.ytimg.com/vi/7HaCaA2ofrA/hqdefault.jpg"
     }
   ],
   "news": [
     {
-      "title": "TAEMIN 태민 'SKIN' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
-      "outlet": "YouTube",
-      "date": "2026-10-26",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Rajg0azNMR0pBRS0tMVZnM3VzN1pBVnowbGRoZE01alFHRTNCR2RCSzEtdkZ3Z2ZJLXhHWFRscTAxYVVFZDJwb3hMOERGVmc3TWRhZVJvQWs1ZEZj?oc=5"
-    },
-    {
-      "title": "TAEMIN (태민) - '1004' (Official Audio)",
-      "outlet": "YouTube",
+      "title": "7 K-Pop Dancers Whose Flawless, Elegant Dance Style Will Captivate You",
+      "outlet": "Soompi",
       "date": "2026-10-24",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUR3BmQlBlbmxwMUxzeVV1NC1GcG9xdE85WjNRRWtGeU90cFY3NHRXQm92bU4tanhIU0VKRkE3QmhUNkxhNEZtQVM1RGFaczVvcTJJMURyb0Nra29R?oc=5"
-    },
-    {
-      "title": "From K-pop to community, Ian Eastwood reconnects with Korea's dance scene",
-      "outlet": "The Korea Herald",
-      "date": "2026-10-24",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HTkdMTlBKSkFwczNEaGVrcm9rZHNCdk1zN19rcDBsMTU1Mm5CRDY5Mlg4ekxHRE81R2JuX3p3a1YzYVNOMVlrdndVX3o5WVRUZFhETEkyQQ?oc=5"
-    },
-    {
-      "title": "TAEMIN(태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
-      "outlet": "YouTube",
-      "date": "2026-10-23",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1icUtucnJLcFhpZk1qQ3YwMFFRQWRoVFVWazdTQm1MRTl3anVsYi1ad29NVkhQNGhaV2dwYV8wU1k3M3ZNYTJGb09VN3p5QnRsSlFsZ0hjZVNWdUNR?oc=5"
-    },
-    {
-      "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
-      "outlet": "TicketNews",
-      "date": "2026-10-22",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd05CdXhDbG1wcS1tS0k2WVQ2WU9JOGxlekhURU50WG5aaElKQmU5XzVjVDVoM1VNRkJyUVJMWnJONkxqY0FRQUc2ejB0ekV6QWtuaW1uRUdaSFRiMUU1N1h1bk9aNVRBWUtsTG55TnFKWDZ5NzRsRDFUbkVoV1p3OHhJZm5RQzF4SDZDQ0ZJTTQxMjBEM1dPelFNcHZ4RzNhd0ZCR3VmVFoxbTlRbFNFWQ?oc=5"
     },
     {
       "title": "TAEMIN - Atlas Arena",
@@ -770,70 +746,16 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QldDa3B2cC1iMlQ2MXgxQkJ2VHdBT2pPcUF2M0pWbGZndFB6NEVCM0xVcHJPb1F5dW42MXNaYUtZcjU4RWkwT1hDM2dkVkdsM3o4ZXVR?oc=5"
     },
     {
-      "title": "TAEMIN Returns to Europe With His 2026–27 World Tour [LiMiNaL]",
-      "outlet": "https://kavenyou.com/",
-      "date": "2026-10-19",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
-    },
-    {
-      "title": "Taemin's Seattle concert canceled, K-brand expo postponed",
-      "outlet": "The Korea Herald",
-      "date": "2026-10-14",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqQXJXVHB4cHNjb21uNmJ4TDlGS2VnUkVlT1lsQUZMQlc2Y1duRTl5WC1HN3NlMDVGWEs2UzYxbXYwM1hZTHM2TTlPcUxCakRNSjYzM0pJTQ?oc=5"
-    },
-    {
-      "title": "K-pop mogul behind Taemin, EXO-CBX’s former agencies denies all allegations in $22M fraud trial",
-      "outlet": "Korea JoongAng Daily",
-      "date": "2026-10-13",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNejNLaFg5bkVjTDgwbGRSU0pyaDg4Q0JFVFRkR0R0TE1wdEZMOGZnTDlMWHdLRHZZVklMb1pQX2VkYm5FUjk1b2JCbUdlN25vSXFoMFJpb003bFhNbFF4Yk1MVGUySm1paldXM3JyNy1HbXNqaG5qMTk3RnprcXpLQjdLMUJsMDBmUUp3T0ZEVjVnMzVPdXk3ejBJNEN5QVQzbHBhZ001TGVxVGE2OGlCTkxuOGJHOFI1Q3JxRmhfVFlQMHZXaGhsWGVrOWZVUVFqVzBpejZhTjFyUGhyWHZ0OHRn?oc=5"
-    },
-    {
-      "title": "Sharon Cuneta fangirls over Heart Evangelista's interaction with SHINee's Taemin",
-      "outlet": "GMA Network",
-      "date": "2026-10-11",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObk1ERDlKZFIxVEUzVTNUTmlpZkF4NHhfbEZPNHRkUFFjUms1RzlBeVp3RzhlbmpLbkJjUjJwb3QzWVRhM2hPV21RcGY1d0Q5bVRTTWhmcjdZRW5VZmFWWFZBNzNBcHVSME5SUmo0WGJ5NWFuczVadkxBZ3pNSG9zX1pZZ1VodWl2NFZDVzdodHZ1MEdsUXlRaVc2SXg2aFNRWnNxTkw1bWtIbkFuOTdFTkxNOGtxMTVVb3h6aVNHOEdzVUhFRDdSa044OXB0MkZWdUFlZnh3?oc=5"
-    },
-    {
       "title": "TAEMIN in Poland for the first time. The K-pop star will perform at Atlas Arena",
       "outlet": "Atlas Arena",
       "date": "2026-10-02",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1KS3JycGxEYnJFSFd2R1E4MC1MSmlxUS01NmVXNDY1VGREd3RkbHM0TWpOdW1BVGZCSkFPN3pwdVY3bE1jNVZVU2Q0LUEzVUpLRkw2OUFwV1ZGTk9yZThzMVprRTQ1NmZ5Y3pCNWxKMA?oc=5"
     },
     {
-      "title": "SHINee’s Taemin postpones North American tour over US visa issues",
-      "outlet": "INQUIRER.net USA",
-      "date": "2026-10-02",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVZKVzZiSGlLbHNLMXMzTldYX244Z3Z2cEd3NnU4Vmx0ajJ4QldsTThPaDNhSjdaRnlQeEZXbTFJRGkyOTZpSnhNalFFQWw1NUUwQ2lWUWpaVDZvSHB1cWtyUEhLazcycDFBcEgtUHdGcnlVYXlEVS1sdVQxOE01QnE5YjdzazhkSHFZR2ZMR2R6aTRWY1BiSUxCWjI?oc=5"
-    },
-    {
-      "title": "Heart Evangelista and K-pop star Taemin are seatmates at Milan Fashion Week",
-      "outlet": "GMA Network",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOEdseURlU0dMQ1NadkFBdm9wODhuc196T0N2bFl3QzMzOUNremJsQk9wb2hqOTJ3RXJDeGpRcHJ3NlRtOWw5MHBiS1d1QThpb0gyQW9KMHBuMk94RmpDX19HVTg2YWZCNWRrWDFEMzdiTWNONHI4WFphczJlZ2NrQUtMckVwTUNjdjRxdWoyVmx5TmUwM2VRdGZFYnBGbDM2bldZOGJKYzctNnZCdzFOaFV6Q1M3Qm1vck1CLUpDbThRdDVDNkZxaWg1cXRpLVYzX1JlLW9OTQ?oc=5"
-    },
-    {
-      "title": "TAEMIN postpones entire North American leg of LiMiNaL world tour over visa complications",
-      "outlet": "Contactmusic.com",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV1JfTExKUk9GSUpzWTRRaS1UcWxNcG5sQ2pxYW02dmcyRlBUMXhkeU5NMjBwU243dmE3dm1OLXE4bXdSZW51VVZCMkQyUW9oSm1yZmF3U20zV0ZUekEzLVJna1NKNmRSVEZ3ZkNvaE8wTHRhNThud2RXdWZqLUtkZFVZdkF1UThzb3dvZUl0ZnZRNVdxMXhTRWNpT2M3bFNjVWlobzdXZjhBQ0UyUjhYY1hSOFVGajFDVG9mWHhBczVCZDZkeWNfN1VSaHppVm4y?oc=5"
-    },
-    {
       "title": "TAEMIN Forced to Pull Plug on Entire North American Tour Due to Visa Issues: ‘No Clear Timeline For Issuance’",
       "outlet": "Billboard",
       "date": "2026-09-30",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour over visa issues",
-      "outlet": "The Straits Times",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXlVeE1FWmxNQjhISEVHS2lSZDNhV2xQcEQ3MEkyYUt3QUg2UlYtS3RZQjlKYktqUlI4c09OY2FkTGJ4RmVMOEJvaW1PYTFpdnVVN0UzWENXU1hNWVVjT0h2ZC03NGVVVVlmSmIwaFZBeDMzZEQ3YkhUeEFDSUdnZ0s4aF9jalY3MkNkOTVHYVJEYUZ6eU4tTGUyM2swQQ?oc=5"
-    },
-    {
-      "title": "Taemin postpones North American tour two weeks before launch over US visa delays",
-      "outlet": "The Korea Times",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc01lMy01eTQzRVhWSENCbEVNYjZyVHR3bDVUNUJQdFpCOUhvRl9HbkY4aHRjVjVQc0gwVXZRUXV6U2tZb1hvXzZxZldXdjRKaGM4QW14Uk5pRHExZmV1OUI1OGdZU3FoNWJpYVcxMGpZTGNOYWM0ZlpkZzZPcDA3ZUhMSnBybEF6bXl4ajF2d1ZINXhaWXR2Z3FoM1N0MjZzOHdCZmJxbnN5SEJkMVFKdHNBRnVJOW12N2tvblZvdi1yZTNLWUJ0Z0lNWTEtMWVUdlNIUtIB2gFBVV95cUxPUWMxeUd4RmM3bjlsbU80SWdKZkh0Qy11Zlh1WmtYTmJseENNNWN3VEozVWlJWHhyZ0tseERiRFo2TmdkRVFTTGZyaWQ0Q2EwTkVjOGN1dzZqdkNNQU5obmJzVmxYdFBlQzBJc1ZGakNHSUl0bkZuWGFpdThQNzNUTVlsYjRxQURHeHFPZTU1THIxRWpCV1dqSVBIMV9kcWpreGg3TzAzUmlsS0ZmSU10U2EyMUVjamZ3eHI3RFU0MUNJalRrQjFzWUt3UVNSTHJMR3k3S2hZOGRKZw?oc=5"
     },
     {
       "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
@@ -848,34 +770,112 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObG5ERkpUUGhxNkJtRUwyQjlfSUhIb2E1d2Z1UDNCZDgtTTAyRlZxcGJxM3lEZUdIMWhTbDQyMGh5Y2dlMG1tNGlyYkVqT0hLVmhidUxZV1YwTERmVmxzZ1g0Uy1MelNJc3pnZzZycXZLUmgyRDVvUnpiSkFLSVJEZUlXSQ?oc=5"
     },
     {
-      "title": "Taemin Postpones North American Dates of Liminal Tour Over U.S. Visa Concerns",
-      "outlet": "Complex",
-      "date": "2026-09-28",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVkYxeDBwQnpJZks2bFVoeWRUSVRDRGI5UVZZS2tBc3ZzcGpRek5SazdodXFGa2FGZldmVW90TFFpVTB3eHFFMVcyYUJ1dl82RVhaM1BSVktucldndWZJbldzUk80NVdnOU1JZGs4S242MjdnbFcxNktlZlBvMlcyZWRxanFWaVhFOFBxVHlPa1JrajJT?oc=5"
+      "title": "Song Review: Taemin – Float",
+      "outlet": "https://thebiaslist.com/",
+      "date": "2026-08-31",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcjczT0Q4N185M2NCcXU1cDg3WkZkR1dLR0hBQUpaRktsZVdUOWJvMnJOUUp5VThwZUg2WVdQOTVKSFdjVUpjSFYyWUhBLUF4LWJua3RUWVhzaHd5VXlRbHlMQml4aEo3ZXVCcA?oc=5"
     },
     {
-      "title": "260918 TAEMIN [GOAT] TAEMIN WORLD TOUR 'LiMiNaL' #taemin #kpop #태민 #SOFT_VIOLENCE #LiMiNaL",
-      "outlet": "YouTube",
-      "date": "2026-09-21",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOMldYaHkyWko5T1VfRDBXeTZWbE41anhRVkRIUzZvb1FSYjRYczZ6RGJsZzhwaklaY05BVGRJS3dMZXJNMnNjdTVfVXk3SU9yc3VmQzVLQ3h4V2hQ?oc=5"
+      "title": "Taemin to perform at K-pop concert in Poland",
+      "outlet": "The Korea Herald",
+      "date": "2026-07-08",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GZmlDZW9TazIzSjdjSWptRHI0Vndzc3dDQUNWLW9NcnRBMkNyb2RUMTB6T3ZqLVVZRTd2a0RSMGx6QThyeEx3emRCUDZIcHVqOHVDcU5SUQ?oc=5"
     },
     {
-      "title": "260918 TAEMIN [FLOAT] TAEMIN WORLD TOUR 'LiMiNaL' #taemin #kpop #태민 #FLOAT #SOFT_VIOLENCE #LiMiNaL",
-      "outlet": "YouTube",
-      "date": "2026-09-19",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14VFd2bWRMS1VuMEdRbVVINjdOUUpheVFsaHJVNERWQ0N6S3dRNzA3TWk4bm0xZTlKQUI1TEExemNULTZHQXNGRDFXMDBBMEVEVk9USFNVQ1ZCdDNm?oc=5"
+      "title": "Summer gets colorful: Taemin, Yongguk, and 8TURN bring K-Pop to Europe!",
+      "outlet": "Nolae",
+      "date": "2026-06-04",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN01zTGMyQmtKMGFUWkpZcGxTeExWeTc2VDVWZkhxTVk1OEJxOVp3V0x6aDVsT0hUN0c2MHFDQ2xHN0dSQ3dyWG1iZl9MV09mR3pLcmotejhQMzF0Q2JtR0g5ZTE5LTVieTdEd1RhVVFaNWFQbk5IVVc4b0FxZ2ItaU85dnVpMklTSU1kbklLM0U0ZlNuMHc?oc=5"
     },
     {
-      "title": "TAEMIN Stands on the Threshold",
-      "outlet": "PAP Magazine",
-      "date": "2026-09-18",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUUd0RWVlLWdXNkc2VEl0NHBkUHQ1U01VM2RGQ29VbFo4Y2ZrNkp1NXR0aUc3aFFSeEdMN1pWM19kZGFKVDFmS25rU0tmR19yS2tvenN1a2E1SUN2NmJXLWtxck52Y1gyc09tc1RJMENHTEdVZ2FBdVZMWkV3UVE?oc=5"
+      "title": "Taemin: Reflecting on the first K-pop male solo artist to perform at Coachella",
+      "outlet": "thepointweekly",
+      "date": "2026-04-29",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMjQ5S1REeGVjNWJUbzh5Um9YRmtQN0lDd2p6cnM1OHh3NVpWc0hySnBjRVNGaEFkN2xHUnFRSGhOV3FNdDYxaThRcjBza0ZtcDduVzJ6SEtvZDlzMHVNbVQzeHpUa2NjVmY0NXJ6dDRnaG5kUU52Zzl1bnNmam1kb0w3VHFpdXZKU3prR2lJTzYxUFYyVjA0aWRIcFRPS1lV?oc=5"
     },
     {
-      "title": "&TEAM FUMA Says, “I Practiced the New Song’s Performance While Watching My Role Model, SHINee’s TAEMIN” [HT Scene]",
-      "outlet": "Hanteo News",
-      "date": "2026-09-08",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EV0ZNV1FPS0ZRSnhLMHgtZG1USHZqRjJ5dmtqTGNuUHlZdGY3TU9PcHVsbW95VmFDZGRoYjAxRkRpUGs0S1FBdGZYV0JiNml2c1J6dHV3?oc=5"
+      "title": "K-pop artist Taemin makes history at Coachella",
+      "outlet": "Manila Bulletin",
+      "date": "2026-04-22",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY29uYzF4bHRaSGFBbG9GVnd6dDhNU2lvZTJYN040VGp5bnZvaTkweTBtTE5WWjM4eC1hQ0UxQnhoc2x5elV0TE44ejMzcGJpR1pjTno0c09yWGRLTXktZ05aVDlIQ0REclVFSXBJckRCN1VkdzdwU1dLQXlrUTA3MA?oc=5"
+    },
+    {
+      "title": "Where are the SHINee Members Now? Inside the Second Generation K-Pop Group’s Net Worth and More - Prestige Online",
+      "outlet": "Singapore",
+      "date": "2026-04-20",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ2FrbXVrT0txbFRhbFJEcVRlbGFNTVU3b0hVaXJ1V05BY1BtODJFdU1wQk9PZXZjTkk0ZzFHQlV6cTdYdUdzalBwUFhteHg5V2ZiQXk4ZFJkTzlGWDFhdGo5cE9HNmtSN3FHb0thRnMwZ2RHTFVqMmxZNlFORXNFc25jd3hOUGhzUlNjd2FHWGk2dGMyZ3JhU04tejRVem10MjJhem1MXzBJX3BxeE1Ld2xTSE1BVVNX0gG-AUFVX3lxTE1vOVpybl9UMEU4ZEtENi1SOFNOY1czNC1iRk9nRnk5czFud1NfSzR3Y3RXbDJxeTBFQUxOS3JHTFU4SUNHb0tSUE5abXp3TUlLOVZwNGhxWGdwb1RHN3ExX1lBaktsUUlsREtvLWIyckgza283cm1pMVFnRl9NQUZEcUtsbXdJaG56cjdsekQ1OF9FLXZaYUtBMmpMUFlUeF95Wk5hRXJzVGQxQXRaNFh2Y21SNi1qVjd2RFhDamc?oc=5"
+    },
+    {
+      "title": "TAEMIN on His Historic Coachella Debut and Why Second-Gen K-Pop Is the ‘Generation of Dreams Coming True’",
+      "outlet": "Billboard",
+      "date": "2026-04-18",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMGtTTjZDYlJwYVY2YXY3YXJBQzBqZzh1ajJQaU84LU1XLU1hdzAxa3F0dmRrdGpMQVlyNFU0UV9iQUFqdTNpbHhDc2lyRGtjMUhkbXNMZkM3cjVaRUJVQWRzM3gyem15cVcxdkhiektNVXVIYmZzajR3clVsbnVmRTNWb3B4ZGM?oc=5"
+    },
+    {
+      "title": "TAEMIN On Being First Male K-Pop Soloist at Coachella & More",
+      "outlet": "Billboard",
+      "date": "2026-04-15",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYjlNWVV2R0pHUDRXTS15Z3E5dGE5elhoQWJWWW82REZRalgwZjJuMEpCVVF4aFQzQWswd2ExZHNxY291SGpKd1dGOXk0S3FBRklENEVlSkNtMEluQjQzQjYxUU9CaGRNQkFkdVRId2xvUXJ6Sm5HWkcxbHVzaTRiSDBadmJoak1mUEFQUm00MA?oc=5"
+    },
+    {
+      "title": "Boy band SHINee's Taemin to be first Korean male artist to hold solo performance at Coachella",
+      "outlet": "Korea JoongAng Daily",
+      "date": "2026-04-10",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZEtKckNIRnVaZmJjZUN4ZEY5Z3dQWlN0Z2JoTll5TjZhR0pscUZPR1hoVTFWNjRJNWEyRTl6UWkwc2tIMUxYYnlZeDR6QUhQUUg2RkVNck1hcGFjSmlfaXQ4TVJUZUJIREd3UWVKeTZOcnZOUVNxZUs0ZDJWSHd1aERfcVJOYnM5OVk2YjYwci1UZ2YySmVCRGJiVHNxY1gxMmprY2hHVFJKSEEyMkk2QVFpQVBCY19iSzZ4UVY4Y0xnX05tWUQ0azlOdHNxUWg1dk1MTzVNbVlPUWZNQTFZMU5TazE?oc=5"
+    },
+    {
+      "title": "Taemin Feels ‘So Honored & Grateful’ to Be the First Korean Male K-Pop Solo Artist to Perform at Coachella",
+      "outlet": "Billboard",
+      "date": "2026-04-01",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWtyN0ViSll2Rnp6LVp0NkNseDl4Tk5NNG1uQlFwbW5NTkhadV8wTUJvRWNNbnR4OV9DaVNYZGF2QmhOZE9QbnNMSXlBU1c2aDFiU0Mwb01sVzVfUmZVanhMWFItN2c4UnFJX2ZFRUl5RWFHZ3pmWFBYRXZWZWZMRTBGMjJmaHdnM3BaSktpRUV2U2ZCQV9WM0VxYUY2ZzZXR2I5U3N4b01LMHBJR0dFWnFWdUV1dw?oc=5"
+    },
+    {
+      "title": "K-Pop Superstar TAEMIN Releases First English Song, 'Long Way Home'",
+      "outlet": "Forbes",
+      "date": "2026-03-27",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcXpZY2ZxSDZMZ1NFOTFRbi1PMG1zT3pkcGlwcUZPTVktRTBaeExFUDFVOWh0TE50YkxhWlNoem1FMnZXbllyVnA4anJKYVpPZlg5aFc1Y0kwY0ZNOFZmZlh2aUxfNk01YW8tWHlFRzRvbU1zWTBSN2ptZm83eFJISXBscURDTFFMdG9JVHdld0JSaTRYdDJxVjFOYVRYNUs2bHFIenZieVhJdld3emczdFZNUkgwbTFvalE?oc=5"
+    },
+    {
+      "title": "Taemin to become 1st K-pop solo artist featured at Grammy Museum",
+      "outlet": "The Korea Times",
+      "date": "2026-03-22",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdkpTMWlra3J3Y0taaWdSU3Bva1VWRU13dWNqdXNEdlFjcFNYSHA5VmZKSE91Tno3WUhQR2VlNGFSN3hfT0V6VDJ5QWUxR1JzRE80bmlhbmluTjV2TEdtaFBqU0dXZWIySms4TDVnQVA5ajNXT25vdkNxaXFsUlg4RkR0eGl5ei00YTJUY1pseG9sdE5FenY0T2E1bVJiQjdvMWJxbEQ1d0djUDBLTFRUdDhwckl3RnRVc1ViYTBwc9IBxAFBVV95cUxOWmJ3MDZ4V1lTOEdzZ2dMeWk5WmR2VVZKQmF2VDl0OU5TMURwd3YtU2JBMEVuNXZIMmN0QlpPeWtJd1U3RHlaWmhiZ08zbkZ6WmtlN1dWVkdYVzNQWGxKUFNKa0pOV1dLcUNSNnpEOE80QlJLZktkQlhoUmxQVGNSdWRWejZCSHJCdU5OZEV0Z3psSVpndm5PVnZpWjFHbFEzLVpuOVA3cEFoS3BHYXlFR3lSbG81c3pEbmREVGxibW1KWE9B?oc=5"
+    },
+    {
+      "title": "Taemin Exhibit Coming to Grammy Museum Ahead of His Coachella Debut",
+      "outlet": "Billboard",
+      "date": "2026-03-19",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjFSQW9oaWhkWWNNUnRvaVI4eGpkTWY1emoyaWdKalFsb2F3eE9RR0E0YnI5VEN2SkZjT1hsZjU0Nkp5TnFuRzA1TkRsODByMjAyWlp4VEcwWjlLOEpoTDZ6NlFaRU1oWUpNR09fRmhrcWdDWnRmaWtOajhpRFMtY1BzY1hmUXA3NDlqQ0FFdzZXbVlGTGd0OXoxRVRtMmdTV3cxQnpGM1U?oc=5"
+    },
+    {
+      "title": "Taemin becomes label mates with G-Dragon and fans are buzzing with excitement",
+      "outlet": "Gulf News",
+      "date": "2026-03-11",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXA2cmhSREVEbjZKdm1sRW5OSlBVLUVUcks0OUlVWHV6Tmt5ZXZDYmQyYkFLdy1jMnZ2MTlpYW9IdDZfeHQ2cC1qY2pmcUprZGI3b0M1UlNpb1ctaWhKbmRJczVscEloQVRwcDgzb1BtN1RXWjJMcUoxMUE1a1JhOWZsdWhPbm5xQWFmVW1FVnNHb2FTZi1ELXd2Y2I4dEl1SXQ3M2F3c3RCZklzUV9jMVVlY3VVVzR6VDdZQlNnM2Fmak0?oc=5"
+    },
+    {
+      "title": "SHINee's Taemin joins G-Dragon at Galaxy Corporation",
+      "outlet": "Korea JoongAng Daily",
+      "date": "2026-03-11",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWXVZanZSX2gtQjFlTmtIQzJjbWlrZnhEVlMtNG1sbm9oaGQtbUwtbl9CZjF5cmVDT1FxNThWR0VkRURlM25ZNTl6WExVZUxWLUwxWlNjR3owWDkxdEFsZmNubGFOQS1VVEN6R0FTSUUyVkZIU1dKM2N4d0R6emt1YTgtTFBIbk95ZHhQYlE3U2FyRVNZY3lBTGh2SzZ5WGh5bVBiaDNkZzVfRzFBSVE?oc=5"
+    },
+    {
+      "title": "Taemin: the idol’s idol",
+      "outlet": "Rolling Stone UK",
+      "date": "2026-03-10",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXUwQm5KMXcwemthdEgwMmI4TS13UEtUa1V3MlZzT3FwcmVzV1FpejJRTzdHYWR6UGlLWU5FcUZkcjRMd1d4YVQzcGYyRWpRQUhEX3JQSjZCVWtJQkVnNDlzUGxmcHp4XzJiZVplN3RUQjF5UXJONTJ4MEJrM3E2bmFlV1FCeHdvRkUwaW9US1JfNDBo?oc=5"
+    },
+    {
+      "title": "SHINee's Taemin leaves agency as exclusive contract ends",
+      "outlet": "Korea JoongAng Daily",
+      "date": "2026-02-24",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU0U3eUtOX1RKR2RNTFJ1MnU3ejg5dldXRVl5NzFXbmJCand1QmZVTXg4OGx4S2Z5YlE3YVJYOWVCWGRLdDdSTU1vUFYzRVFCZldkR2tITE8xODJKbUtMcVlLVDNNMjRVUEh5QndjbWlrQzdGWXc3SHFOeDlFcmsxaTFES0Y0VWtqXzlBb0VSZU4yRlM3VF9rc04zeU1RWEZaeWk4OEVVRDQwNG1LMklTMEJqaw?oc=5"
+    },
+    {
+      "title": "Song Review: Taemin (SHINee) – Veil",
+      "outlet": "thebiaslist.com",
+      "date": "2025-09-19",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWnFvN3dFN19iMGZoOXJ1UExYSHJ5UXp2bjJSMnNBeDlFanJCUnlkbEtEUm9JZEtXRWI5aXJsN1ZMZld5Z2ZCSG9RRXdTWXpob3F4bWo3Y3hmN0RVTEM1cFdqUEZiQUtNS0ZlT0VBdTluU0lC?oc=5"
     }
   ],
   "bio": {
@@ -1060,10 +1060,22 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN(태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "outlet": "YouTube",
+      "date": "2026-10-23",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1icUtucnJLcFhpZk1qQ3YwMFFRQWRoVFVWazdTQm1MRTl3anVsYi1ad29NVkhQNGhaV2dwYV8wU1k3M3ZNYTJGb09VN3p5QnRsSlFsZ0hjZVNWdUNR?oc=5"
+    },
+    {
       "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
       "outlet": "TicketNews",
       "date": "2026-10-22",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
+    },
+    {
+      "title": "TAEMIN Returns to Europe With His 2026–27 World Tour [LiMiNaL]",
+      "outlet": "https://kavenyou.com/",
+      "date": "2026-10-19",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
     },
     {
       "title": "Taemin San Jose tickets on sale at SAP Center",
@@ -1072,28 +1084,16 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVThhZ056OU5LV2o3VDlVRXE3OG1OMnBtZW14aTlQVl9tRG83MW52cUVZRy14RHBXY0JFbEdoOWNMWk44WUhpamZpSjNXY0NBTFpUcXM2R2lGRWhEMExZQUhVbzB2czZJSVA2Y210emMwRUtHN25CVFFVb3hNYzNhR2E5OXBzWmVN?oc=5"
     },
     {
-      "title": "TAEMIN Forced to Pull Plug on Entire North American Tour Due to Visa Issues: ‘No Clear Timeline For Issuance’",
-      "outlet": "Billboard",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
+      "title": "SHINee's Taemin Performs Honorary Falconer Ceremony at LAFC Home Match and Meets Son Heung-min",
+      "outlet": "news.sbs.co.kr",
+      "date": "2026-10-16",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yNnpZa1h1WFBWamh2SkZhSmtvN1hRREYzYmYyVGk4TkY3UnRVYnEyc0QzXzFhYjRZX3VrMUxjcFpLOVRaUEw5RnV6LWRtWGFtNUMwV2Fwd05INUNHd2dNNnJDaks2NV9hck01ZnVR?oc=5"
     },
     {
-      "title": "SHINee’s Taemin Postpones North American Stops Of “LiMiNaL” World Tour",
-      "outlet": "Soompi",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSmVIWk10RHFDOHZQTXg5Ujh4UXZhTEU1eUstd240QWt3SUxPLUNHUG5od09RQlZJWHFtcnlSbFRCRWlkaFAzZUdkbTJXdlNyUTdoNVJEX3hOUGdYbWQzaHVnai1lc1dGX2hKTHlWTGdsS2w2dTVfU0I3UGF0RVdnYmZjd0ltLWFRUjFzQkdNT19MQkZDOE9xYWQxZ0lUYk1tTG44RThWMjA0RDBTMEE?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour over visa issues",
-      "outlet": "The Straits Times",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXlVeE1FWmxNQjhISEVHS2lSZDNhV2xQcEQ3MEkyYUt3QUg2UlYtS3RZQjlKYktqUlI4c09OY2FkTGJ4RmVMOEJvaW1PYTFpdnVVN0UzWENXU1hNWVVjT0h2ZC03NGVVVVlmSmIwaFZBeDMzZEQ3YkhUeEFDSUdnZ0s4aF9jalY3MkNkOTVHYVJEYUZ6eU4tTGUyM2swQQ?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour dates over visa issues",
-      "outlet": "UA.NEWS",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVh5QXhESE5DbXZNeXp4Q2ltTExqUTFrS1F1NTVEa1RETkZQMWY0dWM3VEx2T082X19GbDhGTVpDSVIxdHlIZlppT2NHeTA4XzlKcmVURTZROEZRUjBZZUdYT0FiOW5LUV96aW52SXZ0ZkFnN1BOcy1RWXBLTmVLZGJfaWN0cEJoMW1TUjZkZGNOWHByMEY1SFNNMkNrT25OQW45alR2cWZ4d3dLa3c3c1RB?oc=5"
+      "title": "Taemin Seattle Concert Canceled: How to Get a Refund",
+      "outlet": "Korea Portal (English Edition)",
+      "date": "2026-10-15",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeFZBMEdzU3FNczZuUDMtU2VSalFjcHJiTkFUbmhHMTRsOF84eDFZRG16OWxtcjlieXJzOXZNdzBXU1FtTGVhM0ZhMWdvQVE0cU14TXQ3bWhfdkFOeVVnQ2VGb0NSb2oxUFhzaWVZRkd1RXhJbjRHOW44aWM4c1R0OVZmcndlZ0hvNzNwTXlGQ1lUb0dZZFpobA?oc=5"
     }
   ],
   "worldTour": {

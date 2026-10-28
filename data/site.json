@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T05:46:23.188Z",
+  "generated": "2026-10-28T12:59:35.164Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -517,115 +517,122 @@
   ],
   "songs": [
     {
-      "title": "Strangers",
-      "album": "Never Gonna Dance Again : Act 1 - The 3rd Album",
-      "date": "2020-09-07",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/1b/4b/e81b4be0-ecda-95b5-1981-bd50773c56ad/TAEMIN_Act1_Digital_Cover_44.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/f7/db/b2f7dbc4-28d3-94b4-8a32-5f9bef8c8131/mzaf_2535546433308987534.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/strangers/1530317819?i=1530317822&uo=4",
-      "ms": 183240
+      "title": "MOVE",
+      "album": "MOVE - The 2nd Album",
+      "date": "2017-10-16",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/a7/42/55a74291-bddd-d707-b97a-ab2b8a6fd860/mzaf_2432923877623389427.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/move/1296637194?i=1296637199&uo=4",
+      "ms": 211949
     },
     {
-      "title": "Impressionable",
-      "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-      "date": "2020-11-09",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/91/ac/5a91ac9c-723f-1bfe-b536-589561c02ae2/mzaf_18040120526520300551.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/impressionable/1538577808?i=1538577811&uo=4",
-      "ms": 181613
-    },
-    {
-      "title": "The Last Christmas",
-      "album": "100RED Winter Special Single ‘The Last Christmas' - Single",
-      "date": "2024-12-10",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/a6/82/68a6828f-ce76-5187-bde7-2b70d30ee7da/8800287299683_cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/3e/bc/2e3ebc99-26c4-47b3-b9f5-771fc0c695fc/mzaf_1266871351370071116.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/the-last-christmas/1783455098?i=1783455099&uo=4",
-      "ms": 251707
-    },
-    {
-      "title": "PERMISSION",
-      "album": "PERMISSION - Single",
-      "date": "2026-05-22",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/74/88/44748810-a3df-2c8f-ac64-e90f1c8b482a/a32dee27-216f-4a33-a230-936c89a34fd2.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/be/61/7fbe61b4-b095-f7ad-1613-ffe11534ef68/mzaf_12363897897282033705.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/permission/6770655485?i=6770655487&uo=4",
-      "ms": 178400
-    },
-    {
-      "title": "Heaven",
-      "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-      "date": "2020-11-09",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/b6/16/33b61671-071a-f35a-2e8c-8c55d68bc58b/mzaf_12038168217704417149.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/heaven/1538577808?i=1538577810&uo=4",
-      "ms": 182080
-    },
-    {
-      "title": "Pinocchio",
-      "album": "The Call Project No.4 - EP",
-      "date": "2018-06-22",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9d/e3/7c/9de37c61-d0c3-256f-7347-cacbb9d24dc0/8809603543813_Cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/b5/bd/1bb5bd35-ccb5-8b90-3454-f844ed9b7c54/mzaf_9059246823765064500.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/pinocchio/1678469054?i=1678469372&uo=4",
-      "ms": 184041
-    },
-    {
-      "title": "Pansy",
-      "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-      "date": "2020-11-09",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/4f/f2/b24ff201-233f-0f1b-ad43-9afae12f9ff1/mzaf_12287997656996913470.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/pansy/1538577808?i=1538577815&uo=4",
-      "ms": 229747
-    },
-    {
-      "title": "She Loves Me, She Loves Me Not",
-      "album": "Guilty - The 4th Mini Album - EP",
-      "date": "2023-10-30",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9a/15/ce/9a15cee2-7c2e-a6fd-e144-a2ff50d60cae/888735945755.png/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/56/10/bc5610a0-c2f3-312c-6818-19061606e492/mzaf_2797685218057093931.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/she-loves-me-she-loves-me-not/1713694332?i=1713694335&uo=4",
-      "ms": 182693
-    },
-    {
-      "title": "Play Me",
+      "title": "Danger",
       "album": "The 1st Mini Album 'ACE' - EP",
       "date": "2014-08-18",
       "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/dd/96/14dd9683-8c02-ac4f-85d6-392cde722377/The_1st_Mini_Album_ACE.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/a7/c2/f1a7c2df-4739-6bd3-7ab0-cde9fe9f3bd4/mzaf_12581798843132383377.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/play-me/910085715?i=910085730&uo=4",
-      "ms": 181099
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/a8/80/fba88014-6961-9dc1-d69a-1ac74e0f3d93/mzaf_278640862123111428.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/danger/910085715?i=910085726&uo=4",
+      "ms": 191453
     },
     {
-      "title": "Think Of You",
-      "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-      "date": "2020-11-09",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/ba/be/2bbabe3a-c5a0-44ab-c645-f4bca12abf80/mzaf_13989294035258529942.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/think-of-you/1538577808?i=1538577813&uo=4",
-      "ms": 198267
+      "title": "Press Your Number",
+      "album": "Press It - The 1st Album",
+      "date": "2016-02-23",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/ce/c1/00cec18a-9b05-b2e5-fcfc-4c8f4f7f8dc4/TAEMIN_iTunes_COVER_B.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/1b/20/361b207b-98bb-d82f-248f-e9198ccf4861/mzaf_11360693440805600663.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/press-your-number/1085060188?i=1085060700&uo=4",
+      "ms": 226258
     },
     {
-      "title": "Sexy In The Air",
-      "album": "ETERNAL",
-      "date": "2024-08-19",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/6f/91/5d6f91eb-dbba-f7f8-8799-5f6295f66e79/mzaf_4510647699102094610.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/sexy-in-the-air/1786293723?i=1786293727&uo=4",
-      "ms": 194800
+      "title": "WANT",
+      "album": "WANT - The 2nd Mini Album",
+      "date": "2019-02-11",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3a/97/05/3a97058b-11cd-c56a-9723-da522680f568/TAEMIN_WANT_Cover_Art.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/fd/63/27fd6382-e6eb-0e7b-afcc-5f4dccff3db6/mzaf_14693133933751998155.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/want/1451783260?i=1451783261&uo=4",
+      "ms": 208968
     },
     {
-      "title": "Horizon",
-      "album": "ETERNAL",
-      "date": "2024-08-19",
-      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/600x600bb.jpg",
-      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/80/42/28804290-f8a9-83da-bf72-469d7d4d4e31/mzaf_8629713445433397056.plus.aac.p.m4a",
-      "url": "https://music.apple.com/us/album/horizon/1786293723?i=1786293728&uo=4",
-      "ms": 176787
+      "title": "Drip Drop",
+      "album": "Press It - The 1st Album",
+      "date": "2016-02-23",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/ce/c1/00cec18a-9b05-b2e5-fcfc-4c8f4f7f8dc4/TAEMIN_iTunes_COVER_B.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/69/a1/1269a135-f722-4693-9d7d-aaa769702ea7/mzaf_4377627480501037023.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/drip-drop/1085060188?i=1085060699&uo=4",
+      "ms": 205240
+    },
+    {
+      "title": "Advice",
+      "album": "Advice - The 3rd Mini Album - EP",
+      "date": "2021-05-18",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/34/6e/cd346ecf-d369-db76-d88b-2b9379ae41a4/mzaf_9552069871707641488.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/advice/1567180786?i=1567180787&uo=4",
+      "ms": 191640
+    },
+    {
+      "title": "Trap (feat. KYUHYUN & TAEMIN)",
+      "album": "Trap - EP",
+      "date": "2013-06-07",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ff/f6/37/fff637f3-a72a-ebf6-bb22-c1e8b28687b2/asset.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/7f/1e/337f1ebf-2d25-83c1-8fa5-67b93069c7e6/mzaf_17291207163088556119.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/trap-feat-kyuhyun-taemin/854918984?i=854919087&uo=4",
+      "ms": 225451
+    },
+    {
+      "title": "Criminal",
+      "album": "Never Gonna Dance Again : Act 1 - The 3rd Album",
+      "date": "2020-09-07",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/1b/4b/e81b4be0-ecda-95b5-1981-bd50773c56ad/TAEMIN_Act1_Digital_Cover_44.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/4e/88/0a4e88ff-30cc-0d50-aee1-fbcf8172e241/mzaf_10539783440630316960.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/criminal/1530317819?i=1530317820&uo=4",
+      "ms": 211400
+    },
+    {
+      "title": "Pretty Boy (feat. KAI)",
+      "album": "The 1st Mini Album 'ACE' - EP",
+      "date": "2014-08-18",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/dd/96/14dd9683-8c02-ac4f-85d6-392cde722377/The_1st_Mini_Album_ACE.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/b5/c3/fab5c3c3-4940-f16c-054b-a07bdb80f1c0/mzaf_1405803759585596925.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/pretty-boy-feat-kai/910085715?i=910085728&uo=4",
+      "ms": 223085
+    },
+    {
+      "title": "Goodbye (さよならひとり Korean Version)",
+      "album": "Goodbye (さよならひとり Korean Version) - Single",
+      "date": "2016-08-04",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/14/75/de147524-fb4b-d9fa-530d-746bd55bd42e/taemin_goodbye.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/9a/14/269a14bf-659c-74b3-1507-e93b9506bef0/mzaf_6086815316839930822.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/goodbye-%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E3%81%B2%E3%81%A8%E3%82%8A-korean-version/1140337144?i=1140337492&uo=4",
+      "ms": 209292
+    },
+    {
+      "title": "Guilty",
+      "album": "Guilty - The 4th Mini Album - EP",
+      "date": "2023-10-30",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9a/15/ce/9a15cee2-7c2e-a6fd-e144-a2ff50d60cae/888735945755.png/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/a4/f6/aba4f66a-eeb6-3f24-f12d-a8d7ec78852c/mzaf_15210843056830737149.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/guilty/1713694332?i=1713694333&uo=4",
+      "ms": 190173
+    },
+    {
+      "title": "Thirsty",
+      "album": "MOVE - The 2nd Album",
+      "date": "2017-10-16",
+      "art": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/600x600bb.jpg",
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/c9/99/3dc99988-8e57-3fb8-8000-aa6ba2e51706/mzaf_11049130073581651677.plus.aac.p.m4a",
+      "url": "https://music.apple.com/us/album/thirsty/1296637194?i=1296637204&uo=4",
+      "ms": 206993
     }
   ],
   "videos": [
+    {
+      "id": "o8zyxWXmefA",
+      "title": "TAEMIN (태민) 'Frankenstein' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "date": "2026-10-28",
+      "url": "https://www.youtube.com/watch?v=o8zyxWXmefA",
+      "thumb": "https://i4.ytimg.com/vi/o8zyxWXmefA/hqdefault.jpg"
+    },
     {
       "id": "EAnyXCa2SiE",
       "title": "TAEMIN (태민) - LiMiNaL SEOUL (BEHIND THE SCENES)",
@@ -723,13 +730,6 @@
       "date": "2026-09-17",
       "url": "https://www.youtube.com/watch?v=hhdZ8iFT-4k",
       "thumb": "https://i1.ytimg.com/vi/hhdZ8iFT-4k/hqdefault.jpg"
-    },
-    {
-      "id": "44Ae-dooo2o",
-      "title": "TAEMIN (태민) - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.3)",
-      "date": "2026-09-16",
-      "url": "https://www.youtube.com/watch?v=44Ae-dooo2o",
-      "thumb": "https://i1.ytimg.com/vi/44Ae-dooo2o/hqdefault.jpg"
     }
   ],
   "news": [
@@ -780,6 +780,12 @@
       "outlet": "https://thebiaslist.com/",
       "date": "2026-08-31",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcjczT0Q4N185M2NCcXU1cDg3WkZkR1dLR0hBQUpaRktsZVdUOWJvMnJOUUp5VThwZUg2WVdQOTVKSFdjVUpjSFYyWUhBLUF4LWJua3RUWVhzaHd5VXlRbHlMQml4aEo3ZXVCcA?oc=5"
+    },
+    {
+      "title": "Summer gets colorful: Taemin, Yongguk, and 8TURN bring K-Pop to Europe!",
+      "outlet": "Nolae",
+      "date": "2026-06-04",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN01zTGMyQmtKMGFUWkpZcGxTeExWeTc2VDVWZkhxTVk1OEJxOVp3V0x6aDVsT0hUN0c2MHFDQ2xHN0dSQ3dyWG1iZl9MV09mR3pLcmotejhQMzF0Q2JtR0g5ZTE5LTVieTdEd1RhVVFaNWFQbk5IVVc4b0FxZ2ItaU85dnVpMklTSU1kbklLM0U0ZlNuMHc?oc=5"
     },
     {
       "title": "Taemin: Reflecting on the first K-pop male solo artist to perform at Coachella",
@@ -842,6 +848,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjFSQW9oaWhkWWNNUnRvaVI4eGpkTWY1emoyaWdKalFsb2F3eE9RR0E0YnI5VEN2SkZjT1hsZjU0Nkp5TnFuRzA1TkRsODByMjAyWlp4VEcwWjlLOEpoTDZ6NlFaRU1oWUpNR09fRmhrcWdDWnRmaWtOajhpRFMtY1BzY1hmUXA3NDlqQ0FFdzZXbVlGTGd0OXoxRVRtMmdTV3cxQnpGM1U?oc=5"
     },
     {
+      "title": "Taemin becomes label mates with G-Dragon and fans are buzzing with excitement",
+      "outlet": "Gulf News",
+      "date": "2026-03-11",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXA2cmhSREVEbjZKdm1sRW5OSlBVLUVUcks0OUlVWHV6Tmt5ZXZDYmQyYkFLdy1jMnZ2MTlpYW9IdDZfeHQ2cC1qY2pmcUprZGI3b0M1UlNpb1ctaWhKbmRJczVscEloQVRwcDgzb1BtN1RXWjJMcUoxMUE1a1JhOWZsdWhPbm5xQWFmVW1FVnNHb2FTZi1ELXd2Y2I4dEl1SXQ3M2F3c3RCZklzUV9jMVVlY3VVVzR6VDdZQlNnM2Fmak0?oc=5"
+    },
+    {
       "title": "SHINee's Taemin joins G-Dragon at Galaxy Corporation",
       "outlet": "Korea JoongAng Daily",
       "date": "2026-03-11",
@@ -864,18 +876,6 @@
       "outlet": "thebiaslist.com",
       "date": "2025-09-19",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWnFvN3dFN19iMGZoOXJ1UExYSHJ5UXp2bjJSMnNBeDlFanJCUnlkbEtEUm9JZEtXRWI5aXJsN1ZMZld5Z2ZCSG9RRXdTWXpob3F4bWo3Y3hmN0RVTEM1cFdqUEZiQUtNS0ZlT0VBdTluU0lC?oc=5"
-    },
-    {
-      "title": "K-pop acts BIGBANG and Taemin of SHINee are set to perform at Coachella 2026. The iconic group BIGBANG will take the stage on April 12 and 19, while Taemin will play on April 11 and 18. Courtesy: G-Dragon, SHINee/Instagram",
-      "outlet": "Facebook",
-      "date": "2025-09-15",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOc2dvZmpCLU55cHJyS1NtYnBUOXFfOXJQM0xWbkhSQXp3QjNUNlpGTmpGVlRmWGZCbGtvbjRwX1hCbGF5MDZNNk0tSWwwNnZDd0RDeEhaNFg5Znp3VkF4aGlhQ1FEZ184Rkw4UVU2SjI0NVR1TzVyM09FeEYzdXBLVnhITTMyNEpFeFdHUkNSMzZZRnhNZkFCM2tHaG9idTE2Vlp5UWYyVTJjY2l6a1BSSXZKc2FBLTJqTnE5NTZGZE4yY1cyLU1hRmJySXRqQXhxMmhjZFQ5TQ?oc=5"
-    },
-    {
-      "title": "South Korean k-pop artist Taemin to perform in Honolulu",
-      "outlet": "Aloha State Daily",
-      "date": "2025-03-19",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDVvWGR6c0gwcktGc1ZQdU1ab0l3eEZmWFBGV3A5eWxEVVlvWGN6SjdpajFuekl1T3Q1U1BlcUxON1dDTHlVaWxYczdxYWdnXzFsT09PekJaOWV5WDNybEdJWWV5S0JOSk5ZOUdkNS1mQTNScDl3R0w4TFdiam10Z1FPUXp6Y09lUFljNHh3cHF2eTktY3cwQVdCOA?oc=5"
     }
   ],
   "bio": {
@@ -1060,40 +1060,40 @@
   },
   "tourNews": [
     {
+      "title": "TAEMIN reveals perfectionist struggles during 'LiMiNaL SEOUL' concert preparations",
+      "outlet": "www.famtimes.co.kr",
+      "date": "2026-10-27",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EMG9leWNSbkdnTWVjMG9vV0kxdUpOUURRSGdzV2pBZldScnJna2JLV1JCdmVNVms5S3lJMGlQS3NmamZEaVlZbUhRZC0wVW9tbW5FUFZpMTlRdVBHczNDSGF4Y25JYTdUelpvZmlZNkxpZw?oc=5"
+    },
+    {
+      "title": "TAEMIN(태민) 'This Is The End' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "outlet": "YouTube",
+      "date": "2026-10-23",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1icUtucnJLcFhpZk1qQ3YwMFFRQWRoVFVWazdTQm1MRTl3anVsYi1ad29NVkhQNGhaV2dwYV8wU1k3M3ZNYTJGb09VN3p5QnRsSlFsZ0hjZVNWdUNR?oc=5"
+    },
+    {
+      "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
+      "outlet": "TicketNews",
+      "date": "2026-10-22",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
+    },
+    {
+      "title": "TAEMIN Returns to Europe With His 2026–27 World Tour [LiMiNaL]",
+      "outlet": "https://kavenyou.com/",
+      "date": "2026-10-19",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFB6cjVhMW41bUZmRUxVYmNGZXRZMW5mSUZCNmRDUkYteEpVTThoTGpqN2NUNk1lMG0weUZUVWMwZnBuRzV1cWhzMThkWkdGTU5ZN0RBcGxQSV80Qi02MVduSVRVMFoza2dUTm1BNGRlUXdQSGxYTWU1X2MtZGdHMG1QbmVlT1VNTlE?oc=5"
+    },
+    {
       "title": "Taemin San Jose tickets on sale at SAP Center",
       "outlet": "TicketNews",
       "date": "2026-10-19",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVThhZ056OU5LV2o3VDlVRXE3OG1OMnBtZW14aTlQVl9tRG83MW52cUVZRy14RHBXY0JFbEdoOWNMWk44WUhpamZpSjNXY0NBTFpUcXM2R2lGRWhEMExZQUhVbzB2czZJSVA2Y210emMwRUtHN25CVFFVb3hNYzNhR2E5OXBzWmVN?oc=5"
     },
     {
-      "title": "Taemin Postpones North American Dates of Liminal Tour Over Visa Issues",
-      "outlet": "Yahoo",
-      "date": "2026-10-03",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTU4d1ZCWmhpMVJRVm9yV2t6N0lHN3N0MG1hb0JJalF1LTFVMFRJQzNVMGJBSUZYcjgtWVh2RmZsc0hlMzVFcHFiZ2JOLXl2Tm4yYjVIaEdTSDF4OVJBYlRyalFpS2lVM2RXU0RCWUNRTkRXQlJpN0xVS0E0eFNHUDMzUTJscXRuR2VuUVNaSXhkTGdZSTlaTllSTks4UGZVdDNqS2pB?oc=5"
-    },
-    {
-      "title": "Taemin Postpones North American Tour as U.S. Visa Delays Hit Production Crew",
-      "outlet": "TicketNews",
-      "date": "2026-10-01",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcy1VZ3p0ekVsV3I4UzNldmg0QjhUcUwwRS1ydVVMSm9OMVZiUHpoTkVlV0x2NDhFQ0RmenlBcGlUSlRXeGU4dnBxeTMwU0lFak1BUlF5S3l1U2VqbVRaZGNrYWJqV011WW5veDdzWHpSSmlnaVhhbTE3aFdkc3dtZEY0M1hNeGJTSXJNRGo4Q2UzY0p6UVRqTjFTYV9NUE9fVmd0WU5lTUVpOWlPZ2dpeQ?oc=5"
-    },
-    {
-      "title": "TAEMIN Forced to Pull Plug on Entire North American Tour Due to Visa Issues: ‘No Clear Timeline For Issuance’",
-      "outlet": "Billboard",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour over visa issues",
-      "outlet": "The Straits Times",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXlVeE1FWmxNQjhISEVHS2lSZDNhV2xQcEQ3MEkyYUt3QUg2UlYtS3RZQjlKYktqUlI4c09OY2FkTGJ4RmVMOEJvaW1PYTFpdnVVN0UzWENXU1hNWVVjT0h2ZC03NGVVVVlmSmIwaFZBeDMzZEQ3YkhUeEFDSUdnZ0s4aF9jalY3MkNkOTVHYVJEYUZ6eU4tTGUyM2swQQ?oc=5"
-    },
-    {
-      "title": "SHINee’s Taemin postpones US tour dates over visa issues",
-      "outlet": "UA.NEWS",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVh5QXhESE5DbXZNeXp4Q2ltTExqUTFrS1F1NTVEa1RETkZQMWY0dWM3VEx2T082X19GbDhGTVpDSVIxdHlIZlppT2NHeTA4XzlKcmVURTZROEZRUjBZZUdYT0FiOW5LUV96aW52SXZ0ZkFnN1BOcy1RWXBLTmVLZGJfaWN0cEJoMW1TUjZkZGNOWHByMEY1SFNNMkNrT25OQW45alR2cWZ4d3dLa3c3c1RB?oc=5"
+      "title": "SHINee's Taemin Performs Honorary Falconer Ceremony at LAFC Home Match and Meets Son Heung-min",
+      "outlet": "news.sbs.co.kr",
+      "date": "2026-10-16",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0yNnpZa1h1WFBWamh2SkZhSmtvN1hRREYzYmYyVGk4TkY3UnRVYnEyc0QzXzFhYjRZX3VrMUxjcFpLOVRaUEw5RnV6LWRtWGFtNUMwV2Fwd05INUNHd2dNNnJDaks2NV9hck01ZnVR?oc=5"
     }
   ],
   "worldTour": {

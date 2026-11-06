@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T06:52:01.876Z",
+  "generated": "2026-11-06T19:26:52.558Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,6 +734,12 @@
   ],
   "news": [
     {
+      "title": "The 30 Best K-Pop Solo Artists Right Now, Ranked",
+      "outlet": "Complex",
+      "date": "2026-11-06",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa29nZXAzU21KZ2JaMnJLU0lOb1M1cVJGRlZSZ0JxRWhfalJ3SDdiZzUyQnZ5Qk1VYnM1TEVpWjc1bksydHlZeWtLanNMaS1uTDZnWlJrdFBSU0N4YzJrYzc0akU5NG5LeFUzRURBdUlwQ1AxUG1wWm13cjUtTmdNYnlsWFY?oc=5"
+    },
+    {
       "title": "Popular Male Idol Suddenly Launches Black Friday Sale, Sparks Massive Response",
       "outlet": "Koreaboo",
       "date": "2026-11-04",
@@ -858,12 +864,6 @@
       "outlet": "Gulf News",
       "date": "2026-03-11",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXA2cmhSREVEbjZKdm1sRW5OSlBVLUVUcks0OUlVWHV6Tmt5ZXZDYmQyYkFLdy1jMnZ2MTlpYW9IdDZfeHQ2cC1qY2pmcUprZGI3b0M1UlNpb1ctaWhKbmRJczVscEloQVRwcDgzb1BtN1RXWjJMcUoxMUE1a1JhOWZsdWhPbm5xQWFmVW1FVnNHb2FTZi1ELXd2Y2I4dEl1SXQ3M2F3c3RCZklzUV9jMVVlY3VVVzR6VDdZQlNnM2Fmak0?oc=5"
-    },
-    {
-      "title": "Taemin: the idol’s idol",
-      "outlet": "Rolling Stone UK",
-      "date": "2026-03-10",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXUwQm5KMXcwemthdEgwMmI4TS13UEtUa1V3MlZzT3FwcmVzV1FpejJRTzdHYWR6UGlLWU5FcUZkcjRMd1d4YVQzcGYyRWpRQUhEX3JQSjZCVWtJQkVnNDlzUGxmcHp4XzJiZVplN3RUQjF5UXJONTJ4MEJrM3E2bmFlV1FCeHdvRkUwaW9US1JfNDBo?oc=5"
     },
     {
       "title": "SHINee's Taemin leaves agency as exclusive contract ends",
@@ -1060,6 +1060,12 @@
   },
   "tourNews": [
     {
+      "title": "Taemin Chicago tickets on sale at Wintrust Arena",
+      "outlet": "TicketNews",
+      "date": "2026-11-05",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
+    },
+    {
       "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
       "outlet": "TicketNews",
       "date": "2026-11-05",
@@ -1088,12 +1094,6 @@
       "outlet": "Yahoo",
       "date": "2026-10-03",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTU4d1ZCWmhpMVJRVm9yV2t6N0lHN3N0MG1hb0JJalF1LTFVMFRJQzNVMGJBSUZYcjgtWVh2RmZsc0hlMzVFcHFiZ2JOLXl2Tm4yYjVIaEdTSDF4OVJBYlRyalFpS2lVM2RXU0RCWUNRTkRXQlJpN0xVS0E0eFNHUDMzUTJscXRuR2VuUVNaSXhkTGdZSTlaTllSTks4UGZVdDNqS2pB?oc=5"
-    },
-    {
-      "title": "TAEMIN Forced to Pull Plug on Entire North American Tour Due to Visa Issues: ‘No Clear Timeline For Issuance’",
-      "outlet": "Billboard",
-      "date": "2026-09-30",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
     }
   ],
   "worldTour": {

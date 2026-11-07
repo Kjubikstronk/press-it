@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T19:26:52.558Z",
+  "generated": "2026-11-07T06:02:40.905Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,12 +734,6 @@
   ],
   "news": [
     {
-      "title": "The 30 Best K-Pop Solo Artists Right Now, Ranked",
-      "outlet": "Complex",
-      "date": "2026-11-06",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa29nZXAzU21KZ2JaMnJLU0lOb1M1cVJGRlZSZ0JxRWhfalJ3SDdiZzUyQnZ5Qk1VYnM1TEVpWjc1bksydHlZeWtLanNMaS1uTDZnWlJrdFBSU0N4YzJrYzc0akU5NG5LeFUzRURBdUlwQ1AxUG1wWm13cjUtTmdNYnlsWFY?oc=5"
-    },
-    {
       "title": "Popular Male Idol Suddenly Launches Black Friday Sale, Sparks Massive Response",
       "outlet": "Koreaboo",
       "date": "2026-11-04",
@@ -762,6 +756,12 @@
       "outlet": "Billboard",
       "date": "2026-09-30",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
+    },
+    {
+      "title": "Taemin postpones North American tour two weeks before launch over US visa delays",
+      "outlet": "The Korea Times",
+      "date": "2026-09-29",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc01lMy01eTQzRVhWSENCbEVNYjZyVHR3bDVUNUJQdFpCOUhvRl9HbkY4aHRjVjVQc0gwVXZRUXV6U2tZb1hvXzZxZldXdjRKaGM4QW14Uk5pRHExZmV1OUI1OGdZU3FoNWJpYVcxMGpZTGNOYWM0ZlpkZzZPcDA3ZUhMSnBybEF6bXl4ajF2d1ZINXhaWXR2Z3FoM1N0MjZzOHdCZmJxbnN5SEJkMVFKdHNBRnVJOW12N2tvblZvdi1yZTNLWUJ0Z0lNWTEtMWVUdlNIUtIB2gFBVV95cUxPUWMxeUd4RmM3bjlsbU80SWdKZkh0Qy11Zlh1WmtYTmJseENNNWN3VEozVWlJWHhyZ0tseERiRFo2TmdkRVFTTGZyaWQ0Q2EwTkVjOGN1dzZqdkNNQU5obmJzVmxYdFBlQzBJc1ZGakNHSUl0bkZuWGFpdThQNzNUTVlsYjRxQURHeHFPZTU1THIxRWpCV1dqSVBIMV9kcWpreGg3TzAzUmlsS0ZmSU10U2EyMUVjamZ3eHI3RFU0MUNJalRrQjFzWUt3UVNSTHJMR3k3S2hZOGRKZw?oc=5"
     },
     {
       "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
@@ -792,12 +792,6 @@
       "outlet": "The Korea Herald",
       "date": "2026-07-08",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GZmlDZW9TazIzSjdjSWptRHI0Vndzc3dDQUNWLW9NcnRBMkNyb2RUMTB6T3ZqLVVZRTd2a0RSMGx6QThyeEx3emRCUDZIcHVqOHVDcU5SUQ?oc=5"
-    },
-    {
-      "title": "Summer gets colorful: Taemin, Yongguk, and 8TURN bring K-Pop to Europe!",
-      "outlet": "Nolae",
-      "date": "2026-06-04",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN01zTGMyQmtKMGFUWkpZcGxTeExWeTc2VDVWZkhxTVk1OEJxOVp3V0x6aDVsT0hUN0c2MHFDQ2xHN0dSQ3dyWG1iZl9MV09mR3pLcmotejhQMzF0Q2JtR0g5ZTE5LTVieTdEd1RhVVFaNWFQbk5IVVc4b0FxZ2ItaU85dnVpMklTSU1kbklLM0U0ZlNuMHc?oc=5"
     },
     {
       "title": "Taemin: Reflecting on the first K-pop male solo artist to perform at Coachella",
@@ -876,6 +870,12 @@
       "outlet": "Billboard",
       "date": "2025-12-14",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTXpNUXgxN3dhNjhRYU05MnJNWU5taWpOUmVVM1BUcUl0YWYwY0FlXzRlcGxtS3Qxa0dkTjVXZGdsckx0cTg5SS02RFNackhuOHNqcGNUM1RpRlNtRmdVb0IyelJac1o5c1h0NFk5TjBLZW5kNHFQSjdnamlUWjBGU2Z2bEVBcndVa0dic1VIdHhWYzJ0MV80akIyMksxOE5lS19UMG5VNUZpWm9mV25UR01XS1hvZi16?oc=5"
+    },
+    {
+      "title": "Song Review: Taemin (SHINee) – Veil",
+      "outlet": "thebiaslist.com",
+      "date": "2025-09-19",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CWnFvN3dFN19iMGZoOXJ1UExYSHJ5UXp2bjJSMnNBeDlFanJCUnlkbEtEUm9JZEtXRWI5aXJsN1ZMZld5Z2ZCSG9RRXdTWXpob3F4bWo3Y3hmN0RVTEM1cFdqUEZiQUtNS0ZlT0VBdTluU0lC?oc=5"
     }
   ],
   "bio": {
@@ -1078,22 +1078,22 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
+      "title": "Taemin in São Paulo: Tickets for the LiMiNaL Concert",
+      "outlet": "KarloBag.eu",
+      "date": "2026-10-30",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNazdkUWFHUm1YYnhXeGpiNmRQWlNmcUc4aEhwQnY0RTRVYTVfcTVGOFpua0pZTDBVVmdBY19xYWFRTmk4OFlYekprZFBybU5nMWNjSzVYOWhFN2ZObkNIcWVDY1VuQmdMSFB4NmZ2NkJ6bUxhWkdoLVdGMVdHZFc5VVA2M2YxOWZKYXVqcUtkS3ZZWGZ0dEF3?oc=5"
+    },
+    {
+      "title": "Taemin Lima concert tickets: LiMiNaL at Arena Monumental",
+      "outlet": "KarloBag.eu",
+      "date": "2026-10-28",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakpKa1FEUDVTX3EzdXBmeGpGSDRSWlJCMG5ULTVtSmp0c3RXUVUtNldIS3k4YlQ3N0VHNkNRWU5MeFlUV2hLQlE5TEozWmtWLWhlaTB5bks1dzBlajExRXNIVy1YNVNocHk0c2tNQzEtRVBrVC1ON294U0I0cGwzcjB1VGgxai14QnhTRk9wN3dHUGtHTXA2dzJvMUQ?oc=5"
+    },
+    {
       "title": "Taemin live at Atlas Arena Łódź - LiMiNaL 2026 Tickets",
       "outlet": "KarloBag.eu",
       "date": "2026-10-20",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRFM2ZGZwYlFIelhRRmllODBHX3RzNUVWalZUTDlraW9SeFhERkRrTm1PdF9jTEw3RjItcXExazh6TEVqQ01uenRYelZqajdHUmM2Y3VITTNneFR0LVJrb2c5UXhESzhZSVBMS3NOU3Z4NXpiYkFtRzdjSjN6YjZlSmV6VGRVeWl5MUF5ZHU2WTJoZFhDN3lLaA?oc=5"
-    },
-    {
-      "title": "Taemin Postpones North American Tour as U.S. Visa Delays Hit Production Crew",
-      "outlet": "TicketNews",
-      "date": "2026-10-12",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcy1VZ3p0ekVsV3I4UzNldmg0QjhUcUwwRS1ydVVMSm9OMVZiUHpoTkVlV0x2NDhFQ0RmenlBcGlUSlRXeGU4dnBxeTMwU0lFak1BUlF5S3l1U2VqbVRaZGNrYWJqV011WW5veDdzWHpSSmlnaVhhbTE3aFdkc3dtZEY0M1hNeGJTSXJNRGo4Q2UzY0p6UVRqTjFTYV9NUE9fVmd0WU5lTUVpOWlPZ2dpeQ?oc=5"
-    },
-    {
-      "title": "Taemin Postpones North American Dates of Liminal Tour Over Visa Issues",
-      "outlet": "Yahoo",
-      "date": "2026-10-03",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTU4d1ZCWmhpMVJRVm9yV2t6N0lHN3N0MG1hb0JJalF1LTFVMFRJQzNVMGJBSUZYcjgtWVh2RmZsc0hlMzVFcHFiZ2JOLXl2Tm4yYjVIaEdTSDF4OVJBYlRyalFpS2lVM2RXU0RCWUNRTkRXQlJpN0xVS0E0eFNHUDMzUTJscXRuR2VuUVNaSXhkTGdZSTlaTllSTks4UGZVdDNqS2pB?oc=5"
     }
   ],
   "worldTour": {

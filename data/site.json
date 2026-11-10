@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T07:22:58.472Z",
+  "generated": "2026-11-10T19:46:04.959Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,6 +627,13 @@
   ],
   "videos": [
     {
+      "id": "sBvDd011SSE",
+      "title": "'LiMiNaL' on Stage 🎤: Seoul to São Paulo",
+      "date": "2026-11-10",
+      "url": "https://www.youtube.com/watch?v=sBvDd011SSE",
+      "thumb": "https://i4.ytimg.com/vi/sBvDd011SSE/hqdefault.jpg"
+    },
+    {
       "id": "o8zyxWXmefA",
       "title": "TAEMIN (태민) 'Frankenstein' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
       "date": "2026-10-28",
@@ -723,13 +730,6 @@
       "date": "2026-09-23",
       "url": "https://www.youtube.com/watch?v=SoflnULV6co",
       "thumb": "https://i4.ytimg.com/vi/SoflnULV6co/hqdefault.jpg"
-    },
-    {
-      "id": "hhdZ8iFT-4k",
-      "title": "🔥D-1 🔥Just one more day.LiMiNaL is almost here.",
-      "date": "2026-09-17",
-      "url": "https://www.youtube.com/watch?v=hhdZ8iFT-4k",
-      "thumb": "https://i1.ytimg.com/vi/hhdZ8iFT-4k/hqdefault.jpg"
     }
   ],
   "news": [
@@ -756,6 +756,12 @@
       "outlet": "Billboard",
       "date": "2026-09-30",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
+    },
+    {
+      "title": "Taemin postpones North American tour two weeks before launch over US visa delays",
+      "outlet": "The Korea Times",
+      "date": "2026-09-29",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc01lMy01eTQzRVhWSENCbEVNYjZyVHR3bDVUNUJQdFpCOUhvRl9HbkY4aHRjVjVQc0gwVXZRUXV6U2tZb1hvXzZxZldXdjRKaGM4QW14Uk5pRHExZmV1OUI1OGdZU3FoNWJpYVcxMGpZTGNOYWM0ZlpkZzZPcDA3ZUhMSnBybEF6bXl4ajF2d1ZINXhaWXR2Z3FoM1N0MjZzOHdCZmJxbnN5SEJkMVFKdHNBRnVJOW12N2tvblZvdi1yZTNLWUJ0Z0lNWTEtMWVUdlNIUtIB2gFBVV95cUxPUWMxeUd4RmM3bjlsbU80SWdKZkh0Qy11Zlh1WmtYTmJseENNNWN3VEozVWlJWHhyZ0tseERiRFo2TmdkRVFTTGZyaWQ0Q2EwTkVjOGN1dzZqdkNNQU5obmJzVmxYdFBlQzBJc1ZGakNHSUl0bkZuWGFpdThQNzNUTVlsYjRxQURHeHFPZTU1THIxRWpCV1dqSVBIMV9kcWpreGg3TzAzUmlsS0ZmSU10U2EyMUVjamZ3eHI3RFU0MUNJalRrQjFzWUt3UVNSTHJMR3k3S2hZOGRKZw?oc=5"
     },
     {
       "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
@@ -846,12 +852,6 @@
       "outlet": "Billboard",
       "date": "2026-03-19",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjFSQW9oaWhkWWNNUnRvaVI4eGpkTWY1emoyaWdKalFsb2F3eE9RR0E0YnI5VEN2SkZjT1hsZjU0Nkp5TnFuRzA1TkRsODByMjAyWlp4VEcwWjlLOEpoTDZ6NlFaRU1oWUpNR09fRmhrcWdDWnRmaWtOajhpRFMtY1BzY1hmUXA3NDlqQ0FFdzZXbVlGTGd0OXoxRVRtMmdTV3cxQnpGM1U?oc=5"
-    },
-    {
-      "title": "Taemin becomes label mates with G-Dragon and fans are buzzing with excitement",
-      "outlet": "Gulf News",
-      "date": "2026-03-11",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXA2cmhSREVEbjZKdm1sRW5OSlBVLUVUcks0OUlVWHV6Tmt5ZXZDYmQyYkFLdy1jMnZ2MTlpYW9IdDZfeHQ2cC1qY2pmcUprZGI3b0M1UlNpb1ctaWhKbmRJczVscEloQVRwcDgzb1BtN1RXWjJMcUoxMUE1a1JhOWZsdWhPbm5xQWFmVW1FVnNHb2FTZi1ELXd2Y2I4dEl1SXQ3M2F3c3RCZklzUV9jMVVlY3VVVzR6VDdZQlNnM2Fmak0?oc=5"
     },
     {
       "title": "SHINee's Taemin leaves agency as exclusive contract ends",

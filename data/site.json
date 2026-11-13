@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T06:49:51.975Z",
+  "generated": "2026-11-13T19:45:23.188Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,6 +627,13 @@
   ],
   "videos": [
     {
+      "id": "qRgSFDnccg0",
+      "title": "TAEMIN (태민) 'FLOAT' Live Clip (2026-27 TAEMIN WORLD TOUR 'LiMiNaL' in SEOUL)",
+      "date": "2026-11-13",
+      "url": "https://www.youtube.com/watch?v=qRgSFDnccg0",
+      "thumb": "https://i2.ytimg.com/vi/qRgSFDnccg0/hqdefault.jpg"
+    },
+    {
       "id": "sBvDd011SSE",
       "title": "'LiMiNaL' on Stage 🎤: Seoul to São Paulo",
       "date": "2026-11-10",
@@ -723,13 +730,6 @@
       "date": "2026-09-30",
       "url": "https://www.youtube.com/watch?v=7s1yipnrVH4",
       "thumb": "https://i4.ytimg.com/vi/7s1yipnrVH4/hqdefault.jpg"
-    },
-    {
-      "id": "SoflnULV6co",
-      "title": "TAEMIN (태민) - PHASE 1 : Soft Violence (BEHIND THE SCENES EP.4)",
-      "date": "2026-09-23",
-      "url": "https://www.youtube.com/watch?v=SoflnULV6co",
-      "thumb": "https://i4.ytimg.com/vi/SoflnULV6co/hqdefault.jpg"
     }
   ],
   "news": [
@@ -738,12 +738,6 @@
       "outlet": "KarloBag.eu",
       "date": "2026-11-13",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE9CaHBzQWtZVHBSYjlMVzJzbXRwX0JPSlVJZDExZlR2TVJ4bEJMUkpOTmk5aUlZLXNYTzRkYzY2eHlxazJ6MnlsT2c2UGo5OWp6STFqc05jU2U0WTRldnlQVkt5MU9qckdpZVRqY2ZveVRHRF81ODBJMEptM1RHRnRwNFZ4d3llZ2Y4TnBvQ0F1VEJBRVE?oc=5"
-    },
-    {
-      "title": "From BLACKPINK to aespa: Here Are All the K-Pop Artists in Coachella History",
-      "outlet": "InMusic Blog",
-      "date": "2026-11-11",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XZEx5ZWxZMFllT1d2d1o0cTNMOGprbmJhMWMxTGFMNHNDdTZmamdOM3ZDTzZQalpFM0t1ZEtQOUhvQ1ZWX1k4TlRxVWtWeGU2VW1JTXdQWXlLTXVmZ3oxUFNCSUVCTjJNUmxIQmdn?oc=5"
     },
     {
       "title": "TAEMIN in Poland for the first time. The K-pop star will perform at Atlas Arena",
@@ -764,16 +758,16 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGpJNVA0X29CRTQ2azZhVXZZR2puVTVFMVdEbEFNc3lXRDRFRjFsenlOSy1hUDZvVndwSGFfMERJNEY1UnA2SFk2MG9zb1VUMWtwTGlBZWRyVV9nVm1XX25kMVpPRllZdS1QVy01Qm8xUEZxMy1QenVKUV9GdnlJckJmODZmYW9UWXhLazNFc2o2YnJYUnRsTmJJYzZGM2g2?oc=5"
     },
     {
-      "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
-      "outlet": "San Francisco Chronicle",
-      "date": "2026-09-29",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaldrNk93Nm5qbnZ1VzR4MXJ6UTZxN2RDNHVmY09TTjBkOHQzU1ZsMDNyeTB6RDROYmxfZDVqcnVVcnN6WHlMSnNOSFBwaldpQzc0NkVhd2F0OWlCemo1LWdKRl8zSWs0MF9zLXRDeDJPaDlhSlFmQjV6ZC1zRHdQMDhWcjNSLVhpNzFnaHhPZURRNUxTcXBvQ3lNYkdnZzA?oc=5"
-    },
-    {
       "title": "Visa issues derail international star Taemin's San Jose concert",
       "outlet": "SFGATE",
       "date": "2026-09-29",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObG5ERkpUUGhxNkJtRUwyQjlfSUhIb2E1d2Z1UDNCZDgtTTAyRlZxcGJxM3lEZUdIMWhTbDQyMGh5Y2dlMG1tNGlyYkVqT0hLVmhidUxZV1YwTERmVmxzZ1g0Uy1MelNJc3pnZzZycXZLUmgyRDVvUnpiSkFLSVJEZUlXSQ?oc=5"
+    },
+    {
+      "title": "K-pop star postpones Bay Area concert, entire U.S. leg of tour over visa issues",
+      "outlet": "San Francisco Chronicle",
+      "date": "2026-09-29",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaldrNk93Nm5qbnZ1VzR4MXJ6UTZxN2RDNHVmY09TTjBkOHQzU1ZsMDNyeTB6RDROYmxfZDVqcnVVcnN6WHlMSnNOSFBwaldpQzc0NkVhd2F0OWlCemo1LWdKRl8zSWs0MF9zLXRDeDJPaDlhSlFmQjV6ZC1zRHdQMDhWcjNSLVhpNzFnaHhPZURRNUxTcXBvQ3lNYkdnZzA?oc=5"
     },
     {
       "title": "Why Taemin Doesn’t Regret Becoming Famous at Age 14: ‘Even If I Don’t Get a Lot of Love, I’m Not Afraid of That’ (Exclusive)",
@@ -848,10 +842,10 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjFSQW9oaWhkWWNNUnRvaVI4eGpkTWY1emoyaWdKalFsb2F3eE9RR0E0YnI5VEN2SkZjT1hsZjU0Nkp5TnFuRzA1TkRsODByMjAyWlp4VEcwWjlLOEpoTDZ6NlFaRU1oWUpNR09fRmhrcWdDWnRmaWtOajhpRFMtY1BzY1hmUXA3NDlqQ0FFdzZXbVlGTGd0OXoxRVRtMmdTV3cxQnpGM1U?oc=5"
     },
     {
-      "title": "Taemin becomes label mates with G-Dragon and fans are buzzing with excitement",
-      "outlet": "Gulf News",
-      "date": "2026-03-11",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXA2cmhSREVEbjZKdm1sRW5OSlBVLUVUcks0OUlVWHV6Tmt5ZXZDYmQyYkFLdy1jMnZ2MTlpYW9IdDZfeHQ2cC1qY2pmcUprZGI3b0M1UlNpb1ctaWhKbmRJczVscEloQVRwcDgzb1BtN1RXWjJMcUoxMUE1a1JhOWZsdWhPbm5xQWFmVW1FVnNHb2FTZi1ELXd2Y2I4dEl1SXQ3M2F3c3RCZklzUV9jMVVlY3VVVzR6VDdZQlNnM2Fmak0?oc=5"
+      "title": "Taemin: the idol’s idol",
+      "outlet": "Rolling Stone UK",
+      "date": "2026-03-10",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXUwQm5KMXcwemthdEgwMmI4TS13UEtUa1V3MlZzT3FwcmVzV1FpejJRTzdHYWR6UGlLWU5FcUZkcjRMd1d4YVQzcGYyRWpRQUhEX3JQSjZCVWtJQkVnNDlzUGxmcHp4XzJiZVplN3RUQjF5UXJONTJ4MEJrM3E2bmFlV1FCeHdvRkUwaW9US1JfNDBo?oc=5"
     },
     {
       "title": "SHINee's Taemin leaves agency as exclusive contract ends",
@@ -876,6 +870,12 @@
       "outlet": "Facebook",
       "date": "2025-09-15",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOc2dvZmpCLU55cHJyS1NtYnBUOXFfOXJQM0xWbkhSQXp3QjNUNlpGTmpGVlRmWGZCbGtvbjRwX1hCbGF5MDZNNk0tSWwwNnZDd0RDeEhaNFg5Znp3VkF4aGlhQ1FEZ184Rkw4UVU2SjI0NVR1TzVyM09FeEYzdXBLVnhITTMyNEpFeFdHUkNSMzZZRnhNZkFCM2tHaG9idTE2Vlp5UWYyVTJjY2l6a1BSSXZKc2FBLTJqTnE5NTZGZE4yY1cyLU1hRmJySXRqQXhxMmhjZFQ5TQ?oc=5"
+    },
+    {
+      "title": "Taemin Talks Long Road to First U.S. Tour, Control In His Career and Why He’s No Longer ‘A Frog in a Well’",
+      "outlet": "Billboard",
+      "date": "2025-02-27",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ0RoUHRNWGZBUHQyQkxsWm55RWJTZTVmRVlQUE9IMUxmd2ZZNW9iUU56Qy1lcXNKUS1iUVBja1dUajgxZkRZSVhuRVIwZmJ4em9JX0lxeHJLQ2Y3YnVlSmhaV2l5bmtzXzFrYmh5bktOVGpRcmFlOXBncXZERDB2MkZ5Z0RmUEhKSm85d2tsMVc?oc=5"
     }
   ],
   "bio": {
@@ -942,7 +942,7 @@
         "date": "2026-11-20",
         "city": "Frankfurt",
         "country": "Germany",
-        "venue": "Jahrhunderthalle",
+        "venue": "myticket Jahrhunderthalle Frankfurt",
         "note": "LiMiNaL world tour",
         "url": "https://www.onionproduction.com/taeminf"
       },
@@ -1026,6 +1026,12 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE9CaHBzQWtZVHBSYjlMVzJzbXRwX0JPSlVJZDExZlR2TVJ4bEJMUkpOTmk5aUlZLXNYTzRkYzY2eHlxazJ6MnlsT2c2UGo5OWp6STFqc05jU2U0WTRldnlQVkt5MU9qckdpZVRqY2ZveVRHRF81ODBJMEptM1RHRnRwNFZ4d3llZ2Y4TnBvQ0F1VEJBRVE?oc=5"
     },
     {
+      "title": "Taemin Newark tickets on sale at Prudential Center",
+      "outlet": "TicketNews",
+      "date": "2026-11-13",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
+    },
+    {
       "title": "Taemin Los Angeles tickets on sale at Crypto.com Arena",
       "outlet": "TicketNews",
       "date": "2026-11-12",
@@ -1042,12 +1048,6 @@
       "outlet": "TicketNews",
       "date": "2026-11-11",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalhtdlNVWDA2WlFlNXlGemVJMkhZd1p1UW9pamJoQ09keGc3QzFGNGhMamI1amdnemxGVWRsQkRkVFBKaHVpNDJlajd0VzVPb3gyUTJxY1NtU1cxb3I0eTV2Qlo3aG9IV3ZfUTZkV3FmNzlhY2ppUjhTbTdZVWFNNFFLMU1qUC1ZTGwyYw?oc=5"
-    },
-    {
-      "title": "Taemin Newark tickets on sale at Prudential Center",
-      "outlet": "TicketNews",
-      "date": "2026-11-11",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTnVjdUJ5SnFJNGRWeE5ZX1NJWmdtbXE1M0Yta0gwQWQ5T3VzcTJwUl9YWUdPSXFJQmZ6UWJscFBTTjd5am1XWGM1cDZoeXpXRWIydnM3Um9ybUxucTA4Sm1PdUhKTG5YNGlDWTl1bXNOUmdHVzFDMjZDVHNFRmlZaFR6VXlEeE5tbUhzMVV4Zw?oc=5"
     },
     {
       "title": "Taemin Postpones North American Tour as U.S. Visa Delays Hit Production Crew",
@@ -1148,7 +1148,7 @@
             "date": "2026-11-20",
             "city": "Frankfurt",
             "country": "Germany",
-            "venue": "Jahrhunderthalle",
+            "venue": "myticket Jahrhunderthalle Frankfurt",
             "status": "On Sale",
             "url": "https://www.onionproduction.com/taeminf"
           },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T21:44:17.964Z",
+  "generated": "2026-11-26T08:24:44.948Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -734,16 +734,16 @@
   ],
   "news": [
     {
+      "title": "n.SSign discusses trainee musical training and accidental encounter with TAEMIN",
+      "outlet": "www.famtimes.co.kr",
+      "date": "2026-11-26",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94bTRyR3N2MzBBTWNpY3M4ZllfaXlpejlaTFRzemoxWDQ5aWJqM204aERKdURsNEZsdTBzMWVrei02bnV3eEhjSEFsRVVMWnBNYlFNZjFJSXgxZXpBR09qNFhoNUFfUFZXck9ZR24tTUZhZw?oc=5"
+    },
+    {
       "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
       "outlet": "TicketNews",
       "date": "2026-11-21",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORnBta250czJfR1BfcjdVbjNQRnBTN3RpcllCbnlHVHRvWU9laWJOaU4yUU5DaTNmTlhnOGd0ZmMzSWdJRkd5Y25ybjI5OWg1eEtRZFQ2TUpSQXJUZGltUzZLb1JjUS00cEdZeS0yRmdHNHYzY3hacVVKa1ozNnhLSVJZMkdhSGRUSFRRWl9yY0kwR21rZE9PS0FDbEcxajA?oc=5"
-    },
-    {
-      "title": "South Korea’s young K-pop idols need more than an investigation",
-      "outlet": "联合早报",
-      "date": "2026-11-20",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekxxWkJ3Tl8wSEc5ZXdNdXduTlVvZHdmeFZMMmhsSU1BeXdnSGVvQTZWNlBveHQzZWhFMGUxVU13NS1VbENnRFBBc0hlWlhRbXpvUmY2c3JwNVREYThLRFVkZkhJTUNNV3BWM1VENm91MFJBZENvSmdWVS1WNUEzYW1KZVRnODhFSDhmczdUbm1TZnV2TURrVlFoeFBJQQ?oc=5"
     },
     {
       "title": "From K-pop to community, Ian Eastwood reconnects with Korea's dance scene",
@@ -923,22 +923,6 @@
         "url": "https://soundincolors.com/"
       },
       {
-        "date": "2026-11-22",
-        "city": "London",
-        "country": "UK",
-        "venue": "OVO Arena Wembley",
-        "note": "LiMiNaL world tour",
-        "url": "https://www.onionproduction.com/taeminl"
-      },
-      {
-        "date": "2026-11-24",
-        "city": "Amsterdam",
-        "country": "Netherlands",
-        "venue": "AFAS Live",
-        "note": "LiMiNaL world tour",
-        "url": "https://www.onionproduction.com/taemina"
-      },
-      {
         "date": "2026-11-29",
         "city": "Łódź",
         "country": "Poland",
@@ -980,7 +964,7 @@
       }
     ],
     "announced": {
-      "count": 10,
+      "count": 12,
       "from": "2026-09-18",
       "to": "2026-11-27"
     }
@@ -996,6 +980,12 @@
   },
   "tourNews": [
     {
+      "title": "Henry Lau Cancels North American Tour Over Production, Logistics Issues",
+      "outlet": "TicketNews",
+      "date": "2026-11-25",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUS0N3TTFqMDVTY1lSVnRaTEw5cWpxblJDckhKNlNFR0ctNmdfa2h2RzFLS2xvZ2NMaUktQXFrUmdmSlQwaTVZZUtldi1lakNLY3lWRUxHY19UWTRkM0I3OVNhS2NYN3FYYnpzeEZZc3QtX2k3ZVE3V3pkUHRYZw?oc=5"
+    },
+    {
       "title": "Taemin Chicago tickets on sale at Wintrust Arena",
       "outlet": "TicketNews",
       "date": "2026-11-24",
@@ -1006,12 +996,6 @@
       "outlet": "TicketNews",
       "date": "2026-11-24",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcy1VZ3p0ekVsV3I4UzNldmg0QjhUcUwwRS1ydVVMSm9OMVZiUHpoTkVlV0x2NDhFQ0RmenlBcGlUSlRXeGU4dnBxeTMwU0lFak1BUlF5S3l1U2VqbVRaZGNrYWJqV011WW5veDdzWHpSSmlnaVhhbTE3aFdkc3dtZEY0M1hNeGJTSXJNRGo4Q2UzY0p6UVRqTjFTYV9NUE9fVmd0WU5lTUVpOWlPZ2dpeQ?oc=5"
-    },
-    {
-      "title": "Henry Lau Cancels North American Tour Over Production, Logistics Issues",
-      "outlet": "TicketNews",
-      "date": "2026-11-21",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBUS0N3TTFqMDVTY1lSVnRaTEw5cWpxblJDckhKNlNFR0ctNmdfa2h2RzFLS2xvZ2NMaUktQXFrUmdmSlQwaTVZZUtldi1lakNLY3lWRUxHY19UWTRkM0I3OVNhS2NYN3FYYnpzeEZZc3QtX2k3ZVE3V3pkUHRYZw?oc=5"
     },
     {
       "title": "Taemin Grand Prairie tickets on sale at Texas Trust CU Theatre",
@@ -1133,16 +1117,16 @@
             "city": "London",
             "country": "UK",
             "venue": "OVO Arena Wembley",
-            "status": "On Sale",
-            "url": "https://www.onionproduction.com/taeminl"
+            "status": "Sold Out",
+            "url": null
           },
           {
             "date": "2026-11-24",
             "city": "Amsterdam",
             "country": "Netherlands",
             "venue": "AFAS Live",
-            "status": "On Sale",
-            "url": "https://www.onionproduction.com/taemina"
+            "status": "Sold Out",
+            "url": null
           },
           {
             "date": "2026-11-29",
@@ -1200,12 +1184,12 @@
         ]
       }
     ],
-    "status": "17 cities across 15 countries. 17 have dates and venues, and 7 are on sale.",
+    "status": "17 cities across 15 countries. 17 have dates and venues, and 5 are on sale.",
     "stats": {
       "cities": 17,
       "countries": 15,
       "dated": 17,
-      "onSale": 7
+      "onSale": 5
     }
   },
   "timeline": [

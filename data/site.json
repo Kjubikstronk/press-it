@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27T08:39:28.730Z",
+  "generated": "2026-11-27T21:21:07.095Z",
   "artist": {
     "name": "TAEMIN",
     "hangul": "태민",
@@ -627,6 +627,13 @@
   ],
   "videos": [
     {
+      "id": "s-XS1NnbQ30",
+      "title": "'LiMiNaL' in Europe behind 🎬",
+      "date": "2026-11-27",
+      "url": "https://www.youtube.com/watch?v=s-XS1NnbQ30",
+      "thumb": "https://i4.ytimg.com/vi/s-XS1NnbQ30/hqdefault.jpg"
+    },
+    {
       "id": "kyMfnlDc7Xk",
       "title": "'LiMiNaL' on Stage 🎤 : from Paris to Amsterdam",
       "date": "2026-11-27",
@@ -723,13 +730,6 @@
       "date": "2026-10-24",
       "url": "https://www.youtube.com/watch?v=kRh19-gGM6g",
       "thumb": "https://i4.ytimg.com/vi/kRh19-gGM6g/hqdefault.jpg"
-    },
-    {
-      "id": "kXB6jy8gH7w",
-      "title": "TAEMIN (태민) - 'PERMISSION' (Official Audio)",
-      "date": "2026-10-24",
-      "url": "https://www.youtube.com/watch?v=kXB6jy8gH7w",
-      "thumb": "https://i4.ytimg.com/vi/kXB6jy8gH7w/hqdefault.jpg"
     }
   ],
   "news": [
